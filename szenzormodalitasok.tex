@@ -1,0 +1,60 @@
+﻿\documentclass[12pt]{article}
+
+\usepackage{listings}
+\usepackage{array}
+\usepackage{inconsolata}
+\usepackage{color}
+\usepackage{matlab-prettifier}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{minted}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,arrows.meta, positioning, calc, shapes.geometric, shadows}
+\graphicspath{{assets/}}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\newcommand{\fullwidthimage}[1]{
+    \begin{center}
+        \makebox[\textwidth]{\includegraphics[width=\paperwidth]{#1}}
+    \end{center}
+}
+
+\newcommand{\customwidthimage}[2]{
+    \begin{center}
+        \makebox[\textwidth]{\includegraphics[width=#2]{#1}}
+    \end{center}
+}
+
+\newminted{matlab}{frame=lines, framesep=2mm, baselinestretch=1.2, fontsize=\footnotesize, linenos, style=friendly, breaklines}
+\renewcommand\contentsname{Tartalomjegyzék}
+
+\begin{document}
+
+\title{Szenzormodalitások}
+\author{Jegyzet}
+\date{}
+\maketitle
+
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+\include{elso}
+\include{masodik}
+\include{harmadik}
+
+\end{document}

@@ -1,0 +1,205 @@
+﻿\section{Téma 1}
+
+\subsection{Szenzor/érzékelő}
+\begin{itemize}
+    \item Monitorozásnál a szenzor
+    \begin{itemize}
+        \item Érzékelő ami valamilyen fizikai/kémiai mennyiséget, vagy annak változását méri.
+        \item Digitális adatot ad ki magából.
+        \item A digitális adatot tovább tudja küldeni \textbf{vezetékes}, vagy \textbf{vezeték nélküli} csatornán.
+    \end{itemize}
+    \item Szenzor problémák
+    \begin{itemize}
+        \item Elem
+        \item Kezelhetőség
+        \item Működési időtartam
+        \item Élettartam
+        \item Kábelek, környezeti beépítési problémák
+        \item Egészségkárosító hatás
+        \item Technológiai korlátok (kommunikációs hatótávolság)
+    \end{itemize}
+\end{itemize}
+
+\subsection{Adat-Információ-Ismeret-Tudás piramis}
+\begin{center}
+    \begin{tikzpicture}[every node/.style={draw, anchor=south, inner sep=5pt}]
+        % Define nodes
+        \node[trapezium, trapezium angle=60, minimum width=5cm, fill=red!30] (data) {Adat};
+        \node[trapezium, trapezium angle=60, minimum width=4cm, fill=orange!40, above=0.5cm of data] (info) {Információ};
+        \node[trapezium, trapezium angle=60, minimum width=3cm, fill=yellow!60, above=0.5cm of info] (knowledge) {Ismeret};
+        \node[trapezium, trapezium angle=60, minimum width=2cm, fill=green!70, above=0.5cm of knowledge] (wisdom) {Tudás};
+    
+        % Define labels on the right side
+        \node[anchor=west, draw=none, fill=none] (dataLabel) at ([xshift=2cm]data.east) {Inputok};
+        \node[anchor=west, draw=none, fill=none] (infoLabel) at ([xshift=2cm]info.east) {Belső infó};
+        \node[anchor=west, draw=none, fill=none] (knowledgeLabel) at ([xshift=2cm]knowledge.east) {Akciók};
+        \node[anchor=west, draw=none, fill=none] (wisdomLabel) at ([xshift=2cm]wisdom.east) {Eredmények};
+    
+        % Draw arrows with some space between the trapeziums and the arrows on the right
+        \draw[->] (dataLabel.west) -- ([xshift=0.4cm]data.east);
+        \draw[<-] (infoLabel.west) -- ([xshift=0.4cm]info.east);
+        \draw[<-] (knowledgeLabel.west) -- ([xshift=0.4cm]knowledge.east);
+        \draw[<-] (wisdomLabel.west) -- ([xshift=0.4cm]wisdom.east);
+    
+        % Define labels on the left side
+        \node[anchor=east, draw=none, fill=none] at ([xshift=-3cm]info.west) (dataValue) {+ érték};
+        \node[anchor=east, draw=none, fill=none] at ([xshift=-3.5cm]knowledge.west) (infoValue) {+ érték};
+    
+        % Place "Feldolgozás" at the top arrow
+        \node[anchor=east, draw=none, fill=none] at ([xshift=-2.5cm]wisdom.west) (process) {Feldolgozás};
+    
+        % Draw arrows vertically between the levels on the left side
+        \draw[->] ([xshift=-3.8cm]data.south) -- ([xshift=-2.4cm]info.north);
+        \draw[->] ([xshift=-3.8cm]info.south) -- ([xshift=-2.4cm]knowledge.north);
+        \draw[->] ([xshift=-3.8cm]knowledge.south) -- ([xshift=0.5cm]process.east);
+    
+    \end{tikzpicture}
+\end{center}
+
+\subsection{Data Acquisition - DAQ rendszerek}
+\begin{itemize}
+    \item Szenzorok
+    \item Kliens oldali adatgyűjtő eszközök
+    \begin{itemize}
+        \item Megjelenítési felülettel, vagy anélkül
+        \item Általános célú megoldások (PC, mini PC, okos telefon)
+        \item Célhardverek
+    \end{itemize}
+    \item Központi adat tároló és adat menedzselő rendszerek (adat szerverek)
+    \item Központi/kliens oldali megjelenítő rendszerek (web/alkalmazás szerverek)
+    \item Központi rendszer felügyeleti eszközök (alkalmazás szerverek)
+    \item Üzemeltető és kiszolgáló személyzet infrastruktúrája (szakemberek, technikusok, CallCenter, stb.)
+    \item Kommunikációs infrastruktúra, ami az egyes részeket összeköti.
+\end{itemize}
+
+\subsection{Járulékos hardver eszközök}
+\begin{itemize}
+    \item Összeköttetéshez a központi irányába
+    \begin{itemize}
+        \item Okostelefon
+        \item Számítógép/célszámítógép/PDA
+    \end{itemize}
+    \item Kábelek a szenzor és az adatgyűjtő összeköttetéshez
+    \item Dongle-ek a vezetéknélküli átvitelhez
+\end{itemize}
+
+\subsection{Rendszerirányító rendszerek}
+\begin{itemize}
+    \item Valós idejű információ folyamatos továbbítása, tárolása és feldolgozása, a rendszerirányítás megbízható számítógépes támogatása mind az operatív üzemirányítás, mind az üzemelőkészítés és üzemértékelés elvégzéséhez.
+    \item Központi vezérlési rendszerek
+    \item Distributed Control System - DCS
+    \item Supervisory control and data acquisition - SCADA
+\end{itemize}
+
+\subsubsection{Distributed Control System - DCS}
+\begin{itemize}
+    \item Szemben a direkt helyi vezérlővel megvalósított rendszerekkel:
+    \begin{itemize}
+        \item a DCS-ek esetében nagyobb a megbízhatóság,
+        \item kisebbek a kialakítási költségek, mivel a vezérlés lokálisan megvalósított és a vezérléshez szükséges kommunikáció is lokális,
+        \item központi (akár távolról megvalósított) ellenőrzés
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Supervisory Control and Data Acquisition - SCADA}
+\begin{itemize}
+    \item Felügyeleti szabályozás és adatgyűjtés
+    \begin{itemize}
+        \item Központosított vezérlés (figyel és vezérel)
+        \item Távoli adatgyűjtől
+        \item Biztonságos kommunikáció
+        \item Elosztott adattárolás
+        \item Időbélyegek
+        \item Például $\rightarrow$ Erőművek, csővezetékek, elektromos hálózatok, vízhálózatok
+    \end{itemize}
+    \item \underline{\textbf{S}}upervisory $\rightarrow$ Operator, engineer, supervisor
+    \item \underline{\textbf{C}}ontrol $\rightarrow$ Monitoring, Limited, Telemetry, Remote/Local
+    \item \underline{\textbf{D}}ata \underline{\textbf{A}}cquisition $\rightarrow$ Analog/Digital
+\end{itemize}
+
+\customwidthimage{scada}{8cm}
+
+\subsubsection{SCADA rendszer generációk}
+\begin{itemize}
+    \item Monolitikus, szigetszerű rendszerek, egymástól függetlenül működő zárt (kapcsolat nélküli)
+    \item Elosztott rendszerek $\rightarrow$ LAN hálózatba rendezett, egymással hálózati protokollokon kommunikáló
+    \item Hálózatos rendszerek $\rightarrow$ Földrajzilag nagyobb kiterjedésű (LAN-nál nagyobb) hálózatokba rendezett, egymással hálózati protokollokon kommunikáló rendszerek, egymástól független, egymással párhuzamosan futó
+    \item Internet of Things (IoT)
+    \item Felhő infrastruktúrákkal támogatott, növelt hatékonysággal, és optimált költségekkel üzemelő online, valós idejű rendszerek.
+\end{itemize}
+
+\subsubsection{SCADA rendszer általános belső architektúrája}
+\customwidthimage{scada_arch}{15cm}
+
+\clearpage
+\subsubsection{A SCADA rendszerek főbb funkciói}
+\begin{itemize}
+    \item Távmérések, távjelzések fogadása
+    \item Visszajelzés, adat vizualizáció
+    \item Naplózás
+    \item Riasztások (határérték és gradiens figyelés)
+    \item Topológia analízis
+    \item Távparancsadás
+    \item Autentikáció és jogosultságkezelés
+    \item Adattárolás
+\end{itemize}
+
+\subsection{Példák a távoli adatgyűjtésre}
+\begin{quote}
+    Régebben távoli, nehezen megközelíthető, veszélyes helyeken mérés, illetve gyakori automatizált méréssorozatok esetén elterjedt.
+\end{quote}
+\begin{itemize}
+    \item Mérő állomásoknál
+    \begin{itemize}
+        \item Meterológiai, vízállás mérő állomások, épületek/hidak/alagutak
+    \end{itemize}
+    \item Komplex berendezések
+    \begin{itemize}
+        \item Részecskegyorsítók
+    \end{itemize}
+    \item Egészséges emberek monitorozása
+    \begin{itemize}
+        \item Intelligens ruhák
+        \item Munka közben (katonaság, tűzoltóság)
+        \item Sportolás közben (fitness)
+    \end{itemize}
+    \item Telemedicina
+    \begin{itemize}
+        \item Távdiagnózis
+        \item Távmonitorozás
+    \end{itemize}
+    \item Autonóm robotok
+    \begin{itemize}
+        \item AUV, UAV, ROV
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Távoló adatgyűjtő rendszerek általános működése}
+\begin{itemize}
+    \item Érzékelés
+    \item Adattovábbítás
+    \item Adatfeldolgozás, adatszűrés
+    \item Adatelemzés
+    \item Adatmegosztás, vizualizáció
+    \item Az adatgyűjtő rendszer üzemeltetése
+    \begin{itemize}
+        \item Megjelenő hibák észlelése és korrigálása
+    \end{itemize}
+\end{itemize}
+
+\subsection{Általános páciens monitorozó DAQ architektúra}
+\customwidthimage{altpac}{15cm}
+
+\subsection{Élettani paraméterek monitorozása extrém körülmények között}
+\begin{center}
+    \customwidthimage{eletext}{14cm}
+    \customwidthimage{eletext2}{14cm}
+\end{center}
+
+\subsection{Üzemeltetési és távfelügyeleti rendszer}
+\begin{itemize}
+    \item Távmonitorozó rendszer
+    \item Eseménykezelő rendszer
+    \item Hibakezelő rendszer
+    \item Monitorozási környezet
+\end{itemize}

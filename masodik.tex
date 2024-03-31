@@ -1,0 +1,740 @@
+﻿\section{Téma 2}
+
+\subsection{Szenzorjelek feldolgozása}
+\begin{itemize}
+    \item Miért
+    \begin{itemize}
+        \item Az adatokat értelmezni kell (például: lényeges információ a megfigyelt személy egészségi állapotáról, helyzet tudatosság, \dots)
+        \item Adott paramétertér állapotváltozásának nyomonkövetése (trendek megfigyelése)
+        \item Amit nem ismerünk, azt nem tudjuk mérni, amit tudunk mérni, azt meg tudjuk ismerni.
+    \end{itemize}
+    \item Probléma
+    \begin{itemize}
+        \item Sok adat jön, redundáns az információ
+        \item Jönnek hibás, téves adatok
+        \item A nyilvánvaló adatok feldolgozása "egyszerű" (például: nincs szívhang, 42C-os hőmérséklet), és a többi szenzorjel közötti korreláció is érdekes
+        \item A sok adatot nehéz visszakereshetően tárolni
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsection{Élettani paraméterek (típusok)}
+\subsubsection{Organizmus mérhető paraméterei}
+\begin{itemize}
+    \item Fiziológiai paraméterek (fizikai, kémiai, \dots)
+    \item Belül mért (invazív)
+    \begin{itemize}
+        \item Folyadékok (vér), minták, \dots
+    \end{itemize}
+    \item Kívül mért (nem invazív)
+    \begin{itemize}
+        \item Vérnyomás, pulzus, EKG, EEG, EMG, \dots
+        \item Bőrhőmérséklet, szín, \dots
+    \end{itemize}
+    \item Mikro/makró környezet
+    \item Páratartalom, hőmérséklet, tartás, gyorsulás, sebesség, \dots
+\end{itemize}
+
+\subsection{Szenzoradat kezelés}
+\begin{itemize}
+    \item Data Acquisition (DAQ) (egy/több szenzor)
+    \item Adatkezelés (feldolgozás/szűrés)
+    \item Tárolás, keresés
+    \item Vizualizáció
+    \item Megosztás
+\end{itemize}
+
+\subsection{Mért élettani paraméterek}
+\begin{itemize}
+    \item Tudományos munka általában:
+    \begin{itemize}
+        \item Mérés tervezése
+        \item Mérés kivitelezése ismert környezetben
+        \item Adatok előfeldolgozása (tisztítás, szűrés, \dots)
+        \item Adatok feldolgozása
+        \item Adatok kiértékelése
+        \item Döntések
+    \end{itemize}
+\end{itemize}
+
+\subsection{Mérési hibák}
+\begin{quote}
+    Minden mérés tartalmaz hibákat!
+\end{quote}
+\begin{itemize}
+    \item Hibák jönnek:
+    \begin{itemize}
+        \item Érzékelési hibák
+        \begin{itemize}
+            \item A $\rightarrow$ D konverzió (kvantifikálás)
+            \item Mintavételi hibák (Nyquist-Shannon mintavételi elmélet)
+        \end{itemize}
+        \item Mérési környezet/elrendezés
+        \item Mérőműszer problémák
+        \begin{itemize}
+            \item AAMI - American Association for the Advancement of Medical Instrumentation, BHS-British Hypertension Society (A osztály 40\%: 5Hgmm)
+        \end{itemize}
+    \end{itemize}
+    \item Távoli mérések is tartalmaznak hibákat.
+\end{itemize}
+
+\subsection{Távoli szenzor adat}
+\begin{itemize}
+    \item A szenzorokból jövő adatok egy adott paraméter (hőmérséklet, hely, pulzusszám, \dots) digitalizált értékét jelentik.
+    \item Ezt valamilyen mintavételi frekvenciával mért mintákból kapjuk meg, amik többnyire átlagok.
+    \item A mérések gyakorisága fontos jellemzője a rendszernek, befolyásolja a végezhető adatelemzés felbontoképességét.
+    \item Idő kell mire beérkezik
+    \begin{itemize}
+        \item Valós idő
+        \item Szakaszos küldés $\rightarrow$ Mit tárolunk?
+    \end{itemize}
+\end{itemize}
+
+\subsection{Egyetlen vs. több szenzoros mérések}
+\begin{itemize}
+    \item Több szenzor $\rightarrow$ több mért érték (és mért adat)
+    \item Kérdés $\rightarrow$ Melyik érték pontos(abb)/igaz(abb)?
+    \item Mit használjunk?
+    \begin{itemize}
+        \item Átlag? Súlyozott Átlag? \dots
+    \end{itemize}
+\end{itemize}
+
+\subsection{Mérnöki kihívások a nagymennyiségű adatgyűjtésnél}
+\begin{itemize}
+    \item Általános kihívások
+    \begin{itemize}
+        \item P1 $\rightarrow$ Sok DAQ csomópont
+        \item P2 $\rightarrow$ Sok szenzor (különböző típusú)
+        \item P3 $\rightarrow$ Nagy adatmennyiség lehetőleg gyorsan átküldve
+    \end{itemize}
+    \item Kommunikációs probléma $\rightarrow$ P1 $\times$ P2 $\times$ P3
+    \item Szoftver kihívások
+    \begin{itemize}
+        \item Valós idejű DAQ + előfeldolgozás + feldolgozás + megjelenítés (különböző tartományok)
+        \item Komplex döntési helyzetek
+        \item Online adatmenedzsment (megosztás + archiválás)
+    \end{itemize}
+    \item Hardver korlátok
+    \begin{itemize}
+        \item Energia problémák
+        \item Kommunikációs hatótávolságok, adat multiplexálási problémák/idő, frekvencia
+        \item Biztonság, megbízhatóság, használhatóság
+    \end{itemize}
+\end{itemize}
+
+\subsection{Biológiai jellemzők és mérésük}
+\begin{itemize}
+    \item Vérnyomás
+    \item Vér alkotó elemeinek mérése $\rightarrow$ vércukor, koleszterin (LDL, HDL), laktát, hemoglobin, triglicerid
+    \item Légzési paraméterek
+    \item EKG, EEG, EMG, ECOG
+    \item Testhőmérséklet
+    \item GSR
+    \item Súly, mozgásmennyiség
+\end{itemize}
+
+\subsection{Vérnyomás}
+\begin{itemize}
+    \item A magas vérnyomás népbetegség
+    \item A betegek száma folyamatosan nő
+    \item A vérnyomáscsökkentő gyógyszerek piaca hatalmas
+    \item A kezelés módja erősen függne a mért értékektől (legkisebb dózis)
+    \item A vérnyomás viszonylag gyorsan jelentősen változó érték (a szabályozó rendszer instabil/nem robosztus)
+\end{itemize}
+
+\subsection{Vérnyomásmérés}
+\begin{itemize}
+    \item Az egyik legtöbbet mért fiziolóiai paraméter
+    \item Több millió eladott berendezés Európában évente
+    \item A készülékek mérési pontossága erősen eltérő
+    \item Csak tájékoztató jellegű információt ad
+    \item Sok mérési megoldásnál megfigyelhető a szervezet autoregulációs hatása $\rightarrow$ A mérés beavatkozik a keringési rendszer biomechanikájába
+\end{itemize}
+
+\subsection{Humán keringési rendszer}
+\begin{center}
+    \customwidthimage{fejf}{13cm}
+\end{center}
+
+\subsection{Szívverés - szisztolé és diasztolé}
+\begin{itemize}
+    \item Minden szívverés két fázisból áll, ezeket az orvosok szisztoléként és diasztoléként határozzák meg.
+    \item A szisztoléban a szívizom összehúzódik és vért pumpál a keringésbe, míg a diasztolé alatt ellazul és újratöltődik vérrel.
+    \item Vérnyomás ingadozás okai
+    \begin{itemize}
+        \item Hosszú idejű variabilitás (napi bioritmus) periódikus $\rightarrow$ +-20-40 Hgmm változás (24 órás ciklus)
+        \item Rövid idejű változékonyság, néhány perces hatások
+        \begin{itemize}
+            \item Légzés, fizikai aktivitás, drogok/koffein/tea, +-20 Hgmm
+            \item Pszichés hatások, fehér köpeny effektus +30Hgmm
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+\subsection{Vérnyomásértékek}
+\begin{table}[h!]
+    \centering
+    \footnotesize
+    \begin{tabularx}{\textwidth}{|X|X|X|}
+    \hline
+    \textbf{Kategória} & \textbf{Szisztolés nyomás (Hgmm)} & \textbf{Diasztolés nyomás (Hgmm)} \\ \hline
+    Optimális vérnyomás & < 120 & < 80 \\ \hline
+    Normális vérnyomás & 120-129 & 80-84 \\ \hline
+    Emelkedett-normális vérnyomás & 130-139 & 85-89 \\ \hline
+    Kóros vérnyomás - hipertónia & 140 < & 90 < \\ \hline
+    I. fokozat (enyhe hipertónia) & 140-159 & 90-99 \\ \hline
+    II. fokozat (középsúlyos) & 160-179 & 100-109 \\ \hline
+    III. fokozat (súlyos hipertónia) & >= 180 & >= 110 \\ \hline
+    Izolált diasztolés hipertónia & < 140 & > 89 \\ \hline
+    Izolált szisztolés hipertónia & >= 140 & < 90 \\ \hline
+    \end{tabularx}
+    \label{your_label_here}
+\end{table}
+
+\subsection{A szívműködés jellemző jelei}
+\customwidthimage{sziv}{13cm}
+
+\subsection{Nagyvérköri nyomásértékek}
+\customwidthimage{nagyv}{10cm}
+
+\subsection{A keringési rendszer egyszerűsített modellje}
+\begin{itemize}
+    \item Szív, aorta és a bal artériának illetve vénáinak egyszerűsített villamos helyettesítő képe.
+    \item Feszültség = nyomás, az áram pedig a térfogat-, illetve tömegáram.
+    \item A kapacitások az aorta és a vénák puffer hatását reprezentálják.
+    \item Diódák helyettesítik a billentyűket, transzformátor a kapilláris hálózatot és ellenállások az áramlási ellenállást.
+\end{itemize}
+\customwidthimage{ker}{13cm}
+
+\begin{itemize}
+    \item Áramlási ellenállás tetszőleges érdarabra: \\
+    \[ R = \frac{8L\eta}{r^4\pi} \]
+    \begin{itemize}
+        \item $L$ az ér hossza,
+        \item $r$ a belső sugár,
+        \item $\eta$ a vér viszkozitása
+    \end{itemize}
+    \item A nagy vérkör sorosan kapcsolt szakaszainak ellenállás eloszlása:
+\end{itemize}
+\begin{table}[h!]
+    \centering
+    \footnotesize
+    \begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    Aorta, nagy artériák & 10\% \\ \hline
+    Kis artériák (prekapilláris sphincterek) & 50-55\% \\ \hline
+    Kapillárisok & 30-35\% \\ \hline
+    Vénák & 5\% \\ \hline
+    \end{tabularx}
+    \label{your_label_here}
+\end{table}
+
+\subsection{Mérések pontossága}
+\begin{itemize}
+    \item Készülékek minőségbiztosítása és pontossága, publikáltak szabványokat
+    \begin{itemize}
+        \item AAMI - American Association for the Advancement of Medical Instrumentation
+        \item BHS - British Hypertension Society
+        \item Higanyos manométer az etalon
+        \begin{itemize}
+            \item A osztály: mérések 40\%-ában 5Hgmm, 15\%-ában 10Hgmm, 5\%-ában 15Hgmm eltérés
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsection{Mérési megoldások/elvek (nem invazív)}
+\begin{itemize}
+    \item Auszkultációs módszer
+    \begin{itemize}
+        \item Korotkov hangok detektálásán alapul
+        \item Bal felkarra mandzsettás mérő, felfújjuk, alatta sztetoszkóppal figyeljük a szívverést
+        \begin{itemize}
+            \item Pulzálás megszűnik $\rightarrow$ Szisztolés nyomás
+            \item Leeresztjük a mandzsettát $\rightarrow$ Turbulens áramlások (Korotkov hangok)
+            \item Amikor megszűnnek $\rightarrow$ Diasztolés nyomás
+        \end{itemize}
+        \item \textbf{Hátrány} $\rightarrow$ Egyetlen pillanatnyi érték, mandzsetta befolyásol, leeresztési sebesség befolyásol, szubjektív a hallgatóság
+    \end{itemize}
+    \item Oszcillometriás módszer
+    \begin{itemize}
+        \item Automata vérnyomásmérők
+        \item Marey fedezte fel
+        \item Az artéria pulzálása megjelenik a felkarra helyezett mandzsetta nyomásában
+        \item A pulzálás maximális $\rightarrow$ Artériás középnyomással (MAP)
+        \item A szisztolés és diasztolés érték ebből számolható definiált szorzókkal
+        \item \textbf{Hátrány} $\rightarrow$ A szorzók pontatlanok, öregedés (artériák rugalmatlanok)
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsection{Oszcillometriás vérnyomásmérő elvi felépítése}
+\begin{center}
+    \customwidthimage{oszc}{10cm}
+\end{center}
+
+\subsubsection{A nyomásmérő rész blokkvázlata (oszcillometriás)}
+\begin{center}
+    \customwidthimage{oszc2}{10cm}
+\end{center}
+
+\subsubsection{A nyomásmérő rész aluláteresztős erősítőjének megvalósítása}
+\begin{center}
+    \customwidthimage{oszc3}{10cm}
+\end{center}
+
+\subsection{Mérési megoldások/elvek (nem invazív)}
+\begin{itemize}
+    \item Tonometria
+    \begin{itemize}
+        \item Legpontosabb nem invazív mérési módszer
+        \item Mechanikai tapintófejjel rögzítésre kerül a csuklóartéria pulzálása (folytonos nyomásgörbe)
+        \item \textbf{Hátrány} $\rightarrow$ Költséges megoldás
+    \end{itemize}
+    \item PPG-alapú vérnyomásmérés
+    \begin{itemize}
+        \item A fotopletizmográf (PPG) a hajszálerek térfogat változását regisztrálja (pl:a bal kéz egyik ujjbegyén)
+        \item Mandzsettával mérik + EKG görbe
+        \item Bal felkaron mandzsetta $\rightarrow$ Nyomása meghaladja a diasztolés értéket, a PPG hullámok amplitúdója elkezd csökkenni, majd meghaladva a szisztolés értéket eltűnik.
+        \item A szisztolés nyomás ezzel nagy pontossággal mérhető (az egyetlen bizonytalanság a felfújás sebességéből adódik)
+        \item A diasztolés nyomásnál a PPG amplitúdója modulálja a légzést
+        \item Az EKG R-hullám és a PPG pulzus közötti késleltetés méréséből számolható a szisztolés vérnyomás
+        \item \textbf{Hátrány} $\rightarrow$ Bonyolult, sok nehezen követhető változó
+    \end{itemize}
+\end{itemize}
+\[ BP = \frac{1}{\alpha} \left[ \ln \left( \frac{L^2 d\rho}{E_0 h} \right) - 2 \ln(\Delta T_{PT}) \right] \]
+
+\subsection{Vérnyomásmérők a gyakorlatban}
+\begin{itemize}
+    \item Felkaros
+    \item Csuklós
+    \item Ujjbegyes
+\end{itemize}
+
+\subsubsection{ABPM - vérnyomás Holter}
+\begin{itemize}
+    \item Hosszú idejű mérések
+    \item BHS és AAMI validált pontosság
+    \item 190g
+    \item Felkaros
+    \item ABPM report
+\end{itemize}
+
+\subsubsection{Vérnyomásmérést befolyásoló tényezők}
+\begin{itemize}
+    \item Testhelyzet
+    \begin{itemize}
+        \item Keresztve tett láb + 8Hgmm, ülő helyzet + 5Hgmm, \dots
+    \end{itemize}
+    \item Mérési technológia
+    \item Napszak
+    \item Érzelmi állapot
+    \item Fizikai aktivitás
+    \item Karvastagság, illetve a mandzsetta aránya (méret)
+    \begin{itemize}
+        \item Karkörfogat 80\%-a
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsubsection{Invazív vérnyomásmérés}
+\begin{itemize}
+    \item Intravaszkuláris vérnyomás érzékelő
+    \item Szűkült érszakasz áramlás és nyomásviszonyairól ad információkat
+    \item Katéteres nyomásmérési megoldások
+    \begin{itemize}
+        \item Mikromanométer végű vezető drót végén nyomásérzékelő
+        \item Fiziológiás folyadékkal feltöltött katéter (érzékelő a külső szerelékben van)        
+        \item Katéteres mikro optikai nyomásérzékelő (MOMS)
+    \end{itemize}
+\end{itemize}
+\customwidthimage{kat}{12cm}
+
+\subsubsection{Vér összetevők mérése}
+\begin{itemize}
+    \item Vércukormérés
+    \item Koleszterinszint mérés
+    \begin{itemize}
+        \item LDL-koleszterin mérés
+        \item HDL koleszterin mérés
+        \item VLDL koleszterin mérés
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Vércukor}
+\begin{itemize}
+    \item A tápcsatorna a táplálékkal felvett szénhidrátokat glükózra (szőlőcukor) bontja.
+    \item A glükóz a bélfalon keresztül a vérbe kerül és ezúton a test minden részére eljut.
+    \item Cukorhiánynál a májban egy folyamatos szőlőcukor-újraképzés (glukoneogenezis) zajlik és ez biztosítja a vércukor konstans szinten tartását.
+    \item A sejtek a glükózt energiaforrásként használják valamint egyes sejtek (máj és izom) ezen kívül képesek a glükóz tárolására is szénhidrát (glikogén) formájában.
+    \item Inzulin
+    \begin{itemize}
+        \item Latin insula (sziget) szóból kapta
+        \item Langerhans német kutató (Langerhans szigetek (a hasnyálmirigy szöveti eleme) (1\%).)
+        \item Ha egy állatból kivette a hasnyálmirigyet, akkor a cukorbetegség tünetei jelentek meg.
+        \item Az inzulin serkenti a máj glikogénraktározását és a sejtek glükózfelvételét, ily módon csökkenti a vércukorszintet.
+    \end{itemize}
+    \item Ha az inzulin hiányzik (abszolút inzulinhiány) vagy nem tud rendesen hatni (relatív inzulinhiány), hiányzik az inzulin glukoneogenesist gátló hatása és a szabályozás felborul.
+    \item A máj inzulin hiányában naponta 500 g szőlőcukort képes termelni.
+    \item Az inzulin inzulinreceptorokon keresztül kötni tud a test egyes sejtjeihez (máj-, izom- és zsírsejtek) és kis pórusokat nyit a sejtmembránon, amin keresztül sejtek a glükózt fel tudják venni.
+\end{itemize}
+
+\subsection{Inzulin problémák}
+\begin{itemize}
+    \item Hiány
+    \begin{itemize}
+        \item A sejtek (az agysejtek kivételével) nem tudják a glükózt a vérből felvenni, így az a vérben marad.
+        \item Növekedik a glükóz-újraképzés a májban.
+        \item Megemelkedik a vércukorszint.
+    \end{itemize}
+    \item Felesleg
+    \begin{itemize}
+        \item Inzulinrezisztencia: a sejtek idővel ellenállnak az inzulin sejthártya nyitogató kísérleteinek.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Cukorbetegség}
+\begin{itemize}
+    \item Diabetes mellitus vagy diabétesz
+    \item A cukor vizelettel való fokozott kiválasztására és a megemelkedett vizeletmennyiségre utal.
+    \item A 2-es típusú cukorbetegség
+    \begin{itemize}
+        \item Lépcsőzetes kezelés
+        \item Életmódváltoztatás $\rightarrow$ testsúlycsökkentés
+        \item Tablettás antidiabetikus gyógyszerek
+        \item A betegség előrehaladásával, amikor a béta-sejtek kimerülése megindul, a tablettás készítmények mellett szükség lehet hosszú hatású inzulinkészítmények esti adására.
+        \item Az utolsó szakaszban, amikor a béta sejtek kimerültek, az inzulint az 1-es típusú diabéteszhez hasonlóan teljesen pótolni kell.        
+    \end{itemize}
+    \item 1-es típusú cukorbetegség
+    \begin{itemize}
+        \item Inzulin adás szükséges (rendszeres)
+        \item A hasnyálmirigy inzulint termelő béta-sejtjeinek pusztulása következtében nincs elegendő inzulintermelés.
+    \end{itemize}
+    \item GDM - A terhességi vagy gesztációs diabetes mellitus
+    \begin{itemize}
+        \item A terhesség első három hónapjában jelentkezik és a terhesség végével általában eltűnik.
+        \item A terhességi hormonok hatására alakulhat ki.
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsection{Vércukorszint}
+\begin{itemize}
+    \item A vérben lévő cukor mennyisége folyamatosan ingadozik (ez normális)
+    \begin{itemize}
+        \item Nem cukorbetegeknél $\rightarrow$ Étkezések előtt akár 4-6 mmol/1 között, étkezéseket követően pedig 5-9 mmol/1 között.
+        \item Cukorbetegeknél az ingadozások mértéke ennél nagyobb lehet.
+    \end{itemize}
+    \item A rendszeres vércukormérés eredményeiből szabad csak következtetéseket levonni.
+    \begin{itemize}
+        \item Ha azok egy-egy napszakra, egy-egy étkezés előtt vagy után jellemzően kimutathatók, az egy-egy időpontban végzett mérések több, mint 70\%-ában reprodukálhatók.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Vércukormérés gyakorisága}
+\begin{itemize}
+    \item Diétával és tablettával kezelt cukorbetegeknél kisebbek a vércukoringadozások ezért általában elég naponta egy vércukorszint mérés. 
+    \item Napi profilmérés $\rightarrow$ egyelten nap 5-6 vércukormérés, ezt követően pedig 1-2 héten át semmi.
+    \item A lépcsőzetes – naponta, másnaponta egyszer – végzett vércukorszint mérések jól tükrözik a vércukor alakulás napszakos dinamikáját.
+    \item Inzulinos pácienseknél naponta többször.
+\end{itemize}
+
+\subsection{Vércukormérés}
+\begin{itemize}
+    \item Vércukormérő berendezés
+    \begin{itemize}
+        \item Kisméretű, egyszerűen kezelhető leolvasó műszer
+    \end{itemize}
+    \item Tesztcsík
+    \begin{itemize}
+        \item Színelváltozások egyértelmű és minél pontosabb leolvasása
+    \end{itemize}
+    \item Kalibrációs segédeszközök egyszerű hitelesítés
+    \item Lándra (vért veszünk szúrással)
+\end{itemize}
+
+\subsection{Hátrányok}
+\begin{itemize}
+    \item A kémia reakcióknál a vegyi anyagok szavatossága korlátos
+    \item Leolvasás automatizáltsága
+    \item Eredmények reprodukálhatósága, validálás
+\end{itemize}
+
+\subsection{CGM - Folyamatos vércukormonitorozás napjainkban}
+\begin{itemize}
+    \item Abbot Freestyle Libre
+    \item DEXCOM
+    \begin{itemize}
+        \item DEXCOM G5
+        \item DEXCOM G6
+    \end{itemize}
+    \item MEDTRONIC - Guardian
+\end{itemize}
+
+\subsection{Inzulin}
+\begin{itemize}
+    \item Régebben állati inzulin
+    \begin{itemize}
+        \item Sertés és marha hasnyálmirigyéből kivont
+        inzulinkészítményeket ma kizárólag azok
+        kapnak, akik már régóta ezeket a
+        készítményeket használják. (esetenként súlyos
+        allergiás reakciók)
+        \item E.-coli nevű baktériummal, sütőélesztővel
+        állítják elő (inzulin termelésére
+        beprogramozva) a "humán inzulint"
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Inzulin beadása}
+\begin{itemize}
+    \item Régen injekciós tűvel (inzulin)
+    \item Inzulin toll segítségével
+    \item Inzulin pumpa segítségével
+    \item Kísérleti fázis:
+    \begin{itemize}
+        \item Orron át adható $\rightarrow$ orrspray
+        \item Szájon át adható $\rightarrow$ folyadék, tabletta
+        \item Belégzéssel $\rightarrow$ inhalációs inzulin
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Inzulin adagolók napjainkban}
+\customwidthimage{inz}{15cm}
+
+\subsubsection{Auto-injector megoldás belső részei}
+\customwidthimage{autinj}{10cm}
+
+\subsubsection{CGM + inzulinpumpa}
+\begin{itemize}
+    \item Folyamatos vércukorszint mérés kombinálva inzulinpumpával
+    \item Mesterséges hasnyálmirigy
+    \item Automatikus szabályozó algoritmusok
+    \item Inzulin, és/vagy szénhidrát adagolás
+\end{itemize}
+
+\clearpage
+\subsubsection{Koleszterin (LDL/HDL), laktát, hemoglobin,triglicerid mérés}
+\begin{itemize}
+    \item Mérő berendezés
+    \begin{itemize}
+        \item Kisméretű, egyszerűen kezelhető leolvasó műszer
+    \end{itemize}
+    \item Tesztcsík (többnyire külön az egyes mérési paraméterekre)
+    \begin{itemize}
+        \item Színelváltozások egyértelmű és minél pontosabb leolvasása
+    \end{itemize}
+    \item Kalibrációs segédeszközök egyszerű hitelesítés
+    \item Lándzsa (vért veszünk szúrással)
+    \item Digitális
+\end{itemize}
+
+\subsection{Gyógyszerszedés}
+\begin{itemize}
+    \item Széles a piac
+    \item Idősebbek többet szednek
+    \item Gyógyszer adagoló megoldások
+    \begin{itemize}
+        \item Elektromos/mechanikus
+        \item Gyógyszer adagolók
+        \item Elektromos, automata porciózással
+        \item Manuális-mechanikus felhasználói aktivitással
+    \end{itemize}
+\end{itemize}
+
+\subsection{Evolúció}
+\customwidthimage{ev}{15cm}
+
+\subsection{Defibrillátorok és pacemaker-ek}
+\begin{itemize}
+    \item Pacemaker
+    \item Defibrillator (ICD)
+    \item Cardiac Resynchronization Therapy (CRT)
+\end{itemize}
+
+\subsection{Az emberi légzés monitorozása}
+\begin{itemize}
+    \item Külső légzés
+    \begin{itemize}
+        \item Állandó légcsere zajlik a tüdő és a környezet között
+    \end{itemize}
+    \item Belső légzés
+    \begin{itemize}
+        \item A sejtek és szövetek légzése (gázcsere)
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Pulzoximetria}
+\begin{itemize}
+    \item Mérő szenzor a páciens ujjára, ami a mérés során folyamatosan érzékeli az oxigén szint változását.
+    \item Kis csipeszhez hasonló készülék
+    \item Fájdalommentes vizsgálat
+    \item Kritikus állapotú betegben a módszer sajnos gyakran megbízhatatlan a perifériás vasoconstrictio miatt (az eszköz nem érzékeli a pulzushullámot).
+\end{itemize}
+
+\subsubsection{Külső légzést monitorozó eszközök}
+\begin{itemize}
+    \item Kilégzési csúcsáramlás mérő
+    \begin{itemize}
+        \item Lényegében azt méri, hogy egy kilégzés alkalmával milyen gyorsan jut ki a levegő a tüdőből.
+        \item A leolvasott érték az úgynevezett kilégzési csúcsáramlás értéke (peak expiratory flow, PEF), egysége l/perc.        
+        \item Standard értéktáblázat, amiben benne vannak a testmagasság, életkor és nem szerint specifikált értékek.
+    \end{itemize}
+    \item Spirométer
+    \begin{itemize}
+        \item A tüdő levegőbefogadó képességének mérésére való eszköz
+    \end{itemize}
+    \item Légzési rátát monitorozó öv
+    \begin{itemize}
+        \item Nyúlásképes pánt, ami a mellkas térfogatváltozását érzékeli
+    \end{itemize}
+    \item Légzésfigyelő/őr babákhoz
+    \begin{itemize}
+        \item Babaágy aljára helyezhető mozgás érzékelő betét/matrac
+    \end{itemize}
+    \item Légzésszámláló
+    \begin{itemize}
+        \item Alvás/horkolás monitorozás mikrofonnal
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsection{Mozgásmonitorozás vs. mozdulatmonitorozás}
+\begin{itemize}
+    \item Mozgásfigyelés
+    \begin{itemize}
+        \item Mozgás a lakásban
+        \item Életjel (anno: füst felszáll a szomszéd kéményéből)
+        \item Alvásmonitorozás
+    \end{itemize}
+    \item Mozdulatmonitorozás
+    \begin{itemize}
+        \item Rehabilitáció (stroke, baleset, fejlődési rendellenesség)
+        \begin{itemize}
+            \item Helyesen/helytelenül végzett gyakorlat (szög, sebesség, táv, mennyiség)
+        \end{itemize}
+        \item Biomechanikai elemzések
+        \begin{itemize}
+            \item Hogyan csinálja, mozdulat optimalizálás
+        \end{itemize}
+        \item Mozgástanulás
+    \end{itemize}
+\end{itemize}
+
+\subsection{Mozdulat és mozgásmonitorozó rendszerek}
+\begin{itemize}
+    \item Mozgásmennyiség szenzorok
+    \begin{itemize}
+        \item Testen viselt szenzorok $\rightarrow$ Aktigráfok, aktivitás érzékelők
+        \item Lakáson belüli szenzorok $\rightarrow$ Passzív/aktív falra szerelhető mozgás szenzorok
+    \end{itemize}
+    \item Monitorozás optikai tartományban
+    \begin{itemize}
+        \item Kamera alapú rendszerek passzív optikai referencia markerekkel
+    \end{itemize}
+    \item Monitorozás rádió és/vagy ultrahang tartományban
+    \begin{itemize}
+        \item Aktív, vagy passzív markerekkel
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsection{Személyi mozgásmennyiség mérő}
+\begin{itemize}
+    \item Mozgásérzékelő szenzor (accelerométer), ami alkalmas a különböző végtag és törzsmozgások detektálására $\rightarrow$ Gyorsulásmérő
+    \item Részei
+    \begin{itemize}
+        \item A piezo-elektromos gyorsulásmérő/giroszkóp, stb
+        \item Esemény szűrő
+        \item Belső óra és memória
+    \end{itemize}
+\end{itemize}
+
+\subsection{Mozgásmennyiség figyelés (életviteli minták)}
+\begin{itemize}
+    \item Passzív mozgásérzékelők
+    \item Telepített, viszonylag állandó/stabil rendszerek
+\end{itemize}
+
+\subsection{Mozdulat monitorozás}
+\begin{itemize}
+    \item Cél $\rightarrow$ A mozdulat/testmozgás kvalitatív és kvantitatív jellemzőinek mérése és rögzítése
+    \begin{itemize}
+        \item Mozdulat sebessége
+        \item Mozdulat pontossága
+        \item Mozdulatok száma
+        \item Izületi mozgásterjedelem
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsection{A monitorozás eredményeinek felhasználási területei}
+\begin{itemize}
+    \item Mozgásrehabilitáció
+    \begin{itemize}
+        \item Balesetek utókezelése
+        \item Stroke utókezelése
+    \end{itemize}
+    \item Mozgásszervi betegségek kezelése
+    \item Tremor (nyugalmi, akciós, stb) regisztrálása és vizsgálata (Parkinson)
+    \item Távrehabilitáció/gyógytorna
+    \item Sportmozgások biomechanikai elemzése
+    \item Mozdulat/mozgástanulás támogatása
+    \item Motion capture (pl.: filmek)
+\end{itemize}
+
+\subsection{Megoldási alternatívák}
+\begin{itemize}
+    \item Hagyományos módszer
+    \item Video/markeres módszerek
+    \item Célhardverek
+    \item Informatikai megoldások $\rightarrow$ Alternatív/költséghatékony
+\end{itemize}
+
+\subsection{Mozgásmonitorozás - célhardverek}
+\begin{itemize}
+    \item Hang RF/Ultrahang
+    \item Speciális ruha (aktív-passzív markerek)
+    \item IR grid
+\end{itemize}
+
+\subsection{Eszközök}
+\begin{itemize}
+    \item Hardver
+    \begin{itemize}
+        \item Zebris (német)
+        \item CMAS (amerikai)
+        \item Cricker Indoor Location System (amerikai)
+        \item Kinect I/II (Xbox, Windows)
+        \item IMU alapokon
+    \end{itemize}
+    \item Szoftver
+    \begin{itemize}
+        \item SkillSpector (videó alapú)
+        \item The MotionMonitor (videó vagy hardver alapú)
+    \end{itemize}
+\end{itemize}
+
+\subsection{Mozdulatkövetés a gyakorlatban (hardver és eszköz)}
+\begin{itemize}
+    \item Hardver \#1
+    \begin{itemize}
+        \item Hibrid megoldás (RF + ultrahang)
+        \item RF frekvencia (433 MHz)
+        \item 30 méteres hatótávolság
+        \item Felbontóképesség (1cm (3 méteren), 2 cm (10 méteren))
+    \end{itemize}
+\end{itemize}
+
+\subsection{Szoftver képességek}
+\begin{itemize}
+    \item Mozgási adatok beolvasása (3D térkoordináták, idő és szenzor adatok)
+    \begin{itemize}
+        \item Külső mozgásmonitorozó eszközről + archivált adatokból
+    \end{itemize}
+    \item Mozgás grafikus megjelenítése
+    \item Számítások (távolság és hajlásszög számítás)
+    \item Mozgási adatok rögzítése, minta mozgások felvétele
+    \item Korábban rögzített mozgási adatok elemzése
+\end{itemize}
