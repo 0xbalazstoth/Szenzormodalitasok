@@ -1,6 +1,6 @@
-PWD f:\Egyetemi anyagok\Mesterkepzes\2023-2024\Masodik felev\Rendszer es iranyitaselmelet\FF
+PWD f:\Egyetemi anyagok\Mesterkepzes\2023-2024\Masodik felev\Szenzormodalitások\FF
 INPUT C:\Users\rpgix\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT f:\Egyetemi anyagok\Mesterkepzes\2023-2024\Masodik felev\Rendszer es iranyitaselmelet\FF\ff_doc.tex
+INPUT f:\Egyetemi anyagok\Mesterkepzes\2023-2024\Masodik felev\Szenzormodalitások\FF\ff_doc.tex
 OUTPUT ff_doc.log
 INPUT C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -436,6 +436,12 @@ OUTPUT methodology.aux
 INPUT .\methodology.tex
 INPUT .\methodology.tex
 INPUT methodology.tex
+INPUT .\assets\schematic.png
+INPUT .\assets\schematic.png
+INPUT .\assets\schematic.png
+INPUT .\assets\schematic.png
+INPUT .\assets\schematic.png
+INPUT .\assets\schematic.png
 INPUT ff_doc.aux
 INPUT .\parts.aux
 INPUT .\parts.aux

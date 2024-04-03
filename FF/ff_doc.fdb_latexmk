@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1711896911 "f:/Egyetemi anyagok/Mesterkepzes/2023-2024/Masodik felev/Rendszer es iranyitaselmelet/FF/ff_doc.tex" "ff_doc.pdf" "ff_doc" 1711896916 0
+["pdflatex"] 1712171403 "f:/Egyetemi anyagok/Mesterkepzes/2023-2024/Masodik felev/Szenzormodalitások/FF/ff_doc.tex" "ff_doc.pdf" "ff_doc" 1712171408 0
   "C:/Users/rpgix/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1711811904 207354 c4d565012842f096d0fb11752e76bff3 ""
   "C:/Users/rpgix/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1690724894 24118912 a29ebf4a49ff8d5003480bfceee4beb9 ""
   "C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256933040 2375 baa924870cfb487815765f9094cf3728 ""
@@ -210,15 +210,16 @@
   "assets/d13_b.jpg" 1711896119 44448 d60783085e5add044bce5b7ad8e2b57a ""
   "assets/dht.png" 1711895599 239875 1e08b16242b70d59b526040c573519a8 ""
   "assets/ncr.png" 1711894752 183633 e7a65ffebbbfb8fd7fb2c590d1b47da7 ""
+  "assets/schematic.png" 1712171390 52143 318d6e41bd813b1ec0a7a5c2fe77bc2d ""
   "assets/wemos.jpeg" 1711895437 384423 3f38c988f07124ab2a8e6d034d8d1457 ""
-  "f:/Egyetemi anyagok/Mesterkepzes/2023-2024/Masodik felev/Rendszer es iranyitaselmelet/FF/ff_doc.tex" 1711896904 1569 b16817391160ee07312c3c7b506f4d7e ""
-  "ff_doc.aux" 1711896915 598 559d5eb57e5d773a4612c4bef75ae9a5 "pdflatex"
-  "ff_doc.out" 1711896915 903 805f8fde5b35ba2328aed392bc64ef9e "pdflatex"
+  "f:/Egyetemi anyagok/Mesterkepzes/2023-2024/Masodik felev/Szenzormodalitások/FF/ff_doc.tex" 1711896904 1569 b16817391160ee07312c3c7b506f4d7e ""
+  "ff_doc.aux" 1712171407 598 559d5eb57e5d773a4612c4bef75ae9a5 "pdflatex"
+  "ff_doc.out" 1712171407 903 805f8fde5b35ba2328aed392bc64ef9e "pdflatex"
   "ff_doc.tex" 1711896904 1569 b16817391160ee07312c3c7b506f4d7e ""
-  "ff_doc.toc" 1711896915 605 8f6285d835f6ce19d3d2d51347ff0547 "pdflatex"
-  "methodology.aux" 1711896915 1340 8cf9155c595a4bc6100729037489750b "pdflatex"
-  "methodology.tex" 1711896892 61 5996397e17577260739a3d368c02cb62 ""
-  "parts.aux" 1711896915 1797 298e540c642508ded20d672410d0b127 "pdflatex"
+  "ff_doc.toc" 1712171407 605 8f6285d835f6ce19d3d2d51347ff0547 "pdflatex"
+  "methodology.aux" 1712171407 1340 8cf9155c595a4bc6100729037489750b "pdflatex"
+  "methodology.tex" 1712171401 97 d430ff90275ddeeeb85ab76f8e66d541 ""
+  "parts.aux" 1712171407 1797 298e540c642508ded20d672410d0b127 "pdflatex"
   "parts.tex" 1711896401 4135 3947ca8c1fa0746398352627ede2b24c ""
   (generated)
   "ff_doc.aux"

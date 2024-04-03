@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.30)  31 MAR 2024 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.30)  3 APR 2024 21:10
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"f:/Egyetemi anyagok/Mesterkepzes/2023-2024/Masodik felev/Rendszer es iranyitaselmelet/FF/ff_doc.tex"
-(f:/Egyetemi anyagok/Mesterkepzes/2023-2024/Masodik felev/Rendszer es iranyitaselmelet/FF/ff_doc.tex
+**"f:/Egyetemi anyagok/Mesterkepzes/2023-2024/Masodik felev/Szenzormodalitások/FF/ff_doc.tex"
+(f:/Egyetemi anyagok/Mesterkepzes/2023-2024/Masodik felev/Szenzormodalitások/FF/ff_doc.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
 (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -869,11 +869,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--64
  <./assets/130res.png>]
 \openout2 = `methodology.aux'.
 
- (methodology.tex) [8
+ (methodology.tex
+<assets/schematic.png, id=116, 1705.37125pt x 561.09625pt>
+File: assets/schematic.png Graphic file (type png)
+<use assets/schematic.png>
+Package pdftex.def Info: assets/schematic.png  used on input line 4.
+(pdftex.def)             Requested size: 426.79134pt x 140.41927pt.
+) [8
 
 
 
-] (ff_doc.aux (parts.aux) (methodology.aux))
+ <./assets/schematic.png>] (ff_doc.aux (parts.aux) (methodology.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -882,17 +888,17 @@ Package rerunfilecheck Info: File `ff_doc.out' has not changed.
 (rerunfilecheck)             Checksum: 805F8FDE5B35BA2328AED392BC64EF9E;903.
  ) 
 Here is how much of TeX's memory you used:
- 27875 strings out of 475550
- 559328 string characters out of 5762533
+ 27887 strings out of 475550
+ 559465 string characters out of 5762533
  1925238 words of memory out of 5000000
- 48551 multiletter control sequences out of 15000+600000
+ 48563 multiletter control sequences out of 15000+600000
  612322 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,87p,566b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,87p,557b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on ff_doc.pdf (8 pages, 1161689 bytes).
+Output written on ff_doc.pdf (8 pages, 1207822 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
+ 169 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
