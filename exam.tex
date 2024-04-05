@@ -1,0 +1,390 @@
+﻿\section{Vizsga kérdések}
+
+\subsection{Szenzorok}
+\subsubsection{Szenzor definíció}
+\begin{itemize}
+    \item A szenzor egy eszköz, ami fizikai ingereket (pl.: hőmérséklet, fény, nyomás) érzékel és ezeket mérhető jelekké alakítja.
+    \item Ezek a jelek lehetővé teszik környezetünk változásainak észlelését és mérését. (pl.: ipar, egészségügy, környezetvédelem)
+    \item Szenzorok lehetnek aktív vagy passzív típusúak, azaz saját energiát használó vagy a környezeti energiát felhasználó eszközök.
+    \item Digitális adatot ad ki magából.
+    \item A digitális adatot tovább adja küldeni vezetékes vagy vezeték nélküli csatornán.
+\end{itemize}
+
+\subsubsection{Szenzor kategóriák}
+\begin{itemize}
+    \item Hőmérséklet-szenzorok
+    \begin{itemize}
+        \item Környezet hőmérsékletének mérése, gyakran használják otthoni fűtési rendszerekben, autókban és ipari folyamatokban.
+    \end{itemize}
+    \item Gyorsulásmérők
+    \begin{itemize}
+        \item Gyorsulás/rezgés mértékét érzékelik, gyakran használják mobiltelefonok képernyő-orientációjának szabályozásához, járművek ütközésérzékelésére, épületek szeizmikus monitorozására.
+    \end{itemize}
+    \item Kémiai szenzorok
+    \begin{itemize}
+        \item Vegyületek mérése levegőben, vízben vagy egyéb közegben.
+        \item Környezetszennyezés monitorozása, ipari folyamatok ellenőrzése, egészségügyben.
+    \end{itemize}
+    \item Hangfrekvencia-szenzorok
+    \begin{itemize}
+        \item Hanghullámokat érzékel, alkalmazhatóak biztonsági rendszerekben, hangfelismerésben és akusztikai elemzésben.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Szenzorok használati területei}
+\begin{quote}
+    A szenzorok javítják életünk minőségét, hatékonyságát és biztonságát.
+\end{quote}
+\begin{itemize}
+    \item Okostelefonok és viselhető eszközök
+    \begin{itemize}
+        \item Gyorsulásmérők, giroszkópok, lépésszámlálás, automatikus fényerő-szabályozás.
+    \end{itemize}
+    \item Otthoni automatizálás és intelligens otthonok
+    \begin{itemize}
+        \item Hőmérséklet, fény, mozgás
+    \end{itemize}
+    \item Ipari automatizálás
+    \begin{itemize}
+        \item Üzemeltetés hatékonyságát növeli.
+    \end{itemize}
+    \item Egészségügy és orvostechnika
+    \begin{itemize}
+        \item Kémiai szenzorok, biometrikus szenzorok, diagnosztikák/kezelések monitorozása
+    \end{itemize}
+    \item Autóipar
+    \begin{itemize}
+        \item Ütközésérzékelők, parkolássegítő rendszerek
+    \end{itemize}
+    \item Biztonsági rendszerek
+    \begin{itemize}
+        \item Mozgásérzékelők, füstérzékelők, kamera szenzorok a veszélyhelyzetek azonosítására.
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsubsection{Szenzor problémák}
+\begin{itemize}
+    \item Kalibrációs problémák
+    \begin{itemize}
+        \item Következménye a pontatlanság lehet, kell a rendszeres kalibráció a pontos működéshez.
+    \end{itemize}
+    \item Környezeti hatások
+    \begin{itemize}
+        \item Extrém hőmérsékletek, por és egyéb környezeti tényezők befolyásolhatják a szenzorok teljesítményét.
+    \end{itemize}
+    \item Energiafogyasztás
+    \begin{itemize}
+        \item Akkumulátorral működő eszközöknél a szenzorok sokat fogyasztanak.
+    \end{itemize}
+    \item Inferencia és zaj
+    \begin{itemize}
+        \item Zajok torzíthatják a szenzorok által gyűjtött adatokat, ami pontatlansághoz vezet.
+    \end{itemize}
+    \item Technológiai korlátok (Például kommunikáció)
+\end{itemize}
+
+\subsubsection{Aktuátor definíció, példák}
+\begin{quote}
+    Az aktuátorok olyan eszközök, amik elektromos jelet fizikai műveletekké alakítanak át, az aktuátorok lehetnek mechanikus szerkezetek vagy bonyolultabb rendszerek.
+\end{quote}
+\begin{itemize}
+    \item Elektromos motorok
+    \begin{itemize}
+        \item Elektromos energiát mechanikai mozgássá alakítanak át, járművek meghajtását teszik lehetővé például.
+    \end{itemize}
+    \item Hidraulikus aktuátorok
+    \begin{itemize}
+        \item Folyadék nyomásának növelésével/csökkentésével működnek, erős és precíz mozgatásra képesek, például építőipari gépekben.
+    \end{itemize}
+    \item Pneumatikus aktuátorok
+    \begin{itemize}
+        \item Sűrített levegőt használnak a mozgás előidézésére, például ahol gyors és ismétlődő mozgásra van szükség.
+    \end{itemize}
+\end{itemize}
+
+\subsection{DAQ/Tradícionális vezérlés/DCS/SCADA/Monitoring/Vezérlőrendszerek}
+\subsubsection{DIKW piramis}
+\begin{quote}
+    Tudáspiramis, egy modell, bemutatja hogyan alakulnak át az adatok értelmezhető és használható tudássá.
+\end{quote}
+\begin{enumerate}
+    \item Adat (Nyers adatok kontextus nélkül (pl.: mérések adatai), kevés hasznos információt tartalmaznak.)
+    \item Információ (Adatok kontextusba helyezése.)
+    \item Tudás (Információkból következtetéseket lehet levonni.)
+    \item Bölcsesség (Tudás alkalmazása, miértje.)
+\end{enumerate}
+
+\subsubsection{Tradícionális vezérlési rendszerek vs. Elosztott vezérlési rendszerek (DCS)}
+\begin{itemize}
+    \item Tradícionális vezérlési rendszerek
+    \begin{itemize}
+        \item Központosított architektúrára épül, ahol egy vagy több központi vezérlőegység végzi a folyamatok összes vezérlési és felügyeleti feladatát.
+        \item Egyszerű, alacsony költségek
+        \item Korlátozott skálázhatóság, a központosított vezérlés miatt nagyobb a rendszer kiesésének kockázata
+    \end{itemize}
+    \item Elosztott vezérlési rendszerek (DCS)
+    \begin{itemize}
+        \item Vezérlési folyamatokat moduláris egységek között osztja szét, amik kommunikálnak egymással egy közös hálózaton keresztül.
+        \item Minden egyes szegmens a saját területéért felelős.
+        \item Magasabb rendelkezésre állás, megbízhatóság, skálázhatóság
+        \item Költséges, bonyolult
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{DAQ rendszer előnyök/hátrányok, alkalmazási területek}
+\begin{quote}
+    Adatgyűjtő rendszerek, lehetővé teszik fizikai jelenségek valós idejű monitorozását és analízisét. \\
+    Egy tipikus DAQ rendszer szenzorokból áll, adatgyűjtő hardverből és szoftverből áll, amik összegyűjtik és feldolgozzák az adatokat.
+\end{quote}
+\begin{itemize}
+    \item Előnyök (Rugalmas konfiguráció, pontos mérések, valós idejű adatfeldolgozás, automatizálás)
+    \item Hátrányok (Költségek, technikai komplexitás, hardver és szoftverkompatibilitás, Karbantartás, frissítések)
+    \item Alkalmazási területek (Tudományos kutatás, mérnöki tesztelés és fejlesztés, környezeti monitorozás, egészségügy)
+\end{itemize}
+
+\subsubsection{Elosztott vezérlési rendszerek (DCS)}
+\begin{itemize}
+    \item Előnyök (Magasabb rendelkezésre állás, megbízhatóság, skálázhatóság)
+    \item Hátrányok (Költséges, bonyolult)
+    \item Alkalmazási területek (Gyógyszeripar, erőművek, élelmiszeripar)
+\end{itemize}
+
+\subsubsection{SCADA rendszer}
+\begin{itemize}
+    \item Előnyök (Távoli felügyelet, valós idejű adatgyűjtés, megbízhatóság, automatizálás)
+    \item Hátrányok (Komplexitás, költségek, karbantartás)
+    \item Alkalmazási területek (Energiaipar, közlekedés, gyártás és automatizálás)
+\end{itemize}
+
+\clearpage
+\subsection{DAQ}
+\subsubsection{DAQ rendszer komponensei}
+\begin{itemize}
+    \item Szenzorok és érzékelők (Fizikai változások elektromos jelekké alakítja át)
+    \item Jelkondicionáló áramkörök (Jeleket átalakítja, hogy azok megfelelőek legyenek)
+    \item Adatgyűjtő eszközök - DAQ hardver (Előkészített analóg jeleket digitális formátumba konvertálja)
+    \item Számítógép és interfész (DAQ hardvert számítógéphez kell csatlakoztatni, interfész lehet USB, PCI, PCIe, Ethernet és szoftveren keresztül kezeli az adatokat)
+    \item Szoftver (LabVIEW, MATLAB)
+\end{itemize}
+
+\subsubsection{DAQ alkalmazási területek}
+\begin{itemize}
+    \item Tudományos kutatás, mérnöki tesztelés és fejlesztés, környezeti monitorozás, egészségügy
+\end{itemize}
+
+\subsubsection{Jelkondícionálás}
+\begin{quote}
+    A jelkondícionálás előkészíti az elektromos jeleket a digitális átalakításra és feldolgozásra, célja, hogy javítsa a jelek minőségét és növelje az adatgyűjtés pontosságát.
+\end{quote}
+\begin{itemize}
+    \item Erősítés, szűrés, hőmérséklet-kompenzáció, lineárizáció, galvanikus leválasztás, jelalakítás
+\end{itemize}
+
+\subsubsection{Betegmonitorozó DAQ infrastruktúra}
+\begin{quote}
+    Beteg valós időben történő monitorozása.
+\end{quote}
+\begin{itemize}
+    \item Szenzorok és érzékelők, jelkondícionáló áramkörök, adatgyűjtő eszközök, központi monitorozó állomás és hálózati infrastruktúra, szoftver és analitikai eszközök, adattárolás és archiválás
+\end{itemize}
+
+\subsubsection{DAQ rendszerek kihívásai}
+\quote
+\begin{itemize}
+    \item Jelzaj és interferencia, nagy adatmennyiség kezelése, szenzor kalibráció és hőmérsékleti hatások, Adatbiztonság és adatvédelem, hardver és szoftverkompatibilitás, skálázhatóság és rugalmasság, Kezelhetőség 
+\end{itemize}
+
+\subsection{Elosztott vezérlési rendszerek (DCS)}
+\subsubsection{DCS architektúra}
+\begin{itemize}
+    \item Vezérlési folyamatokat moduláris egységek között osztja szét, amik kommunikálnak egymással egy közös hálózaton keresztül.
+    \item Minden egyes szegmens a saját területéért felelős.
+    \item Moduláris
+\end{itemize}
+
+\subsubsection{DCS komponensei}
+\begin{itemize}
+    \item Folyamatvezérlők
+    \item Operátori állomások (HMI)
+    \item I/O modulok
+    \item Kommunikációs hálózatok
+    \item Mérnöki munkaállomások
+    \item Adatarchiváló és elemző rendszer
+    \item Biztonsági rendszerek
+\end{itemize}
+
+\subsubsection{DCS előnyök és hátrányok}
+\begin{itemize}
+    \item Előnyök (Magasabb rendelkezésre állás, megbízhatóság, skálázhatóság)
+    \item Hátrányok (Költséges, bonyolult)
+\end{itemize}
+
+\subsubsection{DCS alkalmazási területek}
+\begin{itemize}
+    \item Gyógyszeripar, erőművek, élelmiszeripar
+\end{itemize}
+
+\subsection{Supervisory control and data acquisition - SCADA}
+\subsubsection{SCADA architektúra, komponensei}
+\begin{quote}
+    Lehetővé teszik a nagy ipari és infrastrukturális folyamatok távoli monitorozását, vezérlését és automatizálását.
+\end{quote}
+\begin{itemize}
+    \item Terepi eszközök
+    \item Távközlési rendszerek
+    \item RTU-k
+    \item SCADA szerverek és számítógépek
+    \item HMI
+    \item Adatbázis és archiváló rendszerek
+    \item Biztonsági komponensek
+    \item Alkalmazási és szoftvereszközök
+\end{itemize}
+
+\subsubsection{SCADA előnyök/hátrányok}
+\begin{itemize}
+    \item Előnyök (Távoli felügyelet, valós idejű adatgyűjtés, megbízhatóság, automatizálás)
+    \item Hátrányok (Komplexitás, költségek, karbantartás)
+\end{itemize}
+
+\subsubsection{SCADA alkalmazási területek}
+\begin{itemize}
+    \item Energiaipar, közlekedés, gyártás és automatizálás
+\end{itemize}
+
+\clearpage
+\subsubsection{SCADA funkciói}
+\begin{itemize}
+    \item Távmérések, távjelzések fogadása
+    \item Visszajelzés, adat vizualizáció
+    \item Naplózás
+    \item Riasztások (határérték és gradiens figyelés)
+    \item Topológia analízis
+    \item Távparancsadás
+    \item Autentikáció és jogosultságkezelés
+    \item Adattárolás
+\end{itemize}
+
+\subsubsection{Basic SCADA vs. Integrated SCADA vs. Networked SCADA}
+\begin{itemize}
+    \item Basic SCADA
+    \begin{itemize}
+        \item Alapvető távoli felügyelet és adatgyűjtés
+        \item Korlátozott I/O kapacitás, egyszerű HMI és adatgyűjtés
+        \item Kis teljesítményűek, egyszerű ipari folyamatok
+    \end{itemize}
+    \item Integrated SCADA
+    \begin{itemize}
+        \item Bonyolultabb, több funkciót integrálnak egyetlen koherens rendszerben.
+        \item ERP rendszerek, komplex gyártási folyamatok, nagy létesítmények, vállalati szintű
+    \end{itemize}
+    \item Networked SCADA
+    \begin{itemize}
+        \item Széleskörű hálózati kapcsolatok, távoli elérés és vezérlés, adatmegosztás a létesítmények között, felhőalapú adattárolás és szolgáltatások
+        \item Távvezetéki rendszerek, vízellátás, energiaelosztás, szétszórt infrastruktúra felügyelet
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsection{Biojel-gyűjtés (Biosignal acquisition)}
+\begin{quote}
+    A bioszignálok az élőlények testéből származó elektromos, mechanikai vagy más fizikai jelek, amik információt hordoznak az adott szervezet vagy szervrendszer állapotáról.
+\end{quote}
+
+\begin{itemize}
+    \item Elektromos bioszignálok (Ideg és izomsejtek elektromos aktivitásából származnak)
+    \begin{itemize}
+        \item \textbf{EKG} (Elektrokardiogram), szív elektromos tevékenysége.
+        \item \textbf{EEG} (Elektroenkefalográfia), Agy elektromos aktivitása.
+        \item \textbf{EMG} (Elektromiográfia), izom elektromos aktivitása.
+    \end{itemize}
+    \item Mechanikai bioszignálok (Fizikai mozgások és változások)
+    \begin{itemize}
+        \item \textbf{Pulzushullám-velocitás}, az artériás rugalmasság mérésére szolgáló jel.
+        \item \textbf{Spirometria}, légzés mechanikájának mérése.
+    \end{itemize}
+    \item Kémiai és biokémiai bioszignálok (Kémiai összetétel változásai)
+    \begin{itemize}
+        \item \textbf{Glükózszint-mérés}, vércukorszint mérés.
+        \item \textbf{pH-mérés}, testfolyadék savasságának mérése.
+    \end{itemize}
+    \item Optikai és termikus bioszignálok (Fény és hő alapú jelek)
+    \begin{itemize}
+        \item \textbf{Pulzoximetria}, véroxigénszint mérés.
+        \item \textbf{Testhőmérséklet-mérés}, a test belső hőmérsékletének mérési módjai.
+    \end{itemize}
+    \item Környezeti tényezők és egyéb mérések
+    \begin{itemize}
+        \item \textbf{Páratartalom és hőmérséklet}
+        \item \textbf{Tartás és gyorsulás}
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Szenzoradat kezelési folyamat}
+\begin{enumerate}
+    \item Data acquisition (DAQ) (egy/több szenzor)
+    \item Adatkezelés (feldolgozás/szűrés)
+    \item Tárolás, keresés
+    \item Vizualizáció
+    \item Megosztás
+\end{enumerate}
+
+\subsubsection{Mérési hibák (típusok/források)}
+\begin{quote}
+    Minden mérés tartalmaz hibákat!
+\end{quote}
+\begin{itemize}
+    \item Rendszerszerű hibák
+    \begin{itemize}
+        \item \textbf{Kalibrációs hibák} (Mérőeszközök nem megfelelő kalibrálása)
+        \item \textbf{Elektromos interferencia} (Környezeti elektromos berendezések zavarai)
+        \item \textbf{Jelátviteli hiba} (Hosszú vagy rossz minőségű kábelezés)
+    \end{itemize}
+    \item Random hibák
+    \begin{itemize}
+        \item \textbf{Operátori hiba} (Emberi tényező, mint pl.: szenzor helytelen elhelyezése)
+        \item \textbf{Fiziológiai zaj} (A testből származó nem kívánt jelek, pl.: izomzaj)
+        \item \textbf{Mintavételi hiba} (Nem megfelelő mintavételi frekvencia alkalmazása)
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsubsection{Egyetlen vs. több szenzoros mérési problémák}
+\begin{itemize}
+    \item Egyetlen szenzoros mérési problémák
+    \begin{itemize}
+        \item \textbf{Korlátozott információszerzés}, egyetlen nézőpontból származó adatok korlátozott betekintést nyújtanak.
+        \item \textbf{Hibatűrés hiánya}, egy szenzor meghibásodásánál nincs redundancia, ami az egész mérési folyamat kieséséhez vezethet.
+        \item \textbf{Nagyobb kockázat a pontatlanságokra}, az adatok értelmezésekor
+    \end{itemize}
+    \item Több szenzoros mérési problémák
+    \begin{itemize}
+        \item \textbf{Adatkezelés és feldolgozás}, nagy adatmennyiség kezelése, tárolása, elemzése bonyolult, időigényes
+        \item \textbf{Adatfúzió és integráció}, a különböző típusú és forrású adatok összeegyeztetése és integrálása technikai kihívást jelenthet.
+        \item \textbf{Interferencia és koherencia}, a szenzorok közötti interferencia és az adatok koherenciájának hiánya torzíthatja az eredményeket.
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsubsection{Mérnöki kihívások a nagymennyiségű adatgyűjtésnél}
+\begin{itemize}
+    \item Általános kihívások
+    \begin{itemize}
+        \item P1 $\rightarrow$ Sok DAQ csomópont
+        \item P2 $\rightarrow$ Sok szenzor (különböző típusú)
+        \item P3 $\rightarrow$ Nagy adatmennyiség lehetőleg gyorsan átküldve
+    \end{itemize}
+    \item Kommunikációs probléma $\rightarrow$ P1 $\times$ P2 $\times$ P3
+    \item Szoftver kihívások
+    \begin{itemize}
+        \item Valós idejű DAQ + előfeldolgozás + feldolgozás + megjelenítés (különböző tartományok)
+        \item Komplex döntési helyzetek
+        \item Online adatmenedzsment (megosztás + archiválás)
+    \end{itemize}
+    \item Hardver korlátok
+    \begin{itemize}
+        \item Energia problémák
+        \item Kommunikációs hatótávolságok, adat multiplexálási problémák/idő, frekvencia
+        \item Biztonság, megbízhatóság, használhatóság
+    \end{itemize}
+\end{itemize}

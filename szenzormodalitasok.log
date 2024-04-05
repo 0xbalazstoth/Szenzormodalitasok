@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.30)  29 MAR 2024 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.30)  5 APR 2024 22:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -695,7 +695,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count347
 \l__pdf_internal_box=\box97
-) (szenzormodalitasok.aux (elso.aux) (masodik.aux
+) (szenzormodalitasok.aux (exam.aux) (elso.aux) (masodik.aux
 
 LaTeX Warning: Label `your_label_here' multiply defined.
 
@@ -780,107 +780,360 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 2.
- [2
 
-] [3])
+Overfull \hbox (2.12733pt too wide) in paragraph at lines 8--8
+ [][] [][][]\T1/lmr/m/n/12 DAQ/Tradícionális vezér-lés/D-C-S/S-CADA/-Mon-i-tor-ing/Vezér- 
+ []
+
+[2
+
+] [3] [4])
 \tf@toc=\write7
 \openout7 = `szenzormodalitasok.toc'.
 
- [4]
-\openout2 = `elso.aux'.
+ [5]
+\openout2 = `exam.aux'.
 
- (elso.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5.
+ (exam.tex
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6.
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [5
+)
+Overfull \hbox (83.84856pt too wide) in paragraph at lines 21--22
+\T1/lmr/m/n/12 tele-fonok képerny®-orientációjának sz-abá-ly-ozásához, jár-m¶vek ütközésérzékelésére,
+ []
+
+[6
 
 
 {C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-Overfull \hbox (12.36674pt too wide) in paragraph at lines 69--70
-[]\T1/lmr/m/n/12 Központi/kliens oldali meg-je-lenít® rend-sz-erek (we-b/al-ka-lmazás sz-erverek) 
+Overfull \hbox (6.31638pt too wide) in paragraph at lines 41--42
+[]\T1/lmr/m/n/12 Gyorsulásmér®k, giroszkópok, lépésszám-lálás, au-tomatikus fényer®-
  []
 
 
-Overfull \hbox (5.83704pt too wide) in paragraph at lines 71--72
-[]\T1/lmr/m/n/12 Üzemeltet® és kiszol-gáló szemé-lyzet in-fras-truk-túrája (sza-kem-berek, tech-
+Overfull \hbox (0.29054pt too wide) in paragraph at lines 53--54
+[]\T1/lmr/m/n/12 Kémiai szen-zorok, biometrikus szen-zorok, di-ag-nosztikák/kezelések
  []
 
-[6]
-Overfull \hbox (13.335pt too wide) in paragraph at lines 113--114
-[]\T1/lmr/m/n/12 Például $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 Er®m¶vek, cs®vezetékek, elek-tro-mos hálóza-tok, vízhálóza-
+
+Overfull \hbox (12.29922pt too wide) in paragraph at lines 61--62
+[]\T1/lmr/m/n/12 Mozgásérzékel®k, füstérzékel®k, kam-era szen-zorok a veszé-ly-he-lyzetek
  []
 
-<assets/scada.png, id=547, 595.47469pt x 354.57469pt>
+[7]
+Overfull \hbox (30.12209pt too wide) in paragraph at lines 89--90
+[]\T1/lmr/m/n/12 Az ak-tuá-torok olyan es-zközök, amik elek-tro-mos jelet fizikai m¶veletekké
+ []
+
+[8
+
+]
+Overfull \hbox (7.5323pt too wide) in paragraph at lines 112--113
+[]\T1/lmr/m/n/12 Adat (Ny-ers ada-tok kon-tex-tus nélkül (pl.: mérések adatai), kevés hasznos
+ []
+
+
+Overfull \hbox (0.35454pt too wide) in paragraph at lines 128--129
+[]\T1/lmr/m/n/12 Vezérlési folyam-a-tokat mod-uláris egységek között os-ztja szét, amik
+ []
+
+[9]
+Overfull \hbox (9.52469pt too wide) in paragraph at lines 157--158
+[]\T1/lmr/m/n/12 Alkalmazási területek (En-er-giaipar, kö-zlekedés, gyártás és au-tom-a-tizálás) 
+ []
+
+[10]
+Overfull \hbox (3.29752pt too wide) in paragraph at lines 189--190
+[]\T1/lmr/m/n/12 Szenzorok és érzékel®k, jelkondí-cionáló áramkörök, adat-gy¶jt® es-zközök,
+ []
+
+
+Overfull \hbox (0.62173pt too wide) in paragraph at lines 189--190
+\T1/lmr/m/n/12 központi mon-i-torozó ál-lomás és hálózati in-fras-truk-túra, szoftver és anal-
+ []
+
+
+Overfull \hbox (28.42502pt too wide) in paragraph at lines 195--196
+\T1/lmr/m/n/12 kali-brá-ció és h®mérsék-leti hatá-sok, Adat-biz-ton-ság és adatvédelem,
+ []
+
+[11
+
+]
+Overfull \hbox (1.72456pt too wide) in paragraph at lines 201--202
+[]\T1/lmr/m/n/12 Vezérlési folyam-a-tokat mod-uláris egységek között os-ztja szét,
+ []
+
+
+Overfull \hbox (10.80621pt too wide) in paragraph at lines 201--202
+\T1/lmr/m/n/12 amik kom-mu-nikál-nak egymás-sal egy közös hálóza-ton keresztül. 
+ []
+
+
+Overfull \hbox (52.73943pt too wide) in paragraph at lines 219--220
+[]\T1/lmr/m/n/12 El®nyök (Ma-g-a-sabb ren-delkezésre ál-lás, meg-bízhatóság, skálázhatóság) 
+ []
+
+
+Overfull \hbox (4.27516pt too wide) in paragraph at lines 231--232
+\T1/lmr/m/n/12 a-tok távoli mon-i-torozását, vezér-lését és au-tom-a-tizálását. 
+ []
+
+[12] [13]
+Overfull \hbox (17.06992pt too wide) in paragraph at lines 279--280
+[]\T1/lmr/m/n/12 ERP rend-sz-erek, kom-plex gyártási folyam-a-tok, nagy létesít-
+ []
+
+[14
+
+]
+Overfull \hbox (8.61691pt too wide) in paragraph at lines 297--298
+[]\T1/lmr/bx/n/12 EKG \T1/lmr/m/n/12 (Elek-trokar-dio-gram), szív elek-tro-mos tevékenysége. 
+ []
+
+
+Overfull \hbox (5.90913pt too wide) in paragraph at lines 298--299
+[]\T1/lmr/bx/n/12 EEG \T1/lmr/m/n/12 (Elek-troenke-falo-grá-fia), Agy elek-tro-mos ak-tiv-itása. 
+ []
+
+
+Overfull \hbox (21.8741pt too wide) in paragraph at lines 303--304
+[]\T1/lmr/bx/n/12 Pulzushullám-velocitás\T1/lmr/m/n/12 , az artériás ru-gal-masság mérésére
+ []
+
+
+Overfull \hbox (0.3861pt too wide) in paragraph at lines 314--315
+[]\T1/lmr/bx/n/12 Testh®mérséklet-mérés\T1/lmr/m/n/12 , a test bels® h®mérsék-letének
+ []
+
+[15
+
+]
+Overfull \hbox (14.90807pt too wide) in paragraph at lines 340--341
+[]\T1/lmr/bx/n/12 Elektromos in-ter-fer-en-cia \T1/lmr/m/n/12 (Környezeti elek-tro-mos beren-
+ []
+
+
+Overfull \hbox (5.3943pt too wide) in paragraph at lines 341--342
+[]\T1/lmr/bx/n/12 Jelátviteli hiba \T1/lmr/m/n/12 (Hosszú vagy rossz min®ség¶ ká-belezés) 
+ []
+
+[16]
+Overfull \hbox (3.1547pt too wide) in paragraph at lines 357--358
+[]\T1/lmr/bx/n/12 Hibat¶rés hiánya\T1/lmr/m/n/12 , egy szen-zor meghibá-sodásánál nincs
+ []
+
+
+Overfull \hbox (21.68861pt too wide) in paragraph at lines 362--363
+[]\T1/lmr/bx/n/12 Adatkezelés és fel-dol-go-zás\T1/lmr/m/n/12 , nagy adat-men-ny-iség kezelése,
+ []
+
+
+Overfull \hbox (12.66982pt too wide) in paragraph at lines 364--365
+\T1/lmr/m/n/12 ter-fer-en-cia és az ada-tok ko-heren-ciájá-nak hiánya torzíthatja
+ []
+
+[17
+
+]
+Overfull \hbox (1.62177pt too wide) in paragraph at lines 369--369
+[]\T1/lmr/bx/n/12 Mérnöki ki-hívá-sok a nagy-men-ny-iség¶ adat-gy¶jtés-
+ []
+
+
+Overfull \hbox (9.79764pt too wide) in paragraph at lines 387--388
+[]\T1/lmr/m/n/12 Kommunikációs hatótávol-sá-gok, adat mul-ti-plexálási prob-
+ []
+
+) [18
+
+{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+\openout2 = `elso.aux'.
+
+ (elso.tex
+Overfull \hbox (5.58801pt too wide) in paragraph at lines 7--8
+[]\T1/lmr/m/n/12 Érzékel® ami valam-i-lyen fizikai/kémiai men-ny-iséget, vagy
+ []
+
+
+Overfull \hbox (21.2804pt too wide) in paragraph at lines 56--57
+ [] 
+ []
+
+[19
+
+
+
+]
+Overfull \hbox (13.67282pt too wide) in paragraph at lines 69--70
+[]\T1/lmr/m/n/12 Központi/kliens oldali meg-je-lenít® rend-sz-erek (we-b/al-ka-lmazás
+ []
+
+
+Overfull \hbox (4.59698pt too wide) in paragraph at lines 70--71
+[]\T1/lmr/m/n/12 Központi rend-szer felü-gyeleti es-zközök (al-ka-lmazás sz-erverek) 
+ []
+
+
+Overfull \hbox (12.82368pt too wide) in paragraph at lines 72--73
+[]\T1/lmr/m/n/12 Kommunikációs in-fras-truk-túra, ami az egyes részeket összeköti. 
+ []
+
+
+Overfull \hbox (43.0523pt too wide) in paragraph at lines 88--89
+\T1/lmr/m/n/12 tá-mo-gatása mind az op-er-atív üzemirányítás, mind az üzemel®készítés
+ []
+
+
+Overfull \hbox (5.77716pt too wide) in paragraph at lines 96--97
+[]\T1/lmr/m/n/12 Szemben a di-rekt helyi vezér-l®vel meg-valósí-tott rend-sz-erekkel: 
+ []
+
+[20]
+Overfull \hbox (4.70758pt too wide) in paragraph at lines 99--100
+[]\T1/lmr/m/n/12 kisebbek a kialakítási költ-ségek, mivel a vezér-lés lokálisan
+ []
+
+
+Overfull \hbox (11.93977pt too wide) in paragraph at lines 104--104
+[]\T1/lmr/bx/n/12 Supervisory Con-trol and Data Ac-qui-si-tion - SCADA 
+ []
+
+<assets/scada.png, id=794, 595.47469pt x 354.57469pt>
 File: assets/scada.png Graphic file (type png)
 <use assets/scada.png>
 Package pdftex.def Info: assets/scada.png  used on input line 120.
 (pdftex.def)             Requested size: 227.62204pt x 135.5351pt.
-[7{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./assets/scada.png>]
-Overfull \hbox (2.71176pt too wide) in paragraph at lines 126--127
-\T1/lmr/m/n/12 nagy-obb) hálóza-tokba ren-dezett, egymás-sal hálózati pro-tokol-lokon kom-
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 120--120
+ [] 
  []
 
-<assets/scada_arch.png, id=556, 596.2275pt x 338.01282pt>
+[21 <./assets/scada.png>]
+Overfull \hbox (9.12901pt too wide) in paragraph at lines 126--127
+\T1/lmr/m/n/12 (LAN-nál nagy-obb) hálóza-tokba ren-dezett, egymás-sal hálózati
+ []
+
+
+Overfull \hbox (2.12404pt too wide) in paragraph at lines 126--127
+\T1/lmr/m/n/12 pro-tokol-lokon kom-mu-nikáló rend-sz-erek, egymástól független,
+ []
+
+<assets/scada_arch.png, id=801, 596.2275pt x 338.01282pt>
 File: assets/scada_arch.png Graphic file (type png)
 <use assets/scada_arch.png>
 Package pdftex.def Info: assets/scada_arch.png  used on input line 132.
 (pdftex.def)             Requested size: 426.79134pt x 241.95583pt.
-[8 <./assets/scada_arch.png>]
-Overfull \hbox (8.41843pt too wide) in paragraph at lines 149--150
-[]\T1/lmr/m/n/12 Régebben távoli, ne-hezen megközelí-thet®, veszé-lyes helyeken mérés,
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 132--132
+ [] 
  []
 
-[9
+[22 <./assets/scada_arch.png>]
+Overfull \hbox (24.80275pt too wide) in paragraph at lines 149--150
+[]\T1/lmr/m/n/12 Régebben távoli, ne-hezen megközelí-thet®, veszé-lyes helyeken
+ []
+
+
+Overfull \hbox (38.3878pt too wide) in paragraph at lines 154--155
+[]\T1/lmr/m/n/12 Meterológiai, vízál-lás mér® ál-lomá-sok, épületek/hi-dak/alagutak 
+ []
+
+[23
 
 ]
-<assets/altpac.png, id=566, 604.50844pt x 377.91188pt>
+Overfull \hbox (15.99347pt too wide) in paragraph at lines 190--190
+[]\T1/lmr/bx/n/14.4 Általános pá-ciens mon-i-torozó DAQ ar-chitek-
+ []
+
+<assets/altpac.png, id=811, 604.50844pt x 377.91188pt>
 File: assets/altpac.png Graphic file (type png)
 <use assets/altpac.png>
 Package pdftex.def Info: assets/altpac.png  used on input line 191.
 (pdftex.def)             Requested size: 426.79134pt x 266.80849pt.
 
-Overfull \hbox (39.41748pt too wide) in paragraph at lines 193--193
-[]\T1/lmr/bx/n/14.4 Élettani paraméterek mon-i-torozása ex-trém körülmények
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 191--191
+ [] 
  []
 
-<assets/eletext.png, id=567, 645.16031pt x 367.3725pt>
+
+Overfull \hbox (4.76625pt too wide) in paragraph at lines 193--193
+[]\T1/lmr/bx/n/14.4 Élettani paraméterek mon-i-torozása ex-trém
+ []
+
+<assets/eletext.png, id=812, 645.16031pt x 367.3725pt>
 File: assets/eletext.png Graphic file (type png)
 <use assets/eletext.png>
 Package pdftex.def Info: assets/eletext.png  used on input line 195.
 (pdftex.def)             Requested size: 398.33858pt x 226.82123pt.
-[10 <./assets/altpac.png>]
-<assets/eletext2.png, id=573, 587.94656pt x 367.3725pt>
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 195--195
+ [] 
+ []
+
+[24 <./assets/altpac.png>]
+<assets/eletext2.png, id=818, 587.94656pt x 367.3725pt>
 File: assets/eletext2.png Graphic file (type png)
 <use assets/eletext2.png>
 Package pdftex.def Info: assets/eletext2.png  used on input line 196.
 (pdftex.def)             Requested size: 398.33858pt x 248.89626pt.
- [11 <./assets/eletext.png> <./assets/eletext2.png>]) [12]
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 196--196
+ [] 
+ []
+
+[25 <./assets/eletext.png>]) [26 <./assets/eletext2.png>]
 \openout2 = `masodik.aux'.
 
  (masodik.tex
-Overfull \hbox (18.41321pt too wide) in paragraph at lines 15--16
-[]\T1/lmr/m/n/12 A ny-il-ván-való ada-tok fel-dol-go-zása "egysz-er¶" (például: nincs szívhang,
+Overfull \hbox (4.24548pt too wide) in paragraph at lines 8--9
+[]\T1/lmr/m/n/12 Adott paramétertér ál-lapotvál-tozásá-nak ny-omonkövetése
  []
 
-[13
 
-
-
-] [14
-
-] [15]
-Overfull \hbox (9.69447pt too wide) in paragraph at lines 121--122
-[]\T1/lmr/m/n/12 Kommunikációs hatótávol-sá-gok, adat mul-ti-plexálási prob-lémák/id®,
+Overfull \hbox (0.13655pt too wide) in paragraph at lines 9--10
+[]\T1/lmr/m/n/12 Amit nem is-merünk, azt nem tudjuk mérni, amit tudunk
  []
 
-[16]
-<assets/fejf.png, id=601, 452.4403pt x 340.27126pt>
+[27
+
+
+
+] [28
+
+]
+Overfull \hbox (24.15308pt too wide) in paragraph at lines 70--71
+[]\T1/lmr/m/n/12 Mintavételi hi-bák (Nyquist-Shannon mintavételi elmélet) 
+ []
+
+
+Overfull \hbox (16.58133pt too wide) in paragraph at lines 84--85
+[]\T1/lmr/m/n/12 Ezt valam-i-lyen mintavételi frekven-ciá-val mért minták-ból kapjuk
+ []
+
+
+Overfull \hbox (4.91385pt too wide) in paragraph at lines 103--103
+[]\T1/lmr/bx/n/14.4 Mérnöki ki-hívá-sok a nagy-men-ny-iség¶ adat-
+ []
+
+[29]
+Overfull \hbox (9.79764pt too wide) in paragraph at lines 121--122
+[]\T1/lmr/m/n/12 Kommunikációs hatótávol-sá-gok, adat mul-ti-plexálási prob-
+ []
+
+[30]
+<assets/fejf.png, id=846, 452.4403pt x 340.27126pt>
 File: assets/fejf.png Graphic file (type png)
 <use assets/fejf.png>
 Package pdftex.def Info: assets/fejf.png  used on input line 157.
 (pdftex.def)             Requested size: 369.88582pt x 278.1831pt.
- [17]
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 157--157
+ [] 
+ []
+
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []|\T1/lmr/bx/n/10 Szisztolés ny-omás
  []
@@ -895,189 +1148,313 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []|\T1/lmr/m/n/10 Emelkedett-normális
  []
 
-[18 <./assets/fejf.png>]
-<assets/sziv.png, id=611, 570.63188pt x 399.74344pt>
+[32 <./assets/fejf.png>]
+<assets/sziv.png, id=857, 570.63188pt x 399.74344pt>
 File: assets/sziv.png Graphic file (type png)
 <use assets/sziv.png>
 Package pdftex.def Info: assets/sziv.png  used on input line 196.
 (pdftex.def)             Requested size: 369.88582pt x 259.11649pt.
-<assets/nagyv.png, id=612, 481.04718pt x 406.51875pt>
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 196--196
+ [] 
+ []
+
+[33]
+<assets/nagyv.png, id=864, 481.04718pt x 406.51875pt>
 File: assets/nagyv.png Graphic file (type png)
 <use assets/nagyv.png>
 Package pdftex.def Info: assets/nagyv.png  used on input line 199.
 (pdftex.def)             Requested size: 284.52756pt x 240.45186pt.
- [19 <./assets/sziv.png>]
-<assets/ker.png, id=621, 475.02469pt x 126.4725pt>
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 199--199
+ [] 
+ []
+
+[34 <./assets/sziv.png>]
+Overfull \hbox (30.67912pt too wide) in paragraph at lines 204--205
+[]\T1/lmr/m/n/12 Feszültség = ny-omás, az áram pedig a térfogat-, il-letve tömegáram. 
+ []
+
+<assets/ker.png, id=870, 475.02469pt x 126.4725pt>
 File: assets/ker.png Graphic file (type png)
 <use assets/ker.png>
 Package pdftex.def Info: assets/ker.png  used on input line 208.
 (pdftex.def)             Requested size: 369.88582pt x 98.4841pt.
 
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 208--208
+ [] 
+ []
+
+[35 <./assets/nagyv.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
-[20 <./assets/nagyv.png> <./assets/ker.png>]
-Overfull \hbox (0.16176pt too wide) in paragraph at lines 235--236
-[]\T1/lmr/m/n/12 Készülékek min®ség-biz-tosítása és pon-tossága, pub-likál-tak sz-ab-ványokat 
+[36{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./assets/ker.png>]
+Overfull \hbox (19.09824pt too wide) in paragraph at lines 252--253
+[]\T1/lmr/m/n/12 Bal felka-rra mandzset-tás mér®, felfújjuk, alatta sztetoszkóp-
  []
 
-[21{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-Overfull \hbox (6.16273pt too wide) in paragraph at lines 266--267
-[]\T1/lmr/m/n/12 A szisz-tolés és di-asz-tolés érték ebb®l szá-mol-ható definiált szorzókkal 
+
+Overfull \hbox (2.22563pt too wide) in paragraph at lines 258--259
+\T1/lmr/m/n/12 folyá-sol, leeresztési sebesség be-folyá-sol, szub-jek-tív a hall-
  []
 
-[22
+
+Overfull \hbox (33.94563pt too wide) in paragraph at lines 264--265
+[]\T1/lmr/m/n/12 Az artéria pulzálása meg-je-lenik a felka-rra helyezett mandzsetta
+ []
+
+
+Overfull \hbox (5.16602pt too wide) in paragraph at lines 265--266
+[]\T1/lmr/m/n/12 A pulzálás max-imális $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 Artériás közép-ny-omás-sal (MAP) 
+ []
+
+
+Overfull \hbox (1.95863pt too wide) in paragraph at lines 266--267
+[]\T1/lmr/m/n/12 A szisz-tolés és di-asz-tolés érték ebb®l szá-mol-ható definiált
+ []
+
+[37
 
 ]
-<assets/oszc.png, id=639, 551.05875pt x 260.47313pt>
+Overfull \hbox (32.06195pt too wide) in paragraph at lines 272--272
+[]\T1/lmr/bx/n/14.4 Oszcillometriás vérny-omás-mér® elvi felépítése 
+ []
+
+<assets/oszc.png, id=889, 551.05875pt x 260.47313pt>
 File: assets/oszc.png Graphic file (type png)
 <use assets/oszc.png>
 Package pdftex.def Info: assets/oszc.png  used on input line 274.
 (pdftex.def)             Requested size: 284.52756pt x 134.49292pt.
-<assets/oszc2.png, id=640, 573.64313pt x 189.70876pt>
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 274--274
+ [] 
+ []
+
+
+Overfull \hbox (5.07625pt too wide) in paragraph at lines 277--277
+[]\T1/lmr/bx/n/12 A ny-omás-mér® rész blokkvá-zlata (os-z-cil-lometriás) 
+ []
+
+<assets/oszc2.png, id=890, 573.64313pt x 189.70876pt>
 File: assets/oszc2.png Graphic file (type png)
 <use assets/oszc2.png>
 Package pdftex.def Info: assets/oszc2.png  used on input line 279.
 (pdftex.def)             Requested size: 284.52756pt x 94.09572pt.
 
-Overfull \hbox (10.80324pt too wide) in paragraph at lines 282--282
-[]\T1/lmr/bx/n/12 A ny-omás-mér® rész alulátereszt®s er®sít®jének meg-valósítása 
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 279--279
+ [] 
  []
 
-<assets/oszc3.png, id=641, 514.92375pt x 359.09157pt>
+<assets/oszc3.png, id=891, 514.92375pt x 359.09157pt>
 File: assets/oszc3.png Graphic file (type png)
 <use assets/oszc3.png>
 Package pdftex.def Info: assets/oszc3.png  used on input line 284.
 (pdftex.def)             Requested size: 284.52756pt x 198.42148pt.
-[23
 
- <./assets/oszc.png> <./assets/oszc2.png> <./assets/oszc3.png>]
-Overfull \hbox (14.14873pt too wide) in paragraph at lines 299--300
-[]\T1/lmr/m/n/12 Bal felka-ron mandzsetta $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 Ny-omása megha-l-adja a di-asz-tolés értéket,
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 284--284
+ [] 
  []
 
-[24{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [25]
-<assets/kat.png, id=660, 473.51906pt x 133.24782pt>
+[38
+
+ <./assets/oszc.png> <./assets/oszc2.png>] [39 <./assets/oszc3.png>] [40{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
+Overfull \hbox (2.2219pt too wide) in paragraph at lines 347--348
+[]\T1/lmr/m/n/12 Mikromanométer vég¶ vezet® drót végén ny-omásérzékel® 
+ []
+
+
+Overfull \hbox (3.10435pt too wide) in paragraph at lines 348--349
+[]\T1/lmr/m/n/12 Fiziológiás folyadékkal feltöltött katéter (érzékel® a küls®
+ []
+
+<assets/kat.png, id=909, 473.51906pt x 133.24782pt>
 File: assets/kat.png Graphic file (type png)
 <use assets/kat.png>
 Package pdftex.def Info: assets/kat.png  used on input line 352.
 (pdftex.def)             Requested size: 341.43306pt x 96.08067pt.
 
-Overfull \hbox (2.18155pt too wide) in paragraph at lines 367--368
-[]\T1/lmr/m/n/12 A tápc-satorna a tá-plálékkal fel-vett szén-hidrá-tokat glükózra (sz®l®cukor)
- []
-
-[26
-
- <./assets/kat.png>]
-Overfull \hbox (34.9513pt too wide) in paragraph at lines 376--377
-[]\T1/lmr/m/n/12 Az in-zulin serkenti a máj glikogén-rak-tározását és a se-jtek glükózfelvételét,
- []
-
-[27]
-Overfull \hbox (8.05501pt too wide) in paragraph at lines 400--401
-[]\T1/lmr/m/n/12 A cukor vizelet-tel való foko-zott kiválasztására és a megemelkedett vizelet-
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 352--352
+ [] 
  []
 
 
-Overfull \hbox (7.79564pt too wide) in paragraph at lines 406--407
-[]\T1/lmr/m/n/12 A betegség el®re-ha-l-adásá-val, amikor a béta-sejtek kimerülése megin-
+Overfull \hbox (10.0875pt too wide) in paragraph at lines 369--370
+[]\T1/lmr/m/n/12 Cukorhiánynál a májban egy folyam-atos sz®l®cukor-újraképzés
  []
 
 
-Overfull \hbox (38.21582pt too wide) in paragraph at lines 412--413
-[]\T1/lmr/m/n/12 A has-nyálmirigy in-zulint ter-mel® béta-sejtjeinek pusz-tulása következtében
+Overfull \hbox (6.5548pt too wide) in paragraph at lines 370--371
+[]\T1/lmr/m/n/12 A se-jtek a glükózt en-er-giafor-rásként használják valamint egyes
+ []
+
+[41
+
+ <./assets/kat.png>] [42]
+Overfull \hbox (23.78687pt too wide) in paragraph at lines 400--401
+[]\T1/lmr/m/n/12 A cukor vizelet-tel való foko-zott kiválasztására és a megemelkedett
  []
 
 
-Overfull \hbox (8.3165pt too wide) in paragraph at lines 416--417
-[]\T1/lmr/m/n/12 A ter-hesség els® három hó-napjában je-len-tkezik és a ter-hesség végével
+Overfull \hbox (21.93385pt too wide) in paragraph at lines 406--407
+[]\T1/lmr/m/n/12 A betegség el®re-ha-l-adásá-val, amikor a béta-sejtek kimerülése
  []
 
-[28]
-Overfull \hbox (7.59752pt too wide) in paragraph at lines 429--430
+[43]
+Overfull \hbox (5.24342pt too wide) in paragraph at lines 426--427
+[]\T1/lmr/m/n/12 Nem cuko-r-betegeknél $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 Étkezések el®tt akár 4-6 mmol/1
+ []
+
+
+Overfull \hbox (62.8219pt too wide) in paragraph at lines 429--430
 []\T1/lmr/m/n/12 A rend-sz-eres vér-cuko-r-mérés ered-ményeib®l sz-abad csak következtetéseket
  []
 
 
-Overfull \hbox (18.4359pt too wide) in paragraph at lines 431--432
-[]\T1/lmr/m/n/12 Ha azok egy-egy nap-sza-kra, egy-egy étkezés el®tt vagy után jellemz®en
+Overfull \hbox (9.34244pt too wide) in paragraph at lines 451--452
+[]\T1/lmr/m/n/12 Színelváltozások egyértelm¶ és minél pon-tosabb le-olvasása 
  []
 
-
-Overfull \hbox (18.92888pt too wide) in paragraph at lines 437--438
-[]\T1/lmr/m/n/12 Diétával és tablet-tá-val kezelt cuko-r-betegeknél kisebbek a vér-cuko-ringadozá-
- []
-
-[29
+[44
 
 ]
-Overfull \hbox (28.05356pt too wide) in paragraph at lines 464--464
-[]\T1/lmr/bx/n/14.4 CGM - Folyam-atos vér-cuko-r-mon-i-torozás nap-jainkban 
- []
-
-
-Overfull \hbox (2.05673pt too wide) in paragraph at lines 479--484
-\T1/lmr/m/n/12 ma kizárólag azok kap-nak, akik már régóta ezeket a készít-ményeket
- []
-
-<assets/inz.png, id=678, 667.74469pt x 314.67563pt>
+<assets/inz.png, id=928, 667.74469pt x 314.67563pt>
 File: assets/inz.png Graphic file (type png)
 <use assets/inz.png>
 Package pdftex.def Info: assets/inz.png  used on input line 504.
 (pdftex.def)             Requested size: 426.79134pt x 201.13242pt.
-[30]
-<assets/autinj.png, id=683, 660.96938pt x 150.5625pt>
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 504--504
+ [] 
+ []
+
+[45]
+<assets/autinj.png, id=933, 660.96938pt x 150.5625pt>
 File: assets/autinj.png Graphic file (type png)
 <use assets/autinj.png>
 Package pdftex.def Info: assets/autinj.png  used on input line 507.
 (pdftex.def)             Requested size: 284.52756pt x 64.81412pt.
- [31 <./assets/inz.png> <./assets/autinj.png>]
-Overfull \hbox (14.99176pt too wide) in paragraph at lines 518--518
-[]\T1/lmr/bx/n/12 Koleszterin (LDL/HDL), lak-tát, hemoglobin,triglicerid mérés 
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 507--507
+ [] 
  []
 
-<assets/ev.png, id=691, 702.37407pt x 396.7322pt>
+[46 <./assets/inz.png> <./assets/autinj.png>]
+Overfull \hbox (36.3322pt too wide) in paragraph at lines 518--518
+[]\T1/lmr/bx/n/12 Koleszterin (LDL/HDL), lak-tát, hemoglobin,triglicerid
+ []
+
+
+Overfull \hbox (9.34244pt too wide) in paragraph at lines 526--527
+[]\T1/lmr/m/n/12 Színelváltozások egyértelm¶ és minél pon-tosabb le-olvasása 
+ []
+
+<assets/ev.png, id=940, 702.37407pt x 396.7322pt>
 File: assets/ev.png Graphic file (type png)
 <use assets/ev.png>
 Package pdftex.def Info: assets/ev.png  used on input line 547.
 (pdftex.def)             Requested size: 426.79134pt x 241.08006pt.
-[32
 
-] [33 <./assets/ev.png>] [34] [35
-
-] [36
-
-]
-Overfull \hbox (18.9287pt too wide) in paragraph at lines 672--672
-[]\T1/lmr/bx/n/14.4 A mon-i-torozás ered-ményeinek fel-használási területei 
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 547--547
+ [] 
  []
 
-[37
+[47
 
-]) [38]
+] [48 <./assets/ev.png>]
+Overfull \hbox (14.42857pt too wide) in paragraph at lines 590--591
+[]\T1/lmr/m/n/12 Nyúlásképes pánt, ami a mel-lkas tér-fo-gatvál-tozását érzékeli 
+ []
+
+[49]
+Overfull \hbox (12.59926pt too wide) in paragraph at lines 615--616
+[]\T1/lmr/m/n/12 Helyesen/helytelenül végzett gyako-r-lat (szög, sebesség,
+ []
+
+
+Overfull \hbox (3.90659pt too wide) in paragraph at lines 629--630
+[]\T1/lmr/m/n/12 Testen viselt szen-zorok $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 Ak-ti-grá-fok, ak-tiv-itás érzékel®k 
+ []
+
+
+Overfull \hbox (6.26959pt too wide) in paragraph at lines 634--635
+[]\T1/lmr/m/n/12 Kamera alapú rend-sz-erek passzív op-tikai ref-er-en-cia mark-
+ []
+
+[50
+
+]
+Overfull \hbox (10.66827pt too wide) in paragraph at lines 645--646
+[]\T1/lmr/m/n/12 Mozgásérzékel® szen-zor (ac-celerométer), ami al-ka-lmas a külön-
+ []
+
+
+Overfull \hbox (25.02995pt too wide) in paragraph at lines 654--654
+[]\T1/lmr/bx/n/14.4 Mozgásmennyiség fi-gyelés (életviteli minták) 
+ []
+
+
+Overfull \hbox (37.74731pt too wide) in paragraph at lines 662--663
+[]\T1/lmr/m/n/12 Cél $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 A moz-du-lat/test-mozgás kval-i-tatív és kvan-ti-tatív jellemz®inek
+ []
+
+[51
+
+]
+Overfull \hbox (14.68541pt too wide) in paragraph at lines 672--672
+[]\T1/lmr/bx/n/14.4 A mon-i-torozás ered-ményeinek fel-használási
+ []
+
+[52
+
+]) [53]
 \openout2 = `harmadik.aux'.
 
- (harmadik.tex [39
+ (harmadik.tex
+Overfull \hbox (15.54169pt too wide) in paragraph at lines 7--8
+\T1/lmr/m/n/12 je-len-ségeit vizs-gálja, a szívizom-összehúzódásakor keletkez®
+ []
+
+
+Overfull \hbox (41.41245pt too wide) in paragraph at lines 16--18
+[]\T1/lmr/m/n/12 A szív elek-tro-mos jeleit vizs-gáló eljárás (a szívizom-összehúzódásakor
+ []
+
+[54
 
 
 
 ]
-<assets/ekg.png, id=726, 593.96906pt x 407.27156pt>
+<assets/ekg.png, id=975, 593.96906pt x 407.27156pt>
 File: assets/ekg.png Graphic file (type png)
 <use assets/ekg.png>
 Package pdftex.def Info: assets/ekg.png  used on input line 44.
 (pdftex.def)             Requested size: 369.88582pt x 253.63057pt.
- [40
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 44--44
+ [] 
+ []
+
+[55
 
  <./assets/ekg.png>]
-<assets/gorbe.png, id=732, 223.58531pt x 132.495pt>
+<assets/gorbe.png, id=982, 223.58531pt x 132.495pt>
 File: assets/gorbe.png Graphic file (type png)
 <use assets/gorbe.png>
 Package pdftex.def Info: assets/gorbe.png  used on input line 48.
 (pdftex.def)             Requested size: 199.16928pt x 118.02933pt.
- [41
+
+Overfull \hbox (58.74939pt too wide) in paragraph at lines 48--48
+ [] 
+ []
+
+
+Overfull \hbox (0.38713pt too wide) in paragraph at lines 59--60
+[]\T1/lmr/bx/n/12 R $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 a leg-nagy-obb csúcs a kam-rákon végigter-jed® in-gerületet
+ []
+
+[56
 
  <./assets/gorbe.png>]
 Underfull \hbox (badness 3281) in paragraph at lines 86--88
@@ -1104,19 +1481,24 @@ Underfull \hbox (badness 2529) in paragraph at lines 100--102
 []\T1/lmr/m/n/12 V4: az ötödik bor-daközhöz (5. és
  []
 
-<assets/_12.png, id=738, 188.20313pt x 300.3722pt>
+<assets/_12.png, id=988, 188.20313pt x 300.3722pt>
 File: assets/_12.png Graphic file (type png)
 <use assets/_12.png>
 Package pdftex.def Info: assets/_12.png  used on input line 112.
 (pdftex.def)             Requested size: 170.71652pt x 272.48203pt.
 
-Overfull \hbox (31.06381pt too wide) in paragraph at lines 83--114
+Overfull \hbox (89.8132pt too wide) in paragraph at lines 83--114
 []   [] 
  []
 
-[42
+[57
 
-] [43 <./assets/_12.png>]
+] [58 <./assets/_12.png>]
+Overfull \hbox (8.9796pt too wide) in paragraph at lines 123--124
+[]\T1/lmr/m/n/12 Edzés/sportmozgás mon-i-torozás (egyéni és csap-at-sportra) 
+ []
+
+
 Underfull \hbox (badness 6001) in paragraph at lines 149--149
 []|\T1/lmr/m/n/10 < DAQ har-ness:
  []
@@ -1141,19 +1523,24 @@ Underfull \hbox (badness 2644) in paragraph at lines 149--149
 \T1/lmr/m/n/10 breath-ing ac-tiv-ity,
  []
 
-[44
+[59
 
 ]
-Overfull \hbox (37.10887pt too wide) in paragraph at lines 175--177
-[]\T1/lmr/m/n/12 súlyosabb es-et-ben azon-ban ronc-sol-hatja a sz-ervezetet, eszméletvesztéshez,
+Overfull \hbox (9.39662pt too wide) in paragraph at lines 178--180
+[]\T1/lmr/m/n/12 Pacemaker beül-tetésével ezek a tünetek elt¶n-het-nek, a betegek
  []
 
-[45]
-Overfull \hbox (1.43515pt too wide) in paragraph at lines 254--257
-[]\T1/lmr/m/n/12 Ez a tí-pus egy har-madik vezetékkel a két kamra egyidej¶ össze-húzódását
+
+Overfull \hbox (3.87589pt too wide) in paragraph at lines 194--196
+[]\T1/lmr/m/n/12 Bizonyos gyó-gysz-erek szedése mel-lett, pl. Béta-blokkolók
  []
 
-[46]) [47] (szenzormodalitasok.aux (elso.aux) (masodik.aux) (harmadik.aux))
+[60]
+Overfull \hbox (2.24898pt too wide) in paragraph at lines 251--254
+[]\T1/lmr/m/n/12 Az el®z® tí-pus a jobb pit-var és a jobb kamra együttm¶ködését
+ []
+
+[61]) [62] (szenzormodalitasok.aux (exam.aux) (elso.aux) (masodik.aux) (harmadik.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -1163,20 +1550,20 @@ L3 programming layer <2023-06-30>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `szenzormodalitasok.out' has not changed.
-(rerunfilecheck)             Checksum: F9AAE622BAA9FB2F89A2C46BCED2B183;20887.
+(rerunfilecheck)             Checksum: 50FA38A36315D0173320B66EFBFC7172;28804.
  ) 
 Here is how much of TeX's memory you used:
- 28414 strings out of 475550
- 569970 string characters out of 5762533
+ 28535 strings out of 475550
+ 572208 string characters out of 5762533
  1933238 words of memory out of 5000000
- 48954 multiletter control sequences out of 15000+600000
+ 49009 multiletter control sequences out of 15000+600000
  611933 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,10n,87p,566b,739s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,87p,630b,736s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on szenzormodalitasok.pdf (47 pages, 3489391 bytes).
+Output written on szenzormodalitasok.pdf (62 pages, 3541230 bytes).
 PDF statistics:
- 852 PDF objects out of 1000 (max. 8388607)
- 146 named destinations out of 1000 (max. 500000)
- 980 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1113 PDF objects out of 1200 (max. 8388607)
+ 205 named destinations out of 1000 (max. 500000)
+ 1260 words of extra memory for PDF output out of 10000 (max. 10000000)
 

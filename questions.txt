@@ -1,0 +1,224 @@
+﻿
+Exam structure:
+
+-Essay Topics 2 pcs
+-Simple questions  (5x3) = 15 pcs
+
+
+Essay Topic - Complex questions
+  Can contain 4/5 sub-questions, these sub-questions are helpers to answer all the topics within the topic. 
+  The points are calculated how broad and deep your knowlege is in the topic.
+  (The sub-questions just tries to help, this is the MINIMUM! Write more if you want to be on the safe side...). NOT only 1-2 senstences, long explanation needed!
+
+
+Topics
+
+I. Sensor
+1. Sensor Definition 
+2. Sensor categories (measured values/effects)
+3. Sensor usage areas/domains
+4. Sensor problems
+5. Actuator definition and some examples
+
+II. DAQ/Traditional control/DCS/SCADA/Monitoring/Control systems overview
+1. DIKW pyramid with explanation
+2. Traditional control vs. Distributed control
+3. Generic DAQ system (advantages/disadvantages, usage domains)
+4. Generic DCS system (advantages/disadvantages, usage domains)
+5. Generic SCADA system (advantages/disadvantages, usage domains)
+
+
+III. DAQ
+1. DAQ system building blocks/components
+2. Usage scenario/domains
+3. Signal conditioning
+4. Generic patient monitoring DAQ infrastructure
+5. Problems to solve in DAQ systems
+
+
+IV. Distributed Control System (DCS) 
+1. Distributed Control System (DCS) architecture
+2. Distributed Control System (DCS) building blocks/elements
+3. Distributed Control System (DCS) advantages/disadvantages
+4. Distributed Control System (DCS) usage domains, examples
+
+V.Supervisory control and data acquisition - SCADA, 
+1. Supervisory control and data acquisition - SCADA architecture, building blocks/elements
+2. Supervisory control and data acquisition - SCADA advantages/disadvantages
+3. Supervisory control and data acquisition - SCADA usage domains, examples
+4. SCADA functions
+5. Basic SCADA vs. Integrated SCADA vs. Networked SCADA
+
+VI.Biosignal acquisition
+1. Biosignals (types, origins)
+2. Sensor data handling workflow
+3. Measurement errors (types, sources)
+4. Single vs. multi sensor measurement issues
+5. challenges with large scale biosignal DAQ systems
+
+VII. Biosignal acquisition in sport and elderly care
+1. Sport monitoring solutions (activity/performance) and problems
+2. Environment and location monitoring (location monitoring issues)
+3. Monitoring elderly persons (issues and solutions)
+4. Hypertension monitoring (methods, equipments)
+5. Diabetes monitoring (methods, equipments, CGM, artificial pancrease issues)
+
+VIII. I2C  and SPI (short range wired communication)
+1. I2C communication: architecture/building blocks
+2. I2C: advantages/disadvantages, usage domains
+3. SPI: architecture/building blocks
+4. SPI: advantages/disadvantages, usage domains
+5. comparison: I2C vs. SPI
+
+IX.Wireless communication technologies 
+1. BAN networks (range, usable technologies, concepts: speed,power consumption, usage areas,...)
+2. PAN networks (range, usable technologies, concepts: speed,power consumption, usage areas,...)
+3. LAN networks (range, usable technologies, concepts: speed,power consumption, usage areas,...)
+4. MAN networks (range, usable technologies, concepts: speed,power consumption, usage areas,...)
+5. WAN networks (range, usable technologies, concepts: speed,power consumption, usage areas,...)
+
+X. USB
+1. USB architecture/building blocks, device categories,
+2. USB advantages/disadvantages, usage domains
+3. USB connectors, OTG
+4. USB enumeration 
+5. Comparison: USV vs serial (RS-232) communication
+
+
+-----------------------------------------------------------------
+
+Term definitions
+-15 pcs 
+-Define the terms with a single sentence (short explanation needed)
+
+
+
+
+1.	sensor
+2.	modality
+3.	smart city
+4.	smart agriculture
+5.	IoT
+6.	telemedicine
+7.	ICT
+8.	precision farming
+9.	wearable devices
+10.	connected devices
+11.	transducer
+12.	A/D converter
+13.	signal noise
+14.	binary code
+15.	actuator
+16.	signal conditioning
+17.	signal scaling
+18.	amplification
+19.	linearization
+20.	compensation
+21.	filtering
+22.	attenuation
+23.	excitation
+24.	Distributed diagnostic
+
+25.	Distributed access
+26.	field bus
+27.	telemetry
+28.	Distributed Control System (DCS)
+29.	Supervisory control and data acquisition (SCADA)
+30.	DAQ
+31.	MTU - Master Terminal Unit
+32.	Front End processor
+33.	Safety Server
+34.	HMI -Human Machine Interface
+35.	MMI
+36.	RTU - Remote Terminal Unit
+37.	PLC -Programmable Logic Controller
+38.	IED - Intelligent Electronic Device
+39.	Trending
+40.	API
+41.	Biosignal
+42.	living organism
+43.	metabolism
+44.	homeostasis
+45.	stimuli
+46.	invasive measurement
+47.	non-invasive measurement
+48.	Nyquist–Shannon sampling theorem
+49.	AAMI - American Association for the Advancement of Medical Instrumentation
+50.	BHS-British Hypertension Society 
+51.	remote monitoring
+52.	variability
+53.	white coat syndrome
+54.	Korotkov sound
+55.	medication monitoring
+56.	hypertension
+57.	Systolic pressure-force
+58.	Diastolic pressure-force 
+59.	Auscultation method
+60.	Oscillometry method 
+61.	PPG-based measurement
+62.	Tonometry method 
+63.	BPM
+64.	LDL
+65.	HDL
+66.	Lactat monitoring
+67.	cholesterol level
+68.	Triglycerides level 
+69.	glucose
+70.	Inzulin receptor
+71.	Inzulin resistance
+72.	Diabetes mellitus
+73.	Type 2 diabetes
+74.	Type 1 diabetes
+75.	Gestational diabetes
+76.	HbA1c
+77.	Lancets
+78.	test stripe
+79.	Photometric method
+80.	Amperometric  method
+81.	CGM
+82.	artificial pancreas
+83.	insulin intake
+84.	pill dispenser
+85.	heart infarct
+86.	stroke
+87.	AAL- Ambient Assisted Living
+88.	Digital stethoscope
+89.	ECG 
+90.	 MET - Calorie/ Metabolic equivalent
+91.	S-T elevation
+92.	EEG
+93.	EMG
+94.	SPO2
+95.	Apnoe
+96.	IMU
+97.	peak flow meter
+98.	spirometer
+99.	Body Composition Monitors
+100.	RS-232
+101.	 SPI
+102.	 I2C
+103.	 UART
+104.	 USART
+105.	 CAN
+106.	 1wire
+108.	 USB
+109.	 Body communication
+110.	 Textile wires / conductive yarns
+111.	8N1N
+112.	DTE 
+113.	DCE
+114.	baud
+115.	JTAG
+116.	MOSI : Master Output, Slave Input
+117.	MISO : Master Input, Slave Output
+118.	SS : Slave Select
+119.	SDA (serial data)
+120.	SCL (serial clock)
+121.	UART
+122.	USART
+123.	FIFO
+124.	SCSI
+125.	NRZI
+126.	ACK
+127.	OTG
+128.	BAN
