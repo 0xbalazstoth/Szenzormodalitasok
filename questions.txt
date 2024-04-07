@@ -118,7 +118,6 @@ Term definitions
 22.	attenuation
 23.	excitation
 24.	Distributed diagnostic
-
 25.	Distributed access
 26.	field bus
 27.	telemetry

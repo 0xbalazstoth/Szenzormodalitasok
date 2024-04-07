@@ -388,3 +388,434 @@
         \item Biztonság, megbízhatóság, használhatóság
     \end{itemize}
 \end{itemize}
+
+\clearpage
+\subsection{Biojel-gyűjtés a sportban és az idősgondozásban}
+\subsubsection{Sportmonitoring megoldások (aktivitás/teljesítmény) és problémák}
+\begin{itemize}
+    \item Viselhető eszközök (pulzusmérők, lépésszámlálók, GPS órák)
+    \item Erő és mozgásérzékelők (gyorsulásmérők, giroszkópok)
+    \item Problémák
+    \begin{itemize}
+        \item Adatpontosság és megbízhatóság (kalibrációs, szenzorhibák)
+        \item Viselhetőség és kényelem
+        \item Adatkezelés, adatbiztonság, adatvédelem
+        \item Integráció más rendszerekkel (kompatibilitási problémák)
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Környezet és lokáció monitoring (lokáció monitoring problémák)}
+\begin{itemize}
+    \item Környezet monitoring (Kamera, Sugárzásmérők, Levegőminőségmérők)
+    \item Lokáció monitoring (GPS, Bluetooth/WiFi alapú rendszerek, GSM/2G/3G/4G/5G, IMU)
+    \item Lokáció monitoring problémák
+    \begin{itemize}
+        \item \textbf{Pontatlanságok} (beltérben, beépített városi területeken)
+        \item \textbf{Magas energiatakarékosság}
+        \item \textbf{Integráció és kompatibilitás}
+        \item \textbf{Jogi és etikai megfontolások}
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Idősek monitorozása (problémák és megoldások)}
+\begin{quote}
+    Távoli betegmonitorozás (Diabétesz/Gyógyszeres/Hipertónia monitorozás)
+\end{quote}
+\begin{itemize}
+    \item \textbf{Problémák} (Technológiai akadályok, fizikai és kognitív korlátok)
+    \item \textbf{Megoldások} (Egyszerűsített interfészek, személyre szabott beállítások, oktatás/támogatások)
+\end{itemize}
+
+\subsubsection{Hipertónia/Magas vérnyomás monitoring}
+\begin{itemize}
+    \item \textbf{Módszerek}
+    \begin{itemize}
+        \item \textbf{Auszkultációs módszer} (Manuális vérnyomásmérés, stetoszkóp és egy manuális mandzsettát használnak a Korotkov-hangok hallgatására, ami lehetővé teszi a szisztolés és diasztolés vérnyomás mérését.)
+        \item \textbf{Oszcillometriás módszer} (Automatizált módszer, mandzsetta automatikusan felfújódik, és az oszcillációkat méri, amikor lassan engedi le a levegőt, így meghatározva a vérnyomást.)
+    \end{itemize}
+    \item \textbf{Eszközök}
+    \begin{itemize}
+        \item Felső karos vérnyomásmérők, csuklós vérnyomásmérők, ujjvérnyomásmérők
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsubsection{Diabétesz/cukorbetegség monitorozása (módszerek, berendezések, CGM, mesterséges hasnyálmiriggyel kapcsolatos kérdések)}
+\begin{itemize}
+    \item \textbf{Monitorozási módszerek}
+    \begin{itemize}
+        \item \textbf{Ujjbegy tesztelés}, (hagyományos vércukorszint-mérés), kisméretű vércukormérő eszközök, csepp vért igényelnek.
+        \item \textbf{Szenzorok}, (folyamatos glükózmonitorozás - CGM), bőr alá helyezett kis szenzorok folyamatosan mérnek.
+    \end{itemize}
+    \item \textbf{Berendezések} (Digitális glükózmérők, folyamatos monitorozó eszközök (CGM rendszerek))
+    \item \textbf{CGM}
+    \begin{itemize}
+        \item Apró glükózérzkleő szenzort helyeznek a bőr alá, általában a hason vagy a felső kar hátsó részén.
+        \item A szenzor méri a szöveti glükózszintet, és az információt továbbküldi egy eszközre.
+        \item A rendszer átlagos vércukorértékeket rögzít 1-5 perces intervallumokban, folyamatos nyomon követés.
+        \item Ujjbegy tesztelés és kalibráció szükséges a pontossághoz.
+        \item A rendszer riasztásokat küld, ha a vércukorszint eléri vagy átlépi a beállított célértékeket.
+        \item Inzulin "pumpával" kombinálva
+        \item Mesterséges hasnyálmirigy, automatikus algoritmusok
+        \item Inzulin, szénhidrát bevitele
+    \end{itemize}
+    \item \textbf{Mesterséges hasnyálmirigy problémák} (Rendszer összetettsége, automatizációs problémák)
+\end{itemize}
+
+\clearpage
+\subsection{I2C és SPI (rövid hatótávolságú vezetékes kommunikáció)}
+\subsubsection{I2C kommunikáció}
+\begin{itemize}
+    \item Integrált áramkörök összekapcsolására
+    \item Busz alapú
+    \item Kétvezetékes szinkron adatátviteli rendszer
+    \item Két vezeték (SCL - órajel; SDA - adat)
+    \item Alternatívák (SMBus/PMBus)
+    \item Egy/több master és egy/sok slave
+    \item Master csinál mindent
+    \begin{itemize}
+        \item Mindig a Master küldi az órajelet az SCL vonalra.
+        \item Master kezdeményez adattranszfert
+    \end{itemize}
+    \item Slave fogadja az órajelet és válaszol ha kérdezik
+    \item (Start) + cím +, egy bites vezérlő jel mutatja meg, hogy a megjelölt Slave-et a Master írni vagy olvasni kívánja.
+    \item Master és Slave szerep felcserélhető.
+    \item Felhúzó ellenállásokkal szokták kötni, de ez breakout boardoknál már általában be van építve.
+\end{itemize}
+
+\subsubsection{I2C előnyök/hátrányok, alkalmazási területek}
+\begin{itemize}
+    \item \textbf{Előnyök} (Alacsony vezetékszám, több eszköz támogatása, beépített konfliktuskezelés, rugalmas sebesség, egyszerű implementáció)
+    \item \textbf{Hátrányok} (Korlátozott távolság, relatív lassúság, buszkonfliktusok több eszköznél, Master központúság)
+    \item \textbf{Alkalmazási területek} (Beágyazott rendszerek, mobileszközök, elektronika)
+\end{itemize}
+
+\subsubsection{SPI komponensei}
+\begin{quote}
+    Serial Peripheral Interface, egy szinkron, soros adatkapcsolati protokoll, amit mikrokontrollerek és perifériás eszközök közötti gyors adatátvitelre használnak.
+\end{quote}
+\begin{itemize}
+    \item \textbf{MOSI (Master Out Slave In)} (A Master eszköz adatkimeneti vonala, amin keresztül adatokat küld a sorrendben lévő eszközöknek.) 
+    \item \textbf{MISO (Master In Slave Out)} (A sorrendben lévő eszköz adatkimeneti vonala, amin keresztül adatokat küld vissza a Master eszköznek.) 
+    \item \textbf{SS (Slave Select)} (Eszköz aktiválása az adatátvitel idejére)
+\end{itemize}
+
+\subsubsection{SPI előnyök/hátrányok, alkalmazási területek}
+\begin{itemize}
+    \item \textbf{Előnyök} (Magas átviteli sebesség, teljes duplex kommunikáció, nincs címzés, egyszerű kommunikáció)
+    \item \textbf{Hátrányok} (Több vezetékre van szükség, nem támogat busz megosztást, skálázhatóság, hiányzó beépített konfliktuskezelés)
+    \item \textbf{Alkalmazási területek} (Adattároló eszközök, kijelzők, szenzorok, hálózati eszközök, digitális-analóg és analóg-digitális átalakítók)
+\end{itemize}
+
+\clearpage
+\subsubsection{I2C vs. SPI}
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{\textwidth}{X X X}
+    \toprule
+    \textbf{Jellemző} & \textbf{I2C} & \textbf{SPI} \\
+    \midrule
+    Sebesség & Lassabb, max 3.4 Mbps & Gyorsabb, több Mbps is lehet \\ \hline
+    Vezetékek Száma & 2 (SDA, SCL) & Legalább 4 (MISO, MOSI, SCK, SS), több SS vezetékkel \\ \hline
+    Címzés & Beépített címzési rendszer & Nincs beépített címzés, külön SS vezeték szükséges \\ \hline
+    Adatátvitel Módja & Fél-duplex & Teljes duplex \\ \hline
+    Komplexitás és Hardverigény & Egyszerűbb, kevesebb vezetékkel & Bonyolultabb, több vezetékkel \\ \hline
+    Felhasználási Területek & Kisebb sebességű alkalmazások, érzékelők & Adatigényes alkalmazások, nagy sebességű interfészek \\
+    \bottomrule
+    \end{tabularx}
+    \label{table:i2c_vs_spi}
+\end{table}
+
+\clearpage
+\subsection{Vezeték nélküli kommunikációs technológiák}
+\subsubsection{BAN (Body Area Network) hálózatok}
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{\textwidth}{X X}
+    \toprule
+    \textbf{Jellemző} & \textbf{Információ} \\
+    \midrule
+    Hatótávolság & Néhány méter, a test közvetlen közelében \\ \hline
+    Felhasználható Technológiák & Bluetooth Low Energy (BLE), ZigBee, NFC, Wi-Fi Direct \\ \hline
+    Sebesség & ZigBee: alacsony, Wi-Fi Direct: magas \\ \hline
+    Energiafogyasztás & Alacsony, hosszú akkumulátor-élettartam előnyös \\ \hline
+    Felhasználási Területek & Egészségügyi monitorozás, fitness követés, okosruházat, személyes biztonság \\
+    \bottomrule
+    \end{tabularx}
+    \label{table:ban_networks}
+\end{table}
+
+\subsubsection{PAN hálózatok}
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{\textwidth}{X X}
+    \toprule
+    \textbf{Jellemző} & \textbf{Információ} \\
+    \midrule
+    Hatótávolság & 10 métertől 100 méterig \\
+    \hline
+    Felhasználható Technológiák & Bluetooth, Bluetooth Low Energy (BLE), ZigBee, NFC, Wi-Fi Direct \\
+    \hline
+    Sebesség & BLE: 1 Mbps, Wi-Fi: 250 Mbps-ig \\
+    \hline
+    Energiafogyasztás & Nagyon alacsonytól (BLE) közepesig (Wi-Fi) \\
+    \hline
+    Felhasználási Területek & Okoseszközök kapcsolata, adatátvitel, média streaming, okosotthon-vezérlés \\
+    \bottomrule
+    \end{tabularx}
+    \label{table:pan_networks}
+\end{table}
+
+\clearpage
+\subsubsection{LAN hálózatok}
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{\textwidth}{X X}
+    \toprule
+    \textbf{Jellemző} & \textbf{Információ} \\
+    \midrule
+    Hatótávolság & Általában 100 métertől több kilométerig, bővíthető repeater-ekkel és bridge-ekkel \\
+    \hline
+    Felhasználható Technológiák & Ethernet (vezetékes), Wi-Fi (vezeték nélküli), PowerLine \\
+    \hline
+    Sebesség & Ethernet: akár 10/100/1000 Mbps (Gigabit), Wi-Fi: akár 600 Mbps-ig, attól függően, hogy melyik Wi-Fi szabványt használják \\
+    \hline
+    Energiafogyasztás & Vezetékes LAN esetében alacsony, Wi-Fi esetében változó, függ a használati módoktól és a hálózati forgalomtól \\
+    \hline
+    Felhasználási Területek & Irodai hálózatok, oktatási intézmények, otthoni hálózatok, internet-hozzáférés megosztása, fájlmegosztás, multimédia streaming \\
+    \bottomrule
+    \end{tabularx}
+    \label{table:lan_networks}
+\end{table}
+
+\clearpage
+\subsubsection{MAN hálózatok}
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{\textwidth}{X X}
+    \toprule
+    \textbf{Jellemző} & \textbf{Információ} \\
+    \midrule
+    Hatótávolság & Általában 5 km-től 50 km-ig, városi vagy nagyvárosi területeken \\
+    \hline
+    Felhasználható Technológiák & Ethernet, ATM, Frame Relay, MPLS, WiMAX, LTE \\
+    \hline
+    Sebesség & Több Mbps-től Gbps-ig terjedő sebességek, a technológiától függően \\
+    \hline
+    Energiafogyasztás & Függ a használt infrastruktúrától és technológiától, jellemzően magasabb, mint a LAN-oknál \\
+    \hline
+    Felhasználási Területek & Városi hálózatok összekötése, internet-szolgáltatók, nagyvárosi területi hálózatok, egyetemi kampuszok \\
+    \bottomrule
+    \end{tabularx}
+    \label{table:man_networks}
+\end{table}
+
+\clearpage
+\subsubsection{WAN hálózatok}
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{\textwidth}{X X}
+    \toprule
+    \textbf{Jellemző} & \textbf{Információ} \\
+    \midrule
+    Hatótávolság & Több száz vagy ezer kilométer, nemzetközi és kontinentális távolságok \\
+    \hline
+    Felhasználható Technológiák & MPLS, Frame Relay, ATM, Ethernet WAN, VPN, Satellite, LTE/5G \\
+    \hline
+    Sebesség & Különböző, Mbps-tól Gbps-ig, a használt technológiától és infrastruktúrától függően \\
+    \hline
+    Energiafogyasztás & Jellemzően magas, különösen a hosszú távú infrastruktúrák és nagy teljesítményű eszközök miatt \\
+    \hline
+    Felhasználási Területek & Nemzetközi vállalati hálózatok, távoli adatközpontok összekapcsolása, internet-hozzáférés, távoli munka \\
+    \bottomrule
+    \end{tabularx}
+    \label{table:wan_networks}
+\end{table}
+
+\subsection{USB}
+\subsubsection{USB architektúra/komponensei, eszköz kategóriák}
+\begin{itemize}
+    \item \textbf{Architektúra építőelemei}
+    \begin{itemize}
+        \item Host Controller, USB portok, USB eszközök, USB hubok, adatátviteli protokollok
+    \end{itemize}
+    \item \textbf{Eszköz kategóriák}
+    \begin{itemize}
+        \item Tároló eszközök, beviteli eszközök, kommunikációs eszközök, audio és videó eszközök, nyomtatók és szkennerek, okos készülékek
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsubsection{USB előnyök/hátrányok, alkalmazási területek}
+\begin{itemize}
+    \item \textbf{Előnyök}, univerzalitás, energiaellátás, adatátvitel, portabilitás
+    \item \textbf{Hátrányok}, biztonsági kockázatok, port korlátozottság, kompatibilitási problémák
+    \item \textbf{Alkalmazási területek}, multimédia, hálózati alkalmazások, tárolóeszközök, perifériák, mobileszközök
+\end{itemize}
+
+\subsubsection{USB csatlakozók, OTG (On the Go)}
+\begin{itemize}
+    \item \textbf{USB csatlakozók}
+    \begin{itemize}
+        \item USB-A, USB-B, Mini-USB, Micro-USB, USB-C
+    \end{itemize}
+    \item \textbf{USB On the Go (OTG)}
+    \begin{itemize}
+        \item Kiegészítő szabvány, kétirányú kommunikáció, hordozhatóság, komptakt csatlakozó
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{USB Enumeration}
+\begin{itemize}
+    \item Kommunikáció a perifériával, feltérképezi, hogy milyen eszköz, driver betöltés, azonosító ID hozzárendelés, az áramfelvétel szabályozása.
+\end{itemize}
+
+\subsubsection{USB. RS-232 (serial)}
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{\textwidth}{X X}
+    \toprule
+    \textbf{Jellemző} & \textbf{USB vs. RS-232} \\
+    \midrule
+    Sebesség & USB: Akár 10 Gbps (USB 3.1) vs. RS-232: Maximum 115,200 bps \\
+    \midrule
+    Csatlakozók & USB: Több típus, beleértve A, B, Mini, Micro, C vs. RS-232: Általában D-sub 9 vagy 25 pines csatlakozó \\
+    \midrule
+    Kábelezés & USB: Maximum 5 méter vs. RS-232: Akár 15 méter vagy több, jellemzően kisebb adatsebesség mellett \\
+    \midrule
+    Energiaellátás & USB: Eszközök tápellátása lehetséges a buszon keresztül vs. RS-232: Nem biztosít tápellátást \\
+    \midrule
+    Alkalmazási terület & USB: Széles körű, beleértve számítástechnikát, mobil eszközöket, tárolót vs. RS-232: Ipari vezérlés, régebbi eszközök kommunikációja \\
+    \bottomrule
+    \end{tabularx}
+    \label{table:usb_vs_rs232}
+\end{table}
+
+\clearpage
+\section{Fogalmak}
+\begin{itemize}
+    \item \textbf{Szenzor (sensor)}: A szenzor egy eszköz, ami fizikai ingereket (hőmérséklet, fény, nyomás) érzékel és mérhető jelekké alakítja.
+    \item \textbf{Modalitás (modality)}: Érzékelés módja (látás, tapintás, hallás)
+    \item \textbf{Okos város (smart city)}: Olyan város, ami az infokommunikációs technológiák segítségével hatékonyabban és fenntarthatóbban üzemelteti a szolgáltatásait. (közlekedés, energiaellátás)
+    \item \textbf{Okos mezőgazdaság (smart agriculture)}: Az infokommunikációs technológiákat használó mezőgazdaság, ami a termelést optimalizálja és a hatékonyságot növeli.
+    \item \textbf{IoT}: Olyan eszközök hálózata, amik az interneten keresztül kommunikálnak egymással és adatokat gyűjtenek.
+    \item \textbf{Távgyógyászat (telemedicine)}: Távoli gyógyítás, ahol az orvos és a beteg nem ugyanazon a helyen tartózkodik.
+    \item \textbf{ICT}: Információs és kommunikációs technológiák gyűjtőneve, internet, mobiltelefon, számítógép.
+    \item \textbf{Precíziós mezőgazdaság (precision farming)}: GPS és szenzorok használatával optimalizálja a mezőgazdasági termelést.
+    \item \textbf{Viselhető elektronikai eszközök (wearable devices)}: Viselhető elektronikai eszközök, okosórák, fitneszórák
+    \item \textbf{Összekapcsolt eszközök (connected devices)}: Interneten vagy belső hálózaton összekapcsolt eszközök, amik adatot cserélnek.
+    \item \textbf{Átalakító (transducer)}: Fizikai jelet elektromos jellé alakít.
+    \item \textbf{A/D konverter (A/D converter)}: Analóg jelet digitális jellé alakít.
+    \item \textbf{Zavaró jel (signal noise)}: A hasznos jelhez nem kapcsolódó zavaró jel.
+    \item \textbf{Bináris kód (binary code)}: 0 és 1-es számjegyekkel ábrázolt információ.
+    \item \textbf{Aktuátor (actuator)}: Elektromos jelet mechanikai mozgássá alakít.
+    \item \textbf{Jel kondícionálás (signal conditioning)}: A jel erősségének, zajszintjének és formátumának az érzékelőhöz vagy továbbításához való igazítása.
+    \item \textbf{Jel skálázása (signal scaling)}: A jel erősségének arányos módosítása egy kívánt tartományba.
+    \item \textbf{Amplifikáció/erősítés (amplification)}: A jel erősségének növelése.
+    \item \textbf{Linearizáció (linearization)}: A nemlineáris jel lineáris közelítésbe történő alakítása.
+    \item \textbf{Kompenzáció (compensation)}: A mérésihibák kiegyenlítése.
+    \item \textbf{Szűrés (filtering)}: A nem kívánt jelek eltávolítása a jelből.
+    \item \textbf{Csökkentés (attenuation)}: A jel erősségének csökkentése.
+    \item \textbf{Gerjesztés (excitation)}: Egy rendszer bemenő jellel való ellátása.
+    \item \textbf{Elosztott diagnosztika (distributed diagnostic)}: A rendszer különböző pontjain történő hibafeltárás.
+    \item \textbf{Elosztott hozzáférés (distributed access)}: Több eszköz egy kommunikációs csatornát használ közösen.
+    \item \textbf{Fieldbus}: Digitális kommunikációs hálózat terepi eszközök és vezérlők között.
+    \item \textbf{Telemetria (telemetry)}: Távoli adatgyűjtés és átvitel, szenzor adatainak továbbítása.
+    \item \textbf{Elosztott vezérlő rendszer (Distributed Control System - DCS)}: Vezérlési folyamatokat moduláris egységek között osztja szét, amik kommunikálnak egymással egy közös hálózaton keresztül.
+    \item \textbf{Supervisory control and data acquisition (SCADA)}: Lehetővé teszik a nagy ipari és infrastrukturális folyamatok távoli monitorozását, vezérlését és automatizálását.
+    \item \textbf{DAQ}: Adatgyűjtő rendszerek, lehetővé teszik fizikai jelenségek valós idejű monitorozását és analízisét.
+    \item \textbf{MTU - Master Terminal Unit}: Fő terminálegység, távvezérlő rendszerekben a kommunikációt irányítja.
+    \item \textbf{Front End processor}: Előfeldolgozó egység, adatgyűjtő és előkészítő modul.
+    \item \textbf{Biztonsági szerver (safety server)}: Ipari rendszerek védelmét biztosítja.
+    \item \textbf{HMI - Human Machine Interface}: Felhasználói felület, ami összekapcsolja az embert egy géppel, rendszerrel, eszközzel.
+    \item \textbf{MMI - Machine Machine Interface}: Információ csere, RFID, Bluetooth, telemetria
+    \item \textbf{RTU - Remote Terminal Unit}: Távoli terminál egység, ami adatokat gyűjt és továbbít egy vezérlőrendszerhez.
+    \item \textbf{PLC - Programmable Logic Controller}: Programozható logikai vezérlő, ami automatizálja az ipari folyamatokat.
+    \item \textbf{IED - Intelligent Electronic Device}: Intelligens elektronikus eszköz, ami méri és elemzi a villamosenergia-hálózat adatait.
+    \item \textbf{Trending}: Adatok időbeli változásának nyomon követése és elemzése.
+    \item \textbf{API}: Alkalmazásprogramozási felület, ami lehetővé teszi a szoftverek közötti kommunikációt.
+    \item \textbf{Biosignal}: Elektromos jel, amit a szervezet élő szövetei bocsátanak ki.
+    \item \textbf{Élő organizmus (living organism)}: Biológiai organizmus, ami képes önállóan fenntartani a homeosztázist, szaporodni és fejlődni.
+    \item \textbf{Anyagcsere (metabolism)}: Energia előállítása és a szervezet működéséhez szükséges anyagok létrehozása, lebontása és átalakítása.
+    \item \textbf{Homeosztázis (homeostasis)}: Állandó belső környezet fenntartása a szervezetben.
+    \item \textbf{Ingerek (stimuli)}: Ingerek, amik a szervezetet reakcióra késztetik.
+    \item \textbf{Invazív mérés (invasive measurement)}: Testbe kell hatolni (vérvétel).
+    \item \textbf{Nem-invazív mérés (non-invasive measurement)}: Nem igényel testbe való behatolást (röntgen).
+    \item \textbf{Nyquist-Shannon mintavételi tétel (Nyquist-Shannon sampling theorem)}: Meghatározza a maximális jelhűséget adott mintavételi frekvenciánál.
+    \item \textbf{AAMI}: Amerikai Orvosi Műszerezés Fejlesztési Társaság, egészségügyi technológia fejlesztésével foglalkoznak
+    \item \textbf{BHS}: Brit Hipertónia Társaság, magas vérnyomás megelőzést, diagnosztizálást segítik elő.
+    \item \textbf{Távoli monitorozás (remote monitoring)}: Távműködésű megfigyelés, ahol az adatokat távolról gyűjtik.
+    \item \textbf{Változékonyság (variability)}: Ingadozás
+    \item \textbf{Fehér köpeny szindróma (white coat syndrome)}: Emelkedett pulzus és/vagy vérnomyás orvosi vizsgálatkor
+    \item \textbf{Korotkov hangok}: A vérnyomásméréskor hallható hangok, amik alapján állapítják meg a vérnyomás értékét.
+    \item \textbf{Gyógyszeres monitoring (medication monitoring)}: A gyógyszerek hatásának és mellékhatásának monitorozása.
+    \item \textbf{Magas vérnyomás (hypertension)}: Hipertónia, magasabb az artériák falára gyakorolt nyomás az átlagosnál.
+    \item \textbf{Szisztolés nyomás-erő (systolic pressure-force)}: A szisztoléban a szívizom összehúzódik és vért pumpál a keringésbe.
+    \item \textbf{Diasztolés nyomás-erő (diastolic pressure-force)}: A diasztolé alatt a szív ellazul és újratöltődik vérrel.
+    \item \textbf{Auszkultációs módszer (auscultation method)}: Manuális vérnyomásmérés, stetoszkóp és egy manuális mandzsettát használnak a Korotkov-hangok hallgatására, ami lehetővé teszi a szisztolés és diasztolés vérnyomás mérését.
+    \item \textbf{Oszcillometriás módszer (oscillometry method)}: Automatizált módszer, mandzsetta automatikusan felfújódik, és az oszcillációkat méri, amikor lassan engedi le a levegőt, így meghatározva a vérnyomást.
+    \item \textbf{PPG-alapú mérés (PPG-based measurement)}: A hajszálerek térfogat változását regisztrálja.
+    \item \textbf{Tonometria módszer (tonometry method)}: Mechanikai tapintófejjel rögzítésre kerül a csuklóartéria pulzálása.
+    \item \textbf{BPM}: Pulzus, szaporaság, az 1 perc alatt mért lüktetések száma.
+    \item \textbf{LDL}: Low density lipoprotein, rossz koleszterin, ami az érfalban lerakódva érelmeszesedést okozhat.
+    \item \textbf{HDL}: High density lipoprotein, jó koleszterin, ami eltávolítja a koleszterint az érfalról.
+    \item \textbf{Laktát monitoring (lactat monitoring)}: A vér tejsavszintjének mérése.
+    \item \textbf{Koleszterinszint (cholesterol level)}: A koleszterin egy zsírszerű anyag, ami a szervezetünkben létfontosságú szerepet tölt be.
+    \item \textbf{Trygliceridek szintje (Tryglicerides level)}: Az ember testzsír fő összetevői.
+    \item \textbf{Glükóz (glucode)}: Egyszerű szénhidrát, szölőcukor
+    \item \textbf{Inzulin receptor}: A sejtmembránon található kapcsoló, amihez az inzulin kötődik, hogy a glükóz bejusson a sejtbe.
+    \item \textbf{Inzulin rezisztancia (inzulin resistance)}: A sejtek nem reagálnak megfelelően az inzulinra, emiatt a glükóz nem jut be a sejtekbe és a vércukorszint emelkedik.
+    \item \textbf{Cukorbetegség (diabetes mellitus)}: A vércukorszint kóros emelkedése, ami inzulinhiány vagy inzulinrezisztancia következménye.
+    \item \textbf{2-es típusú cukorbetegség}: Kevésbé súlyos mint az 1-es típusú, életmódváltoztatással és súlycsökkentéssel kezelhető. A szervezet nem hasznosítja hatékonyan az inzulint.
+    \item \textbf{1-es típusú cukorbetegség}: Rendszeres inzulin adagolás szükséges mert a szervezet nem képes elegendő inzulint termelni!
+    \item \textbf{Gestitational diabetes}: Terhességi cukorbetegség
+    \item \textbf{HbA1c}: Glikált hemoglobin, akkor alakul ki, amikor a hemoglobin a vérben lévő glükózhoz kapcsolódik és glikálódik.
+    \item \textbf{Lándzsás eszközök (lancets)}: Ujjbegybe szúrt vérvevők
+    \item \textbf{Tesztcsík (test stripe)}: Színelváltozással leolvasható róla a glükózszint.
+    \item \textbf{Fotometrikus módszer (photometric method)}: Szín-összehasonlítással olvassuk le a glükózszintet.
+    \item \textbf{Amperometrikus módszer (amperometric method)}: Elektromos áramot vezetnek át a vett mintán és az áramerősségnek a segítségével mérik meg a glükóz mennyiséget.
+    \item \textbf{CGM}: Apró glükózérzékelő szenzort helyeznek a bőr alá, általában a hason vagy a felső kar hátsó részén.
+    \item \textbf{Mesterséges hasnyálmirigy (artificial pancreas)}: Automatikusan szabályozza a vércukorszintet inzulin beadásával és a glükagon kiválasztásával.
+    \item \textbf{Inzulin bevitel (insulin intake)}: A vércukorszint szabályozására szolgáló hormon bevitele, injekció, inzulinpumpa vagy inhalátor segítségével.
+    \item \textbf{Pirulaadagoló (pill dispenser)}: Tabletták, kapszulák automatizált adagolása beállított időpontokban.
+    \item \textbf{Szívinfarktus (heart infarct)}: A szívizom vérellátását biztosító koszorúerek elzáródása, ami szívizom károsodáshoz vezet.
+    \item \textbf{Sztrók (stroke)}: Az agy vérellátását biztosító erek elzáródása vagy megrepedése ami agyi károsodáshoz vezet.
+    \item \textbf{AAL - Ambient Assisted Living}: Intelligens technológiák használata az idősek és betegek otthoni gondozására.
+    \item \textbf{Digitális sztetoszkóp (digital stethoscope)}: Elektronikus eszköz a szív hangjainak hallgatására és rögzítésére.
+    \item \textbf{ECG}: A szív elektromos aktivitásának grafikus ábrázolása.
+    \item \textbf{MET - Calorie/Metabolic equivalent}: Ez egy olyan egység, amely az adott tevékenység intenzitását fejezi ki a pihenési anyagcsere által felhasznált energia mennyiségével összehasonlítva.
+    \item \textbf{S-T emelkedés (S-T elevation)}: Az EKG-n az S-T hullám emelkedése.
+    \item \textbf{EEG}: Az agy elektromos aktivitásának mérése.
+    \item \textbf{EMG}: Az izmok elektromos aktivitásának mérése.
+    \item \textbf{Apnoe}: Az apnoé során a légzés szünetel vagy jelentősen lelassul egy bizonyos időszakban. Típusai például: alvási apnoé vagy újszülött apnoé.
+    \item \textbf{IMU}: Inerciális mérési egység, ami a mozgás mérésére szolgál.
+    \item \textbf{Peak flow meter}: Csúcsáramlásmérő.
+    \item \textbf{Spirometer}: Tüdőkapacitás és légzési funkciók mérésére szolgál.
+    \item \textbf{Testösszetétel-mérők (Body Composition Monitors)}: A test zsír-, izom-, és víztartalmának mérésére szolgál.
+    \item \textbf{RS-232}: Serial kommunkációs protokoll, régi eszközök használják.
+    \item \textbf{SPI}: Soros perifériás interfész, adatátvitelre használják mikrovezérlők és perifériák között.
+    \item \textbf{I2C}: Két eszköz kommunikációjára szolgál.
+    \item \textbf{UART}: Univerzális aszinkron vevő-adó, soros adatátvitelre használják.
+    \item \textbf{USART}: Univerzális szinkron/aszinkron vevő-adó, az UART továbbfejlesztett változata.
+    \item \textbf{CAN}: Controller Area Network, ipari automatizálásban és járművekben használt kommunkációs protokoll.
+    \item \textbf{1wire}: Egyszerű, egyvezetékes kommunikációs protokoll.
+    \item \textbf{USB}: Universal Serial Bus egyszabványos csatlakozó, amivel perifériákat és tartozékokat csatlakoztathatunk számítógépekhez és más eszközökhöz.
+    \item \textbf{Testkommunikáció (body communication)}: A test kommunikációja a testen viselt eszközökön keresztül történik, melyek érzékelik a testmozgást, a fiziológiai paramétereket és a környezeti feltételeket.
+    \item \textbf{Textilhuzalok/vezető fonalak (Textile wires/conductive yarns)}: A textiliparban használt vezető szálak elektromos jelek továbbítására alkalmasak, és integrálhatók ruházatba és kiegészítőkbe.
+    \item \textbf{8N1N}: Soros kommunikáció során alkalmazott karakterek formátumát írja le: 8 bit adat, Nincs paritás bit, 1 állapot bit, Nincs flow control
+    \item \textbf{DTE}: Data Terminal Equipment (DTE) egy olyan végberendezés, amely a felhasználói információkat jelekké alakítja át, vagy a fogadott jeleket visszaalakítja felhasználható információvá.
+    \item \textbf{DCE}: Data Communications Equipment (DCE) olyan számítógépes hardvereszközökre utal, amelyeket adatforrás és a célállomás közötti kommunikációs hálózati kapcsolatok létrehozására, fenntartására és lezárására használnak.
+    \item \textbf{baud}: Szimbólumsebesség mértékegysége. A szimbólumsebesség azt adja meg, hogy másodpercenként hány jelváltozás történik az adatátviteli csatornán.
+    \item \textbf{JTAG}: Joint Test Action Group egy szabványos soros interfész, amelyet általában a digitális eszközök fejlesztésében, tesztelésében és karbantartásában használnak.
+    \item \textbf{MOSI : Master Output, Slave Input}: SPI kommunikációs protokoll esetében a Master küldi az adatokat, és a Slave fogadja őket ezen a vonalon keresztül.
+    \item \textbf{MISO : Master Input, Slave Output}: SPI kommunikációs protokoll esetében a Slave küldi az adatokat, és a Master fogadja őket ezen a vonalon keresztül.
+    \item \textbf{SS : Slave Select}: Az SS (Slave Select) jel az SPI kommunikációban azonosítja és aktiválja az adott szolga eszközt, lehetővé téve a mester számára, hogy vele kommunikáljon.
+    \item \textbf{SDA (serial data)}: I2C kommunikációs protokoll esetében "Serial Data Line" rövidítése. Ez a vonal a tényleges adatok átvitelére szolgál.
+    \item \textbf{SCL (serial clock)}: I2C kommunikációs protokoll esetében a "Serial Clock Line" rövidítése. Ez a vonal szabályozza az adatok cseréjének időzítését az "SDA" vonalon keresztül, segítve a kommunikáló eszközöknek szinkronizálni az adatok küldését és fogadását.
+    \item \textbf{FIFO}: First-In, First-Out adatstruktúra, melyben az elsőként beérkező elemeket tárolja el, és azokat az elsőként veszi ki a struktúrából. Pl: stack
+    \item \textbf{SCSI}: A "Small Computer System Interface" egy olyan interfész szabvány, amely lehetővé teszi a számítógépek és perifériák közötti adatátvitelt.
+    \item \textbf{NRZI}: "Non-Return-to-Zero Inverted" egy digitális jelkódolási technika, azaz egy bit értékét az áramkör az adatjelben hozott változás határozza meg.
+    \item \textbf{ACK}: "Acknowledgment" egy jelzés vagy válasz, amelyet egy fogadó eszköz küld egy küldő eszköznek, hogy megerősítse vagy visszaigazolja, hogy sikeresen fogadta és megértette az átvitt adatokat vagy üzenetet. Használat például: például az Ethernet, a TCP/IP, az USB, vagy a soros kommunikáció során.
+    \item \textbf{OTG}: On the go, Kiegészítő szabvány, kétirányú kommunikáció, hordozhatóság, komptakt csatlakozó.
+    \item \textbf{BAN}: Body Area Network, a testen viselt vezeték nélküli szenzorok hálózata.
+\end{itemize}

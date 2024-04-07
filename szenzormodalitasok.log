@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.30)  5 APR 2024 22:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.30)  7 APR 2024 10:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -57,6 +57,25 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip50
 \backup@length=\skip51
 \ar@cellbox=\box54
+) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen147
+\lightrulewidth=\dimen148
+\cmidrulewidth=\dimen149
+\belowrulesep=\dimen150
+\belowbottomsep=\dimen151
+\aboverulesep=\dimen152
+\abovetopsep=\dimen153
+\cmidrulesep=\dimen154
+\cmidrulekern=\dimen155
+\defaultaddspace=\dimen156
+\@cmidla=\count267
+\@cmidlb=\count268
+\@aboverulesep=\dimen157
+\@belowrulesep=\dimen158
+\@thisruleclass=\count269
+\@lastruleclass=\count270
+\@thisrulewidth=\dimen159
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\inconsolata.sty
 Package: inconsolata 2019/05/17 v1.12
  `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
@@ -67,10 +86,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks20
 \XKV@tempa@toks=\toks21
 )
-\XKV@depth=\count267
+\XKV@depth=\count271
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\zifour@ocount=\count268
+\zifour@ocount=\count272
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -99,9 +118,9 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-\netBracketCount@mlpr=\count269
-\blkLvl@mlpr=\count270
-\blkLvlAtClassdef@mlpr=\count271
+\netBracketCount@mlpr=\count273
+\blkLvl@mlpr=\count274
+\blkLvlAtClassdef@mlpr=\count275
 \emHeight@mlpr=\skip52
 \jayDepth@mlpr=\skip53
 \sectionRuleOffset@mlpr=\skip54
@@ -116,21 +135,21 @@ Package: amstext 2021/08/26 v2.01 AMS text
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
-\ex@=\dimen147
+\ex@=\dimen160
 )) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen148
+\pmbraise@=\dimen161
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count272
+\inf@bad=\count276
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count273
-\leftroot@=\count274
+\uproot@=\count277
+\leftroot@=\count278
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count275
-\DOTSCASE@=\count276
+\classnum@=\count279
+\DOTSCASE@=\count280
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -140,30 +159,30 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen149
+\big@size=\dimen162
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count277
+\macc@depth=\count281
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count278
+\c@MaxMatrixCols=\count282
 \dotsspace@=\muskip16
-\c@parentequation=\count279
-\dspbrk@lvl=\count280
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
 \tag@help=\toks24
-\row@=\count281
-\column@=\count282
-\maxfields@=\count283
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
 \andhelp@=\toks25
-\eqnshift@=\dimen150
-\alignsep@=\dimen151
-\tagshift@=\dimen152
-\tagwidth@=\dimen153
-\totwidth@=\dimen154
-\lineht@=\dimen155
+\eqnshift@=\dimen163
+\alignsep@=\dimen164
+\tagshift@=\dimen165
+\tagwidth@=\dimen166
+\totwidth@=\dimen167
+\lineht@=\dimen168
 \@envbody=\toks26
 \multlinegap=\skip56
 \multlinetaggap=\skip57
@@ -222,59 +241,59 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 Package: fvextra 2022/11/30 v1.5 fvextra - extensions and patches for fancyvrb
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count284
+\etb@tempcnta=\count288
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
-\FV@CodeLineNo=\count285
+\FV@CodeLineNo=\count289
 \FV@InFile=\read2
 \FV@TabBox=\box57
-\c@FancyVerbLine=\count286
-\FV@StepNumber=\count287
+\c@FancyVerbLine=\count290
+\FV@StepNumber=\count291
 \FV@OutFile=\write3
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
-\linenopenalty=\count288
+\linenopenalty=\count292
 \output=\toks30
-\linenoprevgraf=\count289
-\linenumbersep=\dimen156
-\linenumberwidth=\dimen157
-\c@linenumber=\count290
-\c@pagewiselinenumber=\count291
-\c@LN@truepage=\count292
-\c@internallinenumber=\count293
-\c@internallinenumbers=\count294
-\quotelinenumbersep=\dimen158
-\bframerule=\dimen159
-\bframesep=\dimen160
+\linenoprevgraf=\count293
+\linenumbersep=\dimen169
+\linenumberwidth=\dimen170
+\c@linenumber=\count294
+\c@pagewiselinenumber=\count295
+\c@LN@truepage=\count296
+\c@internallinenumber=\count297
+\c@internallinenumbers=\count298
+\quotelinenumbersep=\dimen171
+\bframerule=\dimen172
+\bframesep=\dimen173
 \bframebox=\box58
-\linenoamsmath@ams@eqpen=\count295
+\linenoamsmath@ams@eqpen=\count299
 LaTeX Info: Redefining \\ on input line 3180.
 )
-\c@FV@TrueTabGroupLevel=\count296
-\c@FV@TrueTabCounter=\count297
+\c@FV@TrueTabGroupLevel=\count300
+\c@FV@TrueTabCounter=\count301
 \FV@TabBox@Group=\box59
 \FV@TmpLength=\skip58
-\c@FV@HighlightLinesStart=\count298
-\c@FV@HighlightLinesStop=\count299
-\FV@LoopCount=\count300
+\c@FV@HighlightLinesStart=\count302
+\c@FV@HighlightLinesStop=\count303
+\FV@LoopCount=\count304
 \FV@NCharsBox=\box60
-\FV@BreakIndent=\dimen161
-\FV@BreakIndentNChars=\count301
-\FV@BreakSymbolSepLeft=\dimen162
-\FV@BreakSymbolSepLeftNChars=\count302
-\FV@BreakSymbolSepRight=\dimen163
-\FV@BreakSymbolSepRightNChars=\count303
-\FV@BreakSymbolIndentLeft=\dimen164
-\FV@BreakSymbolIndentLeftNChars=\count304
-\FV@BreakSymbolIndentRight=\dimen165
-\FV@BreakSymbolIndentRightNChars=\count305
-\c@FancyVerbLineBreakLast=\count306
+\FV@BreakIndent=\dimen174
+\FV@BreakIndentNChars=\count305
+\FV@BreakSymbolSepLeft=\dimen175
+\FV@BreakSymbolSepLeftNChars=\count306
+\FV@BreakSymbolSepRight=\dimen176
+\FV@BreakSymbolSepRightNChars=\count307
+\FV@BreakSymbolIndentLeft=\dimen177
+\FV@BreakSymbolIndentLeftNChars=\count308
+\FV@BreakSymbolIndentRight=\dimen178
+\FV@BreakSymbolIndentRightNChars=\count309
+\c@FancyVerbLineBreakLast=\count310
 \FV@LineBox=\box61
 \FV@LineIndentBox=\box62
-\c@FV@BreakBufferDepth=\count307
-\FV@LineWidth=\dimen166
+\c@FV@BreakBufferDepth=\count311
+\FV@LineWidth=\dimen179
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
@@ -299,20 +318,20 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\xs_counta=\count308
-\xs_countb=\count309
+\xs_counta=\count312
+\xs_countb=\count313
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip59
-\fb@frw=\dimen167
-\fb@frh=\dimen168
-\FrameRule=\dimen169
-\FrameSep=\dimen170
+\fb@frw=\dimen180
+\fb@frh=\dimen181
+\FrameRule=\dimen182
+\FrameSep=\dimen183
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count310
+\c@float@type=\count314
 \float@exts=\toks31
 \float@box=\box63
 \@float@everytoks=\toks32
@@ -321,10 +340,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \minted@appexistsfile=\read3
 \minted@bgbox=\box65
 \minted@code=\write4
-\c@minted@FancyVerbLineTemp=\count311
-\c@minted@pygmentizecounter=\count312
+\c@minted@FancyVerbLineTemp=\count315
+\c@minted@pygmentizecounter=\count316
 \@float@every@listing=\toks33
-\c@listing=\count313
+\c@listing=\count317
 )
 runsystem(if not exist _minted-szenzormodalitasok mkdir _minted-szenzormodalitasok)...executed.
 
@@ -339,21 +358,21 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen171
-\Gin@req@width=\dimen172
+\Gin@req@height=\dimen184
+\Gin@req@width=\dimen185
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen173
-\TX@old@table=\dimen174
-\TX@old@col=\dimen175
-\TX@target=\dimen176
-\TX@delta=\dimen177
-\TX@cols=\count314
+\TX@col@width=\dimen186
+\TX@old@table=\dimen187
+\TX@old@col=\dimen188
+\TX@target=\dimen189
+\TX@delta=\dimen190
+\TX@cols=\count318
 \TX@ftn=\toks34
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks35
-\pgfutil@tempdima=\dimen178
-\pgfutil@tempdimb=\dimen179
+\pgfutil@tempdima=\dimen191
+\pgfutil@tempdimb=\dimen192
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box66
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
@@ -368,26 +387,26 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks38
 ))
-\pgf@x=\dimen180
-\pgf@y=\dimen181
-\pgf@xa=\dimen182
-\pgf@ya=\dimen183
-\pgf@xb=\dimen184
-\pgf@yb=\dimen185
-\pgf@xc=\dimen186
-\pgf@yc=\dimen187
-\pgf@xd=\dimen188
-\pgf@yd=\dimen189
+\pgf@x=\dimen193
+\pgf@y=\dimen194
+\pgf@xa=\dimen195
+\pgf@ya=\dimen196
+\pgf@xb=\dimen197
+\pgf@yb=\dimen198
+\pgf@xc=\dimen199
+\pgf@yc=\dimen256
+\pgf@xd=\dimen257
+\pgf@yd=\dimen258
 \w@pgf@writea=\write5
 \r@pgf@reada=\read4
-\c@pgf@counta=\count315
-\c@pgf@countb=\count316
-\c@pgf@countc=\count317
-\c@pgf@countd=\count318
+\c@pgf@counta=\count319
+\c@pgf@countb=\count320
+\c@pgf@countc=\count321
+\c@pgf@countd=\count322
 \t@pgf@toka=\toks39
 \t@pgf@tokb=\toks40
 \t@pgf@tokc=\toks41
-\pgf@sys@id@count=\count319
+\pgf@sys@id@count=\count323
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -398,59 +417,59 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count320
-\pgfsyssoftpath@bigbuffer@items=\count321
+\pgfsyssoftpath@smallbuffer@items=\count324
+\pgfsyssoftpath@bigbuffer@items=\count325
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen190
-\pgfmath@count=\count322
+\pgfmath@dimen=\dimen259
+\pgfmath@count=\count326
 \pgfmath@box=\box67
 \pgfmath@toks=\toks42
 \pgfmath@stack@operand=\toks43
 \pgfmath@stack@operation=\toks44
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count323
+\c@pgfmathroundto@lastzeros=\count327
 )) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen191
-\pgf@picmaxx=\dimen192
-\pgf@picminy=\dimen193
-\pgf@picmaxy=\dimen194
-\pgf@pathminx=\dimen195
-\pgf@pathmaxx=\dimen196
-\pgf@pathminy=\dimen197
-\pgf@pathmaxy=\dimen198
-\pgf@xx=\dimen199
-\pgf@xy=\dimen256
-\pgf@yx=\dimen257
-\pgf@yy=\dimen258
-\pgf@zx=\dimen259
-\pgf@zy=\dimen260
+\pgf@picminx=\dimen260
+\pgf@picmaxx=\dimen261
+\pgf@picminy=\dimen262
+\pgf@picmaxy=\dimen263
+\pgf@pathminx=\dimen264
+\pgf@pathmaxx=\dimen265
+\pgf@pathminy=\dimen266
+\pgf@pathmaxy=\dimen267
+\pgf@xx=\dimen268
+\pgf@xy=\dimen269
+\pgf@yx=\dimen270
+\pgf@yy=\dimen271
+\pgf@zx=\dimen272
+\pgf@zy=\dimen273
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen261
-\pgf@path@lasty=\dimen262
+\pgf@path@lastx=\dimen274
+\pgf@path@lasty=\dimen275
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen263
-\pgf@shorten@start@additional=\dimen264
+\pgf@shorten@end@additional=\dimen276
+\pgf@shorten@start@additional=\dimen277
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box68
 \pgf@hbox=\box69
 \pgf@layerbox@main=\box70
-\pgf@picture@serial@count=\count324
+\pgf@picture@serial@count=\count328
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen265
+\pgflinewidth=\dimen278
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen266
-\pgf@pt@y=\dimen267
-\pgf@pt@temp=\dimen268
+\pgf@pt@x=\dimen279
+\pgf@pt@y=\dimen280
+\pgf@pt@temp=\dimen281
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -459,12 +478,12 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen269
+\pgfarrowsep=\dimen282
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen270
-\pgf@sys@shading@range@num=\count325
-\pgf@shadingcount=\count326
+\pgf@max=\dimen283
+\pgf@sys@shading@range@num=\count329
+\pgf@shadingcount=\count330
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
@@ -485,46 +504,46 @@ File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen271
-\pgf@nodesepend=\dimen272
+\pgf@nodesepstart=\dimen284
+\pgf@nodesepend=\dimen285
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen273
-\pgffor@skip=\dimen274
+\pgffor@iter=\dimen286
+\pgffor@skip=\dimen287
 \pgffor@stack=\toks45
 \pgffor@toks=\toks46
 )) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count327
-\pgfplotmarksize=\dimen275
+\pgf@plot@mark@count=\count331
+\pgfplotmarksize=\dimen288
 )
-\tikz@lastx=\dimen276
-\tikz@lasty=\dimen277
-\tikz@lastxsaved=\dimen278
-\tikz@lastysaved=\dimen279
-\tikz@lastmovetox=\dimen280
-\tikz@lastmovetoy=\dimen281
-\tikzleveldistance=\dimen282
-\tikzsiblingdistance=\dimen283
+\tikz@lastx=\dimen289
+\tikz@lasty=\dimen290
+\tikz@lastxsaved=\dimen291
+\tikz@lastysaved=\dimen292
+\tikz@lastmovetox=\dimen293
+\tikz@lastmovetoy=\dimen294
+\tikzleveldistance=\dimen295
+\tikzsiblingdistance=\dimen296
 \tikz@figbox=\box73
 \tikz@figbox@bg=\box74
 \tikz@tempbox=\box75
 \tikz@tempbox@bg=\box76
-\tikztreelevel=\count328
-\tikznumberofchildren=\count329
-\tikznumberofcurrentchild=\count330
-\tikz@fig@count=\count331
+\tikztreelevel=\count332
+\tikznumberofchildren=\count333
+\tikznumberofcurrentchild=\count334
+\tikz@fig@count=\count335
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count332
-\pgfmatrixcurrentcolumn=\count333
-\pgf@matrix@numberofcolumns=\count334
+\pgfmatrixcurrentrow=\count336
+\pgfmatrixcurrentcolumn=\count337
+\pgf@matrix@numberofcolumns=\count338
 )
-\tikz@expandcount=\count335
+\tikz@expandcount=\count339
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
@@ -574,13 +593,13 @@ File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen284
+\arrowsize=\dimen297
 )) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen285
-\pgfarrowlength=\dimen286
-\pgfarrowwidth=\dimen287
-\pgfarrowlinewidth=\dimen288
+\pgfarrowinset=\dimen298
+\pgfarrowlength=\dimen299
+\pgfarrowwidth=\dimen300
+\pgfarrowlinewidth=\dimen301
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
@@ -610,11 +629,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count336
+\c@section@level=\count340
 )
-\@linkdim=\dimen289
-\Hy@linkcounter=\count337
-\Hy@pagecounter=\count338
+\@linkdim=\dimen302
+\Hy@linkcounter=\count341
+\Hy@pagecounter=\count342
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -622,7 +641,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count339
+\Hy@SavedSpaceFactor=\count343
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -635,21 +654,21 @@ Package hyperref Info: Plain pages OFF on input line 4182.
 Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4434.
-\c@Hy@tempcnt=\count340
+\c@Hy@tempcnt=\count344
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4772.
-\XeTeXLinkMargin=\dimen290
+\XeTeXLinkMargin=\dimen303
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count341
-\Field@Width=\dimen291
-\Fld@charsize=\dimen292
+\Fld@menulength=\count345
+\Field@Width=\dimen304
+\Fld@charsize=\dimen305
 Package hyperref Info: Hyper figures OFF on input line 6051.
 Package hyperref Info: Link nesting OFF on input line 6056.
 Package hyperref Info: Hyper index ON on input line 6059.
@@ -661,9 +680,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6081.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count342
-\c@Item=\count343
-\c@Hfootnote=\count344
+\Hy@abspage=\count346
+\c@Item=\count347
+\c@Hfootnote=\count348
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -672,8 +691,8 @@ File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count345
-\c@bookmark@seq@number=\count346
+\Fld@listcount=\count349
+\c@bookmark@seq@number=\count350
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -683,60 +702,52 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip60
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 26.
+Package hyperref Info: Option `colorlinks' set `true' on input line 27.
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > szenzormodalitasok.aex <nul: /p x=^%~$PATH:i>> szenzormodalitasok.aex)...executed.
 
 runsystem(del szenzormodalitasok.aex)...executed.
 
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 43.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 44.
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count347
+\l__color_backend_stack_int=\count351
 \l__pdf_internal_box=\box97
-) (szenzormodalitasok.aux (exam.aux) (elso.aux) (masodik.aux
-
-LaTeX Warning: Label `your_label_here' multiply defined.
-
-) (harmadik.aux
-
-LaTeX Warning: Label `your_label_here' multiply defined.
-
-))
+) (szenzormodalitasok.aux (exam.aux))
 \openout1 = `szenzormodalitasok.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-\c@lstlisting=\count348
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+\c@lstlisting=\count352
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count349
-\scratchdimen=\dimen293
+\scratchcounter=\count353
+\scratchdimen=\dimen306
 \scratchbox=\box98
-\nofMPsegments=\count350
-\nofMParguments=\count351
+\nofMPsegments=\count354
+\nofMParguments=\count355
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count352
-\MPscratchDim=\dimen294
-\MPnumerator=\count353
-\makeMPintoPDFobject=\count354
+\MPscratchCnt=\count356
+\MPscratchDim=\dimen307
+\MPnumerator=\count357
+\makeMPintoPDFobject=\count358
 \everyMPtoPDFconversion=\toks48
 ) (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -744,33 +755,33 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 43.
+Package hyperref Info: Link coloring ON on input line 44.
  (szenzormodalitasok.out) (szenzormodalitasok.out)
 \@outlinefile=\write6
 \openout6 = `szenzormodalitasok.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 49.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 50.
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 49.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 50.
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 49.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 50.
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 49.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 50.
  (C:\Users\rpgix\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 49.
+(Font)              <14.4> on input line 50.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 49.
+(Font)              <10> on input line 50.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 49.
+(Font)              <7> on input line 50.
  [1
 
 {C:/Users/rpgix/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] (szenzormodalitasok.toc
@@ -787,11 +798,21 @@ Overfull \hbox (2.12733pt too wide) in paragraph at lines 8--8
 
 [2
 
-] [3] [4])
+]
+Overfull \hbox (4.79906pt too wide) in paragraph at lines 37--37
+ [][] [][][]\T1/lmr/m/n/12 Sportmonitoring megoldá-sok (ak-tiv-itás/tel-jesít-mény) és 
+ []
+
+
+Overfull \hbox (19.25395pt too wide) in paragraph at lines 41--41
+ [][] [][][]\T1/lmr/m/n/12 Diabétesz/cukorbetegség mon-i-torozása (mód-sz-erek, beren- 
+ []
+
+)
 \tf@toc=\write7
 \openout7 = `szenzormodalitasok.toc'.
 
- [5]
+ [3]
 \openout2 = `exam.aux'.
 
  (exam.tex
@@ -803,7 +824,7 @@ Overfull \hbox (83.84856pt too wide) in paragraph at lines 21--22
 \T1/lmr/m/n/12 tele-fonok képerny®-orientációjának sz-abá-ly-ozásához, jár-m¶vek ütközésérzékelésére,
  []
 
-[6
+[4
 
 
 {C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
@@ -821,12 +842,12 @@ Overfull \hbox (12.29922pt too wide) in paragraph at lines 61--62
 []\T1/lmr/m/n/12 Mozgásérzékel®k, füstérzékel®k, kam-era szen-zorok a veszé-ly-he-lyzetek
  []
 
-[7]
+[5]
 Overfull \hbox (30.12209pt too wide) in paragraph at lines 89--90
 []\T1/lmr/m/n/12 Az ak-tuá-torok olyan es-zközök, amik elek-tro-mos jelet fizikai m¶veletekké
  []
 
-[8
+[6
 
 ]
 Overfull \hbox (7.5323pt too wide) in paragraph at lines 112--113
@@ -838,12 +859,12 @@ Overfull \hbox (0.35454pt too wide) in paragraph at lines 128--129
 []\T1/lmr/m/n/12 Vezérlési folyam-a-tokat mod-uláris egységek között os-ztja szét, amik
  []
 
-[9]
+[7]
 Overfull \hbox (9.52469pt too wide) in paragraph at lines 157--158
 []\T1/lmr/m/n/12 Alkalmazási területek (En-er-giaipar, kö-zlekedés, gyártás és au-tom-a-tizálás) 
  []
 
-[10]
+[8]
 Overfull \hbox (3.29752pt too wide) in paragraph at lines 189--190
 []\T1/lmr/m/n/12 Szenzorok és érzékel®k, jelkondí-cionáló áramkörök, adat-gy¶jt® es-zközök,
  []
@@ -858,7 +879,7 @@ Overfull \hbox (28.42502pt too wide) in paragraph at lines 195--196
 \T1/lmr/m/n/12 kali-brá-ció és h®mérsék-leti hatá-sok, Adat-biz-ton-ság és adatvédelem,
  []
 
-[11
+[9
 
 ]
 Overfull \hbox (1.72456pt too wide) in paragraph at lines 201--202
@@ -880,12 +901,12 @@ Overfull \hbox (4.27516pt too wide) in paragraph at lines 231--232
 \T1/lmr/m/n/12 a-tok távoli mon-i-torozását, vezér-lését és au-tom-a-tizálását. 
  []
 
-[12] [13]
+[10] [11]
 Overfull \hbox (17.06992pt too wide) in paragraph at lines 279--280
 []\T1/lmr/m/n/12 ERP rend-sz-erek, kom-plex gyártási folyam-a-tok, nagy létesít-
  []
 
-[14
+[12
 
 ]
 Overfull \hbox (8.61691pt too wide) in paragraph at lines 297--298
@@ -907,7 +928,7 @@ Overfull \hbox (0.3861pt too wide) in paragraph at lines 314--315
 []\T1/lmr/bx/n/12 Testh®mérséklet-mérés\T1/lmr/m/n/12 , a test bels® h®mérsék-letének
  []
 
-[15
+[13
 
 ]
 Overfull \hbox (14.90807pt too wide) in paragraph at lines 340--341
@@ -919,7 +940,7 @@ Overfull \hbox (5.3943pt too wide) in paragraph at lines 341--342
 []\T1/lmr/bx/n/12 Jelátviteli hiba \T1/lmr/m/n/12 (Hosszú vagy rossz min®ség¶ ká-belezés) 
  []
 
-[16]
+[14]
 Overfull \hbox (3.1547pt too wide) in paragraph at lines 357--358
 []\T1/lmr/bx/n/12 Hibat¶rés hiánya\T1/lmr/m/n/12 , egy szen-zor meghibá-sodásánál nincs
  []
@@ -934,7 +955,7 @@ Overfull \hbox (12.66982pt too wide) in paragraph at lines 364--365
 \T1/lmr/m/n/12 ter-fer-en-cia és az ada-tok ko-heren-ciájá-nak hiánya torzíthatja
  []
 
-[17
+[15
 
 ]
 Overfull \hbox (1.62177pt too wide) in paragraph at lines 369--369
@@ -946,624 +967,503 @@ Overfull \hbox (9.79764pt too wide) in paragraph at lines 387--388
 []\T1/lmr/m/n/12 Kommunikációs hatótávol-sá-gok, adat mul-ti-plexálási prob-
  []
 
-) [18
+[16
 
 {C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-\openout2 = `elso.aux'.
-
- (elso.tex
-Overfull \hbox (5.58801pt too wide) in paragraph at lines 7--8
-[]\T1/lmr/m/n/12 Érzékel® ami valam-i-lyen fizikai/kémiai men-ny-iséget, vagy
+Overfull \hbox (20.95477pt too wide) in paragraph at lines 394--394
+[]\T1/lmr/bx/n/12 Sportmonitoring megoldá-sok (ak-tiv-itás/tel-jesít-mény)
  []
 
 
-Overfull \hbox (21.2804pt too wide) in paragraph at lines 56--57
- [] 
+Overfull \hbox (1.18298pt too wide) in paragraph at lines 396--397
+[]\T1/lmr/m/n/12 Viselhet® es-zközök (pulzus-mér®k, lépésszám-lálók, GPS órák) 
+ []
+
+
+Overfull \hbox (20.76115pt too wide) in paragraph at lines 400--401
+[]\T1/lmr/m/n/12 Adatpontosság és meg-bízhatóság (kali-brá-ciós, szen-zorhibák) 
+ []
+
+
+Overfull \hbox (5.94402pt too wide) in paragraph at lines 403--404
+[]\T1/lmr/m/n/12 Integráció más rend-sz-erekkel (kom-pat-i-bil-itási prob-lémák) 
+ []
+
+
+Overfull \hbox (22.12024pt too wide) in paragraph at lines 409--410
+[]\T1/lmr/m/n/12 Környezet mon-i-tor-ing (Kam-era, Sug-árzás-mér®k, Lev-eg-®min®ség-
+ []
+
+
+Overfull \hbox (10.78049pt too wide) in paragraph at lines 413--414
+[]\T1/lmr/bx/n/12 Pontatlanságok \T1/lmr/m/n/12 (beltér-ben, beépített városi területeken) 
+ []
+
+
+Overfull \hbox (18.93814pt too wide) in paragraph at lines 422--423
+[]\T1/lmr/m/n/12 Távoli betegmon-i-torozás (Di-a-bétesz/-Gyó-gysz-eres/Hipertó-
+ []
+
+[17
+
+]
+Overfull \hbox (2.02644pt too wide) in paragraph at lines 433--434
+\T1/lmr/m/n/12 Korotkov-hangok hall-gatására, ami lehet®vé teszi a szisz-
+ []
+
+
+Overfull \hbox (42.51747pt too wide) in paragraph at lines 434--435
+[]\T1/lmr/bx/n/12 Oszcillometriás mód-szer \T1/lmr/m/n/12 (Au-tom-a-tizált mód-szer, mandzsetta
+ []
+
+
+Overfull \hbox (10.06093pt too wide) in paragraph at lines 434--435
+\T1/lmr/m/n/12 au-tomatiku-san felfújódik, és az os-z-cil-lá-ciókat méri, amikor
+ []
+
+[18]
+Overfull \hbox (12.24571pt too wide) in paragraph at lines 443--443
+[]\T1/lmr/bx/n/12 Diabétesz/cukorbetegség mon-i-torozása (mód-sz-erek,
+ []
+
+
+Overfull \hbox (5.90154pt too wide) in paragraph at lines 447--448
+[]\T1/lmr/bx/n/12 Ujjbegy tesztelés\T1/lmr/m/n/12 , (hagy-ományos vércukorszint-mérés),
+ []
+
+
+Overfull \hbox (12.55972pt too wide) in paragraph at lines 450--451
+[]\T1/lmr/bx/n/12 Berendezések \T1/lmr/m/n/12 (Dig-itális glükózmér®k, folyam-atos mon-i-torozó
+ []
+
+
+Overfull \hbox (40.56807pt too wide) in paragraph at lines 462--463
+[]\T1/lmr/bx/n/12 Mesterséges has-nyálmirigy prob-lémák \T1/lmr/m/n/12 (Rend-szer összetettsége,
  []
 
 [19
 
+]
+Overfull \hbox (1.55823pt too wide) in paragraph at lines 489--490
+[]\T1/lmr/bx/n/12 Hátrányok \T1/lmr/m/n/12 (Ko-r-lá-to-zott távol-ság, re-latív lassúság, buszkon-
+ []
 
+
+Overfull \hbox (24.6471pt too wide) in paragraph at lines 490--491
+[]\T1/lmr/bx/n/12 Alkalmazási területek \T1/lmr/m/n/12 (Beá-gya-zott rend-sz-erek, mo-bileszközök,
+ []
+
+
+Overfull \hbox (5.93414pt too wide) in paragraph at lines 495--496
+[]\T1/lmr/m/n/12 Serial Pe-riph-eral In-ter-face, egy szinkron, soros adatkapc-
+ []
+
+[20
 
 ]
-Overfull \hbox (13.67282pt too wide) in paragraph at lines 69--70
-[]\T1/lmr/m/n/12 Központi/kliens oldali meg-je-lenít® rend-sz-erek (we-b/al-ka-lmazás
+Overfull \hbox (18.37091pt too wide) in paragraph at lines 498--499
+[]\T1/lmr/bx/n/12 MOSI (Mas-ter Out Slave In) \T1/lmr/m/n/12 (A Mas-ter es-zköz adatkimeneti
  []
 
 
-Overfull \hbox (4.59698pt too wide) in paragraph at lines 70--71
-[]\T1/lmr/m/n/12 Központi rend-szer felü-gyeleti es-zközök (al-ka-lmazás sz-erverek) 
+Overfull \hbox (0.92531pt too wide) in paragraph at lines 506--507
+[]\T1/lmr/bx/n/12 Hátrányok \T1/lmr/m/n/12 (Több vezetékre van szük-ség, nem tá-mo-gat busz
  []
 
 
-Overfull \hbox (12.82368pt too wide) in paragraph at lines 72--73
-[]\T1/lmr/m/n/12 Kommunikációs in-fras-truk-túra, ami az egyes részeket összeköti. 
+Overfull \hbox (13.0885pt too wide) in paragraph at lines 506--507
+\T1/lmr/m/n/12 megosztást, skálázhatóság, hiányzó beépített kon-flik-tuskezelés) 
  []
 
 
-Overfull \hbox (43.0523pt too wide) in paragraph at lines 88--89
-\T1/lmr/m/n/12 tá-mo-gatása mind az op-er-atív üzemirányítás, mind az üzemel®készítés
+Overfull \hbox (7.44388pt too wide) in paragraph at lines 507--508
+[]\T1/lmr/bx/n/12 Alkalmazási területek \T1/lmr/m/n/12 (Adat-tároló es-zközök, ki-jelz®k, szen-
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]|\T1/lmr/m/n/12 Lassabb, max 3.4
  []
 
 
-Overfull \hbox (5.77716pt too wide) in paragraph at lines 96--97
-[]\T1/lmr/m/n/12 Szemben a di-rekt helyi vezér-l®vel meg-valósí-tott rend-sz-erekkel: 
- []
-
-[20]
-Overfull \hbox (4.70758pt too wide) in paragraph at lines 99--100
-[]\T1/lmr/m/n/12 kisebbek a kialakítási költ-ségek, mivel a vezér-lés lokálisan
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]|\T1/lmr/m/n/12 Legalább 4 (MISO,
  []
 
 
-Overfull \hbox (11.93977pt too wide) in paragraph at lines 104--104
-[]\T1/lmr/bx/n/12 Supervisory Con-trol and Data Ac-qui-si-tion - SCADA 
- []
-
-<assets/scada.png, id=794, 595.47469pt x 354.57469pt>
-File: assets/scada.png Graphic file (type png)
-<use assets/scada.png>
-Package pdftex.def Info: assets/scada.png  used on input line 120.
-(pdftex.def)             Requested size: 227.62204pt x 135.5351pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 120--120
- [] 
- []
-
-[21 <./assets/scada.png>]
-Overfull \hbox (9.12901pt too wide) in paragraph at lines 126--127
-\T1/lmr/m/n/12 (LAN-nál nagy-obb) hálóza-tokba ren-dezett, egymás-sal hálózati
+Underfull \hbox (badness 1789) in paragraph at lines 525--525
+[]|\T1/lmr/m/n/12 Egyszer¶bb, kevesebb
  []
 
 
-Overfull \hbox (2.12404pt too wide) in paragraph at lines 126--127
-\T1/lmr/m/n/12 pro-tokol-lokon kom-mu-nikáló rend-sz-erek, egymástól független,
- []
-
-<assets/scada_arch.png, id=801, 596.2275pt x 338.01282pt>
-File: assets/scada_arch.png Graphic file (type png)
-<use assets/scada_arch.png>
-Package pdftex.def Info: assets/scada_arch.png  used on input line 132.
-(pdftex.def)             Requested size: 426.79134pt x 241.95583pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 132--132
- [] 
- []
-
-[22 <./assets/scada_arch.png>]
-Overfull \hbox (24.80275pt too wide) in paragraph at lines 149--150
-[]\T1/lmr/m/n/12 Régebben távoli, ne-hezen megközelí-thet®, veszé-lyes helyeken
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]|\T1/lmr/m/n/12 Bonyolultabb, több
  []
 
 
-Overfull \hbox (38.3878pt too wide) in paragraph at lines 154--155
-[]\T1/lmr/m/n/12 Meterológiai, vízál-lás mér® ál-lomá-sok, épületek/hi-dak/alagutak 
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]|\T1/lmr/m/n/12 Adatigényes al-ka-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+\T1/lmr/m/n/12 lmazá-sok, nagy
+ []
+
+[22
+
+]
+Overfull \hbox (15.0316pt too wide) in paragraph at lines 530--530
+[]\T1/lmr/bx/n/14.4 Vezeték nélküli kom-mu-niká-ciós tech-nológiák 
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 544--544
+[]|\T1/lmr/m/n/12 Néhány méter, a test közvetlen
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 544--544
+[]|\T1/lmr/m/n/12 ZigBee: alac-sony, Wi-Fi Di-rect:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--544
+[]|\T1/lmr/m/n/12 Alacsony, hosszú akkumulátor-
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 544--544
+[]|\T1/lmr/m/n/12 Egészségügyi mon-i-torozás, fit-ness
  []
 
 [23
 
 ]
-Overfull \hbox (15.99347pt too wide) in paragraph at lines 190--190
-[]\T1/lmr/bx/n/14.4 Általános pá-ciens mon-i-torozó DAQ ar-chitek-
- []
-
-<assets/altpac.png, id=811, 604.50844pt x 377.91188pt>
-File: assets/altpac.png Graphic file (type png)
-<use assets/altpac.png>
-Package pdftex.def Info: assets/altpac.png  used on input line 191.
-(pdftex.def)             Requested size: 426.79134pt x 266.80849pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 191--191
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 587--587
+[]|\T1/lmr/m/n/12 Ethernet (vezetékes), Wi-Fi
  []
 
 
-Overfull \hbox (4.76625pt too wide) in paragraph at lines 193--193
-[]\T1/lmr/bx/n/14.4 Élettani paraméterek mon-i-torozása ex-trém
- []
-
-<assets/eletext.png, id=812, 645.16031pt x 367.3725pt>
-File: assets/eletext.png Graphic file (type png)
-<use assets/eletext.png>
-Package pdftex.def Info: assets/eletext.png  used on input line 195.
-(pdftex.def)             Requested size: 398.33858pt x 226.82123pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 195--195
- [] 
- []
-
-[24 <./assets/altpac.png>]
-<assets/eletext2.png, id=818, 587.94656pt x 367.3725pt>
-File: assets/eletext2.png Graphic file (type png)
-<use assets/eletext2.png>
-Package pdftex.def Info: assets/eletext2.png  used on input line 196.
-(pdftex.def)             Requested size: 398.33858pt x 248.89626pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 196--196
- [] 
- []
-
-[25 <./assets/eletext.png>]) [26 <./assets/eletext2.png>]
-\openout2 = `masodik.aux'.
-
- (masodik.tex
-Overfull \hbox (4.24548pt too wide) in paragraph at lines 8--9
-[]\T1/lmr/m/n/12 Adott paramétertér ál-lapotvál-tozásá-nak ny-omonkövetése
+Underfull \hbox (badness 3199) in paragraph at lines 587--587
+\T1/lmr/m/n/12 Wi-Fi es-etében vál-tozó, függ a
  []
 
 
-Overfull \hbox (0.13655pt too wide) in paragraph at lines 9--10
-[]\T1/lmr/m/n/12 Amit nem is-merünk, azt nem tudjuk mérni, amit tudunk
+Underfull \hbox (badness 10000) in paragraph at lines 587--587
+[]|\T1/lmr/m/n/12 Irodai hálóza-tok, ok-tatási in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--587
+\T1/lmr/m/n/12 tézmények, ot-thoni hálóza-tok,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--587
+\T1/lmr/m/n/12 internet-hozzáférés megosztása,
+ []
+
+[24
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/lmr/m/n/12 Ethernet, ATM, Frame Re-lay,
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 609--609
+[]|\T1/lmr/m/n/12 Több Mbps-t®l Gbps-ig ter-jed®
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/lmr/m/n/12 Városi hálóza-tok összekötése,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+\T1/lmr/m/n/12 internet-szolgáltatók, nagyvárosi
+ []
+
+[25
+
+]
+Underfull \hbox (badness 2951) in paragraph at lines 631--631
+[]|\T1/lmr/m/n/12 Több száz vagy ezer kilo-méter,
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 631--631
+[]|\T1/lmr/m/n/12 Különböz®, Mbps-tól Gbps-ig, a
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 631--631
+\T1/lmr/m/n/12 használt tech-nológiától és in-fras-
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 631--631
+[]|\T1/lmr/m/n/12 Jellemz®en ma-gas, különösen a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\T1/lmr/m/n/12 Nemzetközi vál-lalati hálóza-tok,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+\T1/lmr/m/n/12 távoli adatközpon-tok összekapc-
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 631--631
+\T1/lmr/m/n/12 solása, internet-hozzáférés, távoli
+ []
+
+
+Overfull \hbox (10.63676pt too wide) in paragraph at lines 636--636
+[]\T1/lmr/bx/n/12 USB ar-chitek-túra/kom-po-nen-sei, es-zköz kategóriák 
+ []
+
+
+Overfull \hbox (5.16978pt too wide) in paragraph at lines 640--641
+[]\T1/lmr/m/n/12 Host Con-troller, USB por-tok, USB es-zközök, USB hubok,
+ []
+
+[26
+
+]
+Overfull \hbox (8.69975pt too wide) in paragraph at lines 652--653
+[]\T1/lmr/bx/n/12 Hátrányok\T1/lmr/m/n/12 , biz-ton-sági kock-áza-tok, port ko-r-lá-to-zottság, kom-
+ []
+
+
+Overfull \hbox (30.29364pt too wide) in paragraph at lines 664--665
+[]\T1/lmr/m/n/12 Kiegészít® sz-ab-vány, kétirányú kom-mu-niká-ció, hor-dozhatóság,
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 690--690
+[]|\T1/lmr/m/n/12 USB: Es-zközök tápel-látása lehet-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--690
+[]|\T1/lmr/m/n/12 USB: Széles kör¶, beleértve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--690
+\T1/lmr/m/n/12 számítástech-nikát, mo-bil es-
  []
 
 [27
 
+] [28]
+Overfull \hbox (6.03688pt too wide) in paragraph at lines 697--698
+\T1/lmr/m/n/12 gereket (h®mérsék-let, fény, ny-omás) érzékel és mérhet® jelekké
+ []
 
 
-] [28
+Overfull \hbox (8.74693pt too wide) in paragraph at lines 707--708
+[]\T1/lmr/bx/n/12 Átalakító (trans-ducer)\T1/lmr/m/n/12 : Fizikai jelet elek-tro-mos jellé alakít. 
+ []
+
+
+Overfull \hbox (12.39326pt too wide) in paragraph at lines 711--712
+[]\T1/lmr/bx/n/12 Aktuátor (ac-tu-a-tor)\T1/lmr/m/n/12 : Elek-tro-mos jelet mechanikai mozgássá
+ []
+
+[29
 
 ]
-Overfull \hbox (24.15308pt too wide) in paragraph at lines 70--71
-[]\T1/lmr/m/n/12 Mintavételi hi-bák (Nyquist-Shannon mintavételi elmélet) 
+Overfull \hbox (12.22704pt too wide) in paragraph at lines 712--713
+[]\T1/lmr/bx/n/12 Jel kondí-cionálás (sig-nal con-di-tion-ing)\T1/lmr/m/n/12 : A jel er®sségének,
  []
 
 
-Overfull \hbox (16.58133pt too wide) in paragraph at lines 84--85
-[]\T1/lmr/m/n/12 Ezt valam-i-lyen mintavételi frekven-ciá-val mért minták-ból kapjuk
+Overfull \hbox (2.48401pt too wide) in paragraph at lines 714--715
+[]\T1/lmr/bx/n/12 Amplifikáció/er®sítés (am-pli-fi-ca-tion)\T1/lmr/m/n/12 : A jel er®sségének
  []
 
 
-Overfull \hbox (4.91385pt too wide) in paragraph at lines 103--103
-[]\T1/lmr/bx/n/14.4 Mérnöki ki-hívá-sok a nagy-men-ny-iség¶ adat-
+Overfull \hbox (10.26157pt too wide) in paragraph at lines 720--721
+[]\T1/lmr/bx/n/12 Elosztott di-ag-nosztika (dis-tributed di-ag-nos-tic)\T1/lmr/m/n/12 : A rend-
  []
 
-[29]
-Overfull \hbox (9.79764pt too wide) in paragraph at lines 121--122
-[]\T1/lmr/m/n/12 Kommunikációs hatótávol-sá-gok, adat mul-ti-plexálási prob-
+
+Overfull \hbox (0.3607pt too wide) in paragraph at lines 724--725
+\T1/lmr/m/n/12 között os-ztja szét, amik kom-mu-nikál-nak egymás-sal egy közös
  []
 
 [30]
-<assets/fejf.png, id=846, 452.4403pt x 340.27126pt>
-File: assets/fejf.png Graphic file (type png)
-<use assets/fejf.png>
-Package pdftex.def Info: assets/fejf.png  used on input line 157.
-(pdftex.def)             Requested size: 369.88582pt x 278.1831pt.
+Overfull \hbox (22.4718pt too wide) in paragraph at lines 727--728
+[]\T1/lmr/bx/n/12 MTU - Mas-ter Ter-mi-nal Unit\T1/lmr/m/n/12 : F® ter-minál-e-gység, távvezérl®
+ []
 
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 157--157
- [] 
+
+Overfull \hbox (23.49585pt too wide) in paragraph at lines 729--730
+[]\T1/lmr/bx/n/12 Biztonsági sz-erver (safety server)\T1/lmr/m/n/12 : Ipari rend-sz-erek védelmét
+ []
+
+
+Overfull \hbox (2.96725pt too wide) in paragraph at lines 733--734
+[]\T1/lmr/bx/n/12 PLC - Pro-grammable Logic Con-troller\T1/lmr/m/n/12 : Pro-gramozható
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
-[]|\T1/lmr/bx/n/10 Szisztolés ny-omás
+Overfull \hbox (3.61977pt too wide) in paragraph at lines 743--744
+[]\T1/lmr/bx/n/12 Nem-invazív mérés (non-invasive mea-sure-ment)\T1/lmr/m/n/12 : Nem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
-[]|\T1/lmr/bx/n/10 Diasztolés ny-omás
+Overfull \hbox (4.68645pt too wide) in paragraph at lines 744--745
+[]\T1/lmr/bx/n/12 Nyquist-Shannon mintavételi té-tel (Nyquist-Shannon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
-[]|\T1/lmr/m/n/10 Emelkedett-normális
+Overfull \hbox (9.56429pt too wide) in paragraph at lines 746--747
+[]\T1/lmr/bx/n/12 BHS\T1/lmr/m/n/12 : Brit Hipertó-nia Tár-saság, ma-gas vérny-omás megel®zést,
  []
 
-[32 <./assets/fejf.png>]
-<assets/sziv.png, id=857, 570.63188pt x 399.74344pt>
-File: assets/sziv.png Graphic file (type png)
-<use assets/sziv.png>
-Package pdftex.def Info: assets/sziv.png  used on input line 196.
-(pdftex.def)             Requested size: 369.88582pt x 259.11649pt.
 
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 196--196
- [] 
+Overfull \hbox (5.57434pt too wide) in paragraph at lines 747--748
+[]\T1/lmr/bx/n/12 Távoli mon-i-torozás (re-mote mon-i-tor-ing)\T1/lmr/m/n/12 : Távm¶ködés¶
+ []
+
+
+Overfull \hbox (34.91853pt too wide) in paragraph at lines 749--750
+[]\T1/lmr/bx/n/12 Fehér köpeny szin-dróma (white coat syn-drome)\T1/lmr/m/n/12 : Emelkedett
+ []
+
+
+Overfull \hbox (0.68002pt too wide) in paragraph at lines 750--751
+[]\T1/lmr/bx/n/12 Korotkov hangok\T1/lmr/m/n/12 : A vérny-omás-méréskor hall-ható hangok,
+ []
+
+
+Overfull \hbox (8.06248pt too wide) in paragraph at lines 753--754
+[]\T1/lmr/bx/n/12 Szisztolés nyomás-er® (sys-tolic pressure-force)\T1/lmr/m/n/12 : A szisz-
+ []
+
+
+Overfull \hbox (14.35703pt too wide) in paragraph at lines 755--756
+[]\T1/lmr/bx/n/12 Auszkultációs mód-szer (aus-cul-ta-tion method)\T1/lmr/m/n/12 : Manuális
+ []
+
+[32]
+Overfull \hbox (3.31087pt too wide) in paragraph at lines 758--759
+[]\T1/lmr/bx/n/12 Tonometria mód-szer (tonom-e-try method)\T1/lmr/m/n/12 : Mechanikai
+ []
+
+
+Overfull \hbox (2.67078pt too wide) in paragraph at lines 761--762
+[]\T1/lmr/bx/n/12 HDL\T1/lmr/m/n/12 : High den-sity lipopro-tein, jó kolesz-terin, ami eltávolítja
+ []
+
+
+Overfull \hbox (4.01375pt too wide) in paragraph at lines 763--764
+\T1/lmr/m/n/12 zsírsz-er¶ anyag, ami a sz-ervezetünkben lét-fontosságú sz-erepet
+ []
+
+
+Overfull \hbox (9.42914pt too wide) in paragraph at lines 768--769
+[]\T1/lmr/bx/n/12 Cukorbetegség (di-a-betes mel-li-tus)\T1/lmr/m/n/12 : A vér-cuko-rszint kóros
+ []
+
+
+Overfull \hbox (45.53333pt too wide) in paragraph at lines 768--769
+\T1/lmr/m/n/12 emelkedése, ami in-zulin-hiány vagy in-zulin-rezisz-tan-cia következménye. 
  []
 
 [33]
-<assets/nagyv.png, id=864, 481.04718pt x 406.51875pt>
-File: assets/nagyv.png Graphic file (type png)
-<use assets/nagyv.png>
-Package pdftex.def Info: assets/nagyv.png  used on input line 199.
-(pdftex.def)             Requested size: 284.52756pt x 240.45186pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 199--199
- [] 
- []
-
-[34 <./assets/sziv.png>]
-Overfull \hbox (30.67912pt too wide) in paragraph at lines 204--205
-[]\T1/lmr/m/n/12 Feszültség = ny-omás, az áram pedig a térfogat-, il-letve tömegáram. 
- []
-
-<assets/ker.png, id=870, 475.02469pt x 126.4725pt>
-File: assets/ker.png Graphic file (type png)
-<use assets/ker.png>
-Package pdftex.def Info: assets/ker.png  used on input line 208.
-(pdftex.def)             Requested size: 369.88582pt x 98.4841pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 208--208
- [] 
- []
-
-[35 <./assets/nagyv.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
-[36{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./assets/ker.png>]
-Overfull \hbox (19.09824pt too wide) in paragraph at lines 252--253
-[]\T1/lmr/m/n/12 Bal felka-rra mandzset-tás mér®, felfújjuk, alatta sztetoszkóp-
+Overfull \hbox (31.91193pt too wide) in paragraph at lines 772--773
+[]\T1/lmr/bx/n/12 HbA1c\T1/lmr/m/n/12 : Glikált hemoglobin, akkor alakul ki, amikor a hemoglobin
  []
 
 
-Overfull \hbox (2.22563pt too wide) in paragraph at lines 258--259
-\T1/lmr/m/n/12 folyá-sol, leeresztési sebesség be-folyá-sol, szub-jek-tív a hall-
+Overfull \hbox (30.54752pt too wide) in paragraph at lines 776--777
+\T1/lmr/m/n/12 Elek-tro-mos áramot vezetnek át a vett mintán és az áramer®sségnek
  []
 
 
-Overfull \hbox (33.94563pt too wide) in paragraph at lines 264--265
-[]\T1/lmr/m/n/12 Az artéria pulzálása meg-je-lenik a felka-rra helyezett mandzsetta
+Overfull \hbox (11.95427pt too wide) in paragraph at lines 782--783
+[]\T1/lmr/bx/n/12 Sztrók (stroke)\T1/lmr/m/n/12 : Az agy vérel-látását biz-tosító erek elzáródása
  []
 
 
-Overfull \hbox (5.16602pt too wide) in paragraph at lines 265--266
-[]\T1/lmr/m/n/12 A pulzálás max-imális $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 Artériás közép-ny-omás-sal (MAP) 
+Overfull \hbox (3.08896pt too wide) in paragraph at lines 783--784
+[]\T1/lmr/bx/n/12 AAL - Am-bi-ent As-sisted Liv-ing\T1/lmr/m/n/12 : In-tel-li-gens tech-nológiák
+ []
+
+[34]
+Overfull \hbox (30.8005pt too wide) in paragraph at lines 795--796
+[]\T1/lmr/bx/n/12 RS-232\T1/lmr/m/n/12 : Se-rial kom-munká-ciós pro-tokoll, régi es-zközök használják. 
  []
 
 
-Overfull \hbox (1.95863pt too wide) in paragraph at lines 266--267
-[]\T1/lmr/m/n/12 A szisz-tolés és di-asz-tolés érték ebb®l szá-mol-ható definiált
- []
-
-[37
-
-]
-Overfull \hbox (32.06195pt too wide) in paragraph at lines 272--272
-[]\T1/lmr/bx/n/14.4 Oszcillometriás vérny-omás-mér® elvi felépítése 
- []
-
-<assets/oszc.png, id=889, 551.05875pt x 260.47313pt>
-File: assets/oszc.png Graphic file (type png)
-<use assets/oszc.png>
-Package pdftex.def Info: assets/oszc.png  used on input line 274.
-(pdftex.def)             Requested size: 284.52756pt x 134.49292pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 274--274
- [] 
+Overfull \hbox (34.4461pt too wide) in paragraph at lines 796--797
+[]\T1/lmr/bx/n/12 SPI\T1/lmr/m/n/12 : Soros per-ifériás in-ter-fész, adatátvitelre használják mikrovezér-
  []
 
 
-Overfull \hbox (5.07625pt too wide) in paragraph at lines 277--277
-[]\T1/lmr/bx/n/12 A ny-omás-mér® rész blokkvá-zlata (os-z-cil-lometriás) 
- []
-
-<assets/oszc2.png, id=890, 573.64313pt x 189.70876pt>
-File: assets/oszc2.png Graphic file (type png)
-<use assets/oszc2.png>
-Package pdftex.def Info: assets/oszc2.png  used on input line 279.
-(pdftex.def)             Requested size: 284.52756pt x 94.09572pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 279--279
- [] 
- []
-
-<assets/oszc3.png, id=891, 514.92375pt x 359.09157pt>
-File: assets/oszc3.png Graphic file (type png)
-<use assets/oszc3.png>
-Package pdftex.def Info: assets/oszc3.png  used on input line 284.
-(pdftex.def)             Requested size: 284.52756pt x 198.42148pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 284--284
- [] 
- []
-
-[38
-
- <./assets/oszc.png> <./assets/oszc2.png>] [39 <./assets/oszc3.png>] [40{C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
-Overfull \hbox (2.2219pt too wide) in paragraph at lines 347--348
-[]\T1/lmr/m/n/12 Mikromanométer vég¶ vezet® drót végén ny-omásérzékel® 
+Overfull \hbox (4.676pt too wide) in paragraph at lines 799--800
+[]\T1/lmr/bx/n/12 USART\T1/lmr/m/n/12 : Uni-verzális szinkro-n/aszinkron vev®-adó, az UART
  []
 
 
-Overfull \hbox (3.10435pt too wide) in paragraph at lines 348--349
-[]\T1/lmr/m/n/12 Fiziológiás folyadékkal feltöltött katéter (érzékel® a küls®
- []
-
-<assets/kat.png, id=909, 473.51906pt x 133.24782pt>
-File: assets/kat.png Graphic file (type png)
-<use assets/kat.png>
-Package pdftex.def Info: assets/kat.png  used on input line 352.
-(pdftex.def)             Requested size: 341.43306pt x 96.08067pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 352--352
- [] 
+Overfull \hbox (21.50815pt too wide) in paragraph at lines 802--803
+\T1/lmr/m/n/12 per-ifériákat és tar-tozékokat csat-lakoz-tathatunk számítógépekhez
  []
 
 
-Overfull \hbox (10.0875pt too wide) in paragraph at lines 369--370
-[]\T1/lmr/m/n/12 Cukorhiánynál a májban egy folyam-atos sz®l®cukor-újraképzés
+Overfull \hbox (6.03937pt too wide) in paragraph at lines 803--804
+[]\T1/lmr/bx/n/12 Testkommunikáció (body com-mu-ni-ca-tion)\T1/lmr/m/n/12 : A test kom-
+ []
+
+[35]
+Overfull \hbox (13.02466pt too wide) in paragraph at lines 804--805
+\T1/lmr/m/n/12 mos jelek továb-bítására al-ka-lmasak, és in-te-grál-hatók ruházatba
  []
 
 
-Overfull \hbox (6.5548pt too wide) in paragraph at lines 370--371
-[]\T1/lmr/m/n/12 A se-jtek a glükózt en-er-giafor-rásként használják valamint egyes
- []
-
-[41
-
- <./assets/kat.png>] [42]
-Overfull \hbox (23.78687pt too wide) in paragraph at lines 400--401
-[]\T1/lmr/m/n/12 A cukor vizelet-tel való foko-zott kiválasztására és a megemelkedett
+Overfull \hbox (0.94463pt too wide) in paragraph at lines 806--807
+[]\T1/lmr/bx/n/12 DTE\T1/lmr/m/n/12 : Data Ter-mi-nal Equip-ment (DTE) egy olyan vég-beren-
  []
 
 
-Overfull \hbox (21.93385pt too wide) in paragraph at lines 406--407
-[]\T1/lmr/m/n/12 A betegség el®re-ha-l-adásá-val, amikor a béta-sejtek kimerülése
+Overfull \hbox (39.037pt too wide) in paragraph at lines 807--808
+[]\T1/lmr/bx/n/12 DCE\T1/lmr/m/n/12 : Data Com-mu-ni-ca-tions Equip-ment (DCE) olyan számítógépes
  []
 
-[43]
-Overfull \hbox (5.24342pt too wide) in paragraph at lines 426--427
-[]\T1/lmr/m/n/12 Nem cuko-r-betegeknél $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 Étkezések el®tt akár 4-6 mmol/1
+[36]
+Overfull \hbox (3.55809pt too wide) in paragraph at lines 818--819
+\T1/lmr/m/n/12 egy fo-gadó es-zköz küld egy küld® es-zköznek, hogy meger®sítse
  []
 
-
-Overfull \hbox (62.8219pt too wide) in paragraph at lines 429--430
-[]\T1/lmr/m/n/12 A rend-sz-eres vér-cuko-r-mérés ered-ményeib®l sz-abad csak következtetéseket
- []
-
-
-Overfull \hbox (9.34244pt too wide) in paragraph at lines 451--452
-[]\T1/lmr/m/n/12 Színelváltozások egyértelm¶ és minél pon-tosabb le-olvasása 
- []
-
-[44
-
-]
-<assets/inz.png, id=928, 667.74469pt x 314.67563pt>
-File: assets/inz.png Graphic file (type png)
-<use assets/inz.png>
-Package pdftex.def Info: assets/inz.png  used on input line 504.
-(pdftex.def)             Requested size: 426.79134pt x 201.13242pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 504--504
- [] 
- []
-
-[45]
-<assets/autinj.png, id=933, 660.96938pt x 150.5625pt>
-File: assets/autinj.png Graphic file (type png)
-<use assets/autinj.png>
-Package pdftex.def Info: assets/autinj.png  used on input line 507.
-(pdftex.def)             Requested size: 284.52756pt x 64.81412pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 507--507
- [] 
- []
-
-[46 <./assets/inz.png> <./assets/autinj.png>]
-Overfull \hbox (36.3322pt too wide) in paragraph at lines 518--518
-[]\T1/lmr/bx/n/12 Koleszterin (LDL/HDL), lak-tát, hemoglobin,triglicerid
- []
-
-
-Overfull \hbox (9.34244pt too wide) in paragraph at lines 526--527
-[]\T1/lmr/m/n/12 Színelváltozások egyértelm¶ és minél pon-tosabb le-olvasása 
- []
-
-<assets/ev.png, id=940, 702.37407pt x 396.7322pt>
-File: assets/ev.png Graphic file (type png)
-<use assets/ev.png>
-Package pdftex.def Info: assets/ev.png  used on input line 547.
-(pdftex.def)             Requested size: 426.79134pt x 241.08006pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 547--547
- [] 
- []
-
-[47
-
-] [48 <./assets/ev.png>]
-Overfull \hbox (14.42857pt too wide) in paragraph at lines 590--591
-[]\T1/lmr/m/n/12 Nyúlásképes pánt, ami a mel-lkas tér-fo-gatvál-tozását érzékeli 
- []
-
-[49]
-Overfull \hbox (12.59926pt too wide) in paragraph at lines 615--616
-[]\T1/lmr/m/n/12 Helyesen/helytelenül végzett gyako-r-lat (szög, sebesség,
- []
-
-
-Overfull \hbox (3.90659pt too wide) in paragraph at lines 629--630
-[]\T1/lmr/m/n/12 Testen viselt szen-zorok $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 Ak-ti-grá-fok, ak-tiv-itás érzékel®k 
- []
-
-
-Overfull \hbox (6.26959pt too wide) in paragraph at lines 634--635
-[]\T1/lmr/m/n/12 Kamera alapú rend-sz-erek passzív op-tikai ref-er-en-cia mark-
- []
-
-[50
-
-]
-Overfull \hbox (10.66827pt too wide) in paragraph at lines 645--646
-[]\T1/lmr/m/n/12 Mozgásérzékel® szen-zor (ac-celerométer), ami al-ka-lmas a külön-
- []
-
-
-Overfull \hbox (25.02995pt too wide) in paragraph at lines 654--654
-[]\T1/lmr/bx/n/14.4 Mozgásmennyiség fi-gyelés (életviteli minták) 
- []
-
-
-Overfull \hbox (37.74731pt too wide) in paragraph at lines 662--663
-[]\T1/lmr/m/n/12 Cél $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 A moz-du-lat/test-mozgás kval-i-tatív és kvan-ti-tatív jellemz®inek
- []
-
-[51
-
-]
-Overfull \hbox (14.68541pt too wide) in paragraph at lines 672--672
-[]\T1/lmr/bx/n/14.4 A mon-i-torozás ered-ményeinek fel-használási
- []
-
-[52
-
-]) [53]
-\openout2 = `harmadik.aux'.
-
- (harmadik.tex
-Overfull \hbox (15.54169pt too wide) in paragraph at lines 7--8
-\T1/lmr/m/n/12 je-len-ségeit vizs-gálja, a szívizom-összehúzódásakor keletkez®
- []
-
-
-Overfull \hbox (41.41245pt too wide) in paragraph at lines 16--18
-[]\T1/lmr/m/n/12 A szív elek-tro-mos jeleit vizs-gáló eljárás (a szívizom-összehúzódásakor
- []
-
-[54
-
-
-
-]
-<assets/ekg.png, id=975, 593.96906pt x 407.27156pt>
-File: assets/ekg.png Graphic file (type png)
-<use assets/ekg.png>
-Package pdftex.def Info: assets/ekg.png  used on input line 44.
-(pdftex.def)             Requested size: 369.88582pt x 253.63057pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 44--44
- [] 
- []
-
-[55
-
- <./assets/ekg.png>]
-<assets/gorbe.png, id=982, 223.58531pt x 132.495pt>
-File: assets/gorbe.png Graphic file (type png)
-<use assets/gorbe.png>
-Package pdftex.def Info: assets/gorbe.png  used on input line 48.
-(pdftex.def)             Requested size: 199.16928pt x 118.02933pt.
-
-Overfull \hbox (58.74939pt too wide) in paragraph at lines 48--48
- [] 
- []
-
-
-Overfull \hbox (0.38713pt too wide) in paragraph at lines 59--60
-[]\T1/lmr/bx/n/12 R $\OMS/lmsy/m/n/12 !$ \T1/lmr/m/n/12 a leg-nagy-obb csúcs a kam-rákon végigter-jed® in-gerületet
- []
-
-[56
-
- <./assets/gorbe.png>]
-Underfull \hbox (badness 3281) in paragraph at lines 86--88
-[]\T1/lmr/m/n/12 A 12 elvezetés EKG során 10 elek-tródát
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 86--88
-\T1/lmr/m/n/12 használunk. El-he-lyezkedésük a testen a
- []
-
-
-Underfull \hbox (badness 3098) in paragraph at lines 92--93
-[]\T1/lmr/m/n/12 RL (right leg): jobb lábon, cson-tos
- []
-
-
-Underfull \hbox (badness 4505) in paragraph at lines 93--95
-[]\T1/lmr/m/n/12 LL (left leg ): bal lábon, cson-tos
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 100--102
-[]\T1/lmr/m/n/12 V4: az ötödik bor-daközhöz (5. és
- []
-
-<assets/_12.png, id=988, 188.20313pt x 300.3722pt>
-File: assets/_12.png Graphic file (type png)
-<use assets/_12.png>
-Package pdftex.def Info: assets/_12.png  used on input line 112.
-(pdftex.def)             Requested size: 170.71652pt x 272.48203pt.
-
-Overfull \hbox (89.8132pt too wide) in paragraph at lines 83--114
-[]   [] 
- []
-
-[57
-
-] [58 <./assets/_12.png>]
-Overfull \hbox (8.9796pt too wide) in paragraph at lines 123--124
-[]\T1/lmr/m/n/12 Edzés/sportmozgás mon-i-torozás (egyéni és csap-at-sportra) 
- []
-
-
-Underfull \hbox (badness 6001) in paragraph at lines 149--149
-[]|\T1/lmr/m/n/10 < DAQ har-ness:
- []
-
-
-Overfull \hbox (17.66661pt too wide) in paragraph at lines 149--149
-\T1/lmr/m/n/10 pulse,posture,RR,Heart
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]|\T1/lmr/m/n/10 Quardio (Con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T1/lmr/m/n/10 sumer elec-tronic
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 149--149
-\T1/lmr/m/n/10 breath-ing ac-tiv-ity,
- []
-
-[59
-
-]
-Overfull \hbox (9.39662pt too wide) in paragraph at lines 178--180
-[]\T1/lmr/m/n/12 Pacemaker beül-tetésével ezek a tünetek elt¶n-het-nek, a betegek
- []
-
-
-Overfull \hbox (3.87589pt too wide) in paragraph at lines 194--196
-[]\T1/lmr/m/n/12 Bizonyos gyó-gysz-erek szedése mel-lett, pl. Béta-blokkolók
- []
-
-[60]
-Overfull \hbox (2.24898pt too wide) in paragraph at lines 251--254
-[]\T1/lmr/m/n/12 Az el®z® tí-pus a jobb pit-var és a jobb kamra együttm¶ködését
- []
-
-[61]) [62] (szenzormodalitasok.aux (exam.aux) (elso.aux) (masodik.aux) (harmadik.aux))
+) [37] (szenzormodalitasok.aux (exam.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `szenzormodalitasok.out' has not changed.
-(rerunfilecheck)             Checksum: 50FA38A36315D0173320B66EFBFC7172;28804.
+(rerunfilecheck)             Checksum: CA032DBCA1DA5E276B92E8B01AA4732B;14317.
  ) 
 Here is how much of TeX's memory you used:
- 28535 strings out of 475550
- 572208 string characters out of 5762533
- 1933238 words of memory out of 5000000
- 49009 multiletter control sequences out of 15000+600000
- 611933 words of font info for 70 fonts, out of 8000000 for 9000
+ 27920 strings out of 475550
+ 559729 string characters out of 5762533
+ 1932238 words of memory out of 5000000
+ 48516 multiletter control sequences out of 15000+600000
+ 602367 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,10n,87p,630b,736s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on szenzormodalitasok.pdf (62 pages, 3541230 bytes).
+ 84i,10n,87p,857b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/rpgix/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on szenzormodalitasok.pdf (37 pages, 223988 bytes).
 PDF statistics:
- 1113 PDF objects out of 1200 (max. 8388607)
- 205 named destinations out of 1000 (max. 500000)
- 1260 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 556 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
+ 589 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,132 +1,60 @@
-\contentsline {section}{\numberline {1}Vizsga kérdések}{6}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Szenzorok}{6}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Szenzor definíció}{6}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Szenzor kategóriák}{6}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}Szenzorok használati területei}{7}{subsubsection.1.1.3}%
-\contentsline {subsubsection}{\numberline {1.1.4}Szenzor problémák}{8}{subsubsection.1.1.4}%
-\contentsline {subsubsection}{\numberline {1.1.5}Aktuátor definíció, példák}{8}{subsubsection.1.1.5}%
-\contentsline {subsection}{\numberline {1.2}DAQ/Tradícionális vezérlés/DCS/SCADA/Monitoring/Vezérlőrendszerek}{9}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}DIKW piramis}{9}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Tradícionális vezérlési rendszerek vs. Elosztott vezérlési rendszerek (DCS)}{9}{subsubsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}DAQ rendszer előnyök/hátrányok, alkalmazási területek}{10}{subsubsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.4}Elosztott vezérlési rendszerek (DCS)}{10}{subsubsection.1.2.4}%
-\contentsline {subsubsection}{\numberline {1.2.5}SCADA rendszer}{10}{subsubsection.1.2.5}%
-\contentsline {subsection}{\numberline {1.3}DAQ}{11}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}DAQ rendszer komponensei}{11}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}DAQ alkalmazási területek}{11}{subsubsection.1.3.2}%
-\contentsline {subsubsection}{\numberline {1.3.3}Jelkondícionálás}{11}{subsubsection.1.3.3}%
-\contentsline {subsubsection}{\numberline {1.3.4}Betegmonitorozó DAQ infrastruktúra}{11}{subsubsection.1.3.4}%
-\contentsline {subsubsection}{\numberline {1.3.5}DAQ rendszerek kihívásai}{12}{subsubsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.4}Elosztott vezérlési rendszerek (DCS)}{12}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}DCS architektúra}{12}{subsubsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2}DCS komponensei}{12}{subsubsection.1.4.2}%
-\contentsline {subsubsection}{\numberline {1.4.3}DCS előnyök és hátrányok}{12}{subsubsection.1.4.3}%
-\contentsline {subsubsection}{\numberline {1.4.4}DCS alkalmazási területek}{12}{subsubsection.1.4.4}%
-\contentsline {subsection}{\numberline {1.5}Supervisory control and data acquisition - SCADA}{13}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}SCADA architektúra, komponensei}{13}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}SCADA előnyök/hátrányok}{13}{subsubsection.1.5.2}%
-\contentsline {subsubsection}{\numberline {1.5.3}SCADA alkalmazási területek}{13}{subsubsection.1.5.3}%
-\contentsline {subsubsection}{\numberline {1.5.4}SCADA funkciói}{14}{subsubsection.1.5.4}%
-\contentsline {subsubsection}{\numberline {1.5.5}Basic SCADA vs. Integrated SCADA vs. Networked SCADA}{14}{subsubsection.1.5.5}%
-\contentsline {subsection}{\numberline {1.6}Biojel-gyűjtés (Biosignal acquisition)}{15}{subsection.1.6}%
-\contentsline {subsubsection}{\numberline {1.6.1}Szenzoradat kezelési folyamat}{15}{subsubsection.1.6.1}%
-\contentsline {subsubsection}{\numberline {1.6.2}Mérési hibák (típusok/források)}{16}{subsubsection.1.6.2}%
-\contentsline {subsubsection}{\numberline {1.6.3}Egyetlen vs. több szenzoros mérési problémák}{17}{subsubsection.1.6.3}%
-\contentsline {subsubsection}{\numberline {1.6.4}Mérnöki kihívások a nagymennyiségű adatgyűjtésnél}{18}{subsubsection.1.6.4}%
-\contentsline {section}{\numberline {2}Téma 1}{19}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Szenzor/érzékelő}{19}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Adat-Információ-Ismeret-Tudás piramis}{19}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Data Acquisition - DAQ rendszerek}{20}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Járulékos hardver eszközök}{20}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Rendszerirányító rendszerek}{20}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}Distributed Control System - DCS}{21}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Supervisory Control and Data Acquisition - SCADA}{21}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}SCADA rendszer generációk}{22}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}SCADA rendszer általános belső architektúrája}{22}{subsubsection.2.5.4}%
-\contentsline {subsubsection}{\numberline {2.5.5}A SCADA rendszerek főbb funkciói}{23}{subsubsection.2.5.5}%
-\contentsline {subsection}{\numberline {2.6}Példák a távoli adatgyűjtésre}{23}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Távoló adatgyűjtő rendszerek általános működése}{24}{subsubsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.7}Általános páciens monitorozó DAQ architektúra}{24}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Élettani paraméterek monitorozása extrém körülmények között}{25}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Üzemeltetési és távfelügyeleti rendszer}{26}{subsection.2.9}%
-\contentsline {section}{\numberline {3}Téma 2}{27}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Szenzorjelek feldolgozása}{27}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Élettani paraméterek (típusok)}{28}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Organizmus mérhető paraméterei}{28}{subsubsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.3}Szenzoradat kezelés}{28}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Mért élettani paraméterek}{28}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Mérési hibák}{29}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Távoli szenzor adat}{29}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Egyetlen vs. több szenzoros mérések}{29}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Mérnöki kihívások a nagymennyiségű adatgyűjtésnél}{30}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}Biológiai jellemzők és mérésük}{30}{subsection.3.9}%
-\contentsline {subsection}{\numberline {3.10}Vérnyomás}{31}{subsection.3.10}%
-\contentsline {subsection}{\numberline {3.11}Vérnyomásmérés}{31}{subsection.3.11}%
-\contentsline {subsection}{\numberline {3.12}Humán keringési rendszer}{32}{subsection.3.12}%
-\contentsline {subsection}{\numberline {3.13}Szívverés - szisztolé és diasztolé}{32}{subsection.3.13}%
-\contentsline {subsection}{\numberline {3.14}Vérnyomásértékek}{33}{subsection.3.14}%
-\contentsline {subsection}{\numberline {3.15}A szívműködés jellemző jelei}{34}{subsection.3.15}%
-\contentsline {subsection}{\numberline {3.16}Nagyvérköri nyomásértékek}{35}{subsection.3.16}%
-\contentsline {subsection}{\numberline {3.17}A keringési rendszer egyszerűsített modellje}{35}{subsection.3.17}%
-\contentsline {subsection}{\numberline {3.18}Mérések pontossága}{36}{subsection.3.18}%
-\contentsline {subsection}{\numberline {3.19}Mérési megoldások/elvek (nem invazív)}{37}{subsection.3.19}%
-\contentsline {subsection}{\numberline {3.20}Oszcillometriás vérnyomásmérő elvi felépítése}{38}{subsection.3.20}%
-\contentsline {subsubsection}{\numberline {3.20.1}A nyomásmérő rész blokkvázlata (oszcillometriás)}{38}{subsubsection.3.20.1}%
-\contentsline {subsubsection}{\numberline {3.20.2}A nyomásmérő rész aluláteresztős erősítőjének megvalósítása}{39}{subsubsection.3.20.2}%
-\contentsline {subsection}{\numberline {3.21}Mérési megoldások/elvek (nem invazív)}{39}{subsection.3.21}%
-\contentsline {subsection}{\numberline {3.22}Vérnyomásmérők a gyakorlatban}{40}{subsection.3.22}%
-\contentsline {subsubsection}{\numberline {3.22.1}ABPM - vérnyomás Holter}{40}{subsubsection.3.22.1}%
-\contentsline {subsubsection}{\numberline {3.22.2}Vérnyomásmérést befolyásoló tényezők}{40}{subsubsection.3.22.2}%
-\contentsline {subsubsection}{\numberline {3.22.3}Invazív vérnyomásmérés}{41}{subsubsection.3.22.3}%
-\contentsline {subsubsection}{\numberline {3.22.4}Vér összetevők mérése}{41}{subsubsection.3.22.4}%
-\contentsline {subsubsection}{\numberline {3.22.5}Vércukor}{41}{subsubsection.3.22.5}%
-\contentsline {subsection}{\numberline {3.23}Inzulin problémák}{42}{subsection.3.23}%
-\contentsline {subsection}{\numberline {3.24}Cukorbetegség}{43}{subsection.3.24}%
-\contentsline {subsection}{\numberline {3.25}Vércukorszint}{44}{subsection.3.25}%
-\contentsline {subsection}{\numberline {3.26}Vércukormérés gyakorisága}{44}{subsection.3.26}%
-\contentsline {subsection}{\numberline {3.27}Vércukormérés}{44}{subsection.3.27}%
-\contentsline {subsection}{\numberline {3.28}Hátrányok}{45}{subsection.3.28}%
-\contentsline {subsection}{\numberline {3.29}CGM - Folyamatos vércukormonitorozás napjainkban}{45}{subsection.3.29}%
-\contentsline {subsection}{\numberline {3.30}Inzulin}{45}{subsection.3.30}%
-\contentsline {subsubsection}{\numberline {3.30.1}Inzulin beadása}{45}{subsubsection.3.30.1}%
-\contentsline {subsubsection}{\numberline {3.30.2}Inzulin adagolók napjainkban}{46}{subsubsection.3.30.2}%
-\contentsline {subsubsection}{\numberline {3.30.3}Auto-injector megoldás belső részei}{46}{subsubsection.3.30.3}%
-\contentsline {subsubsection}{\numberline {3.30.4}CGM + inzulinpumpa}{46}{subsubsection.3.30.4}%
-\contentsline {subsubsection}{\numberline {3.30.5}Koleszterin (LDL/HDL), laktát, hemoglobin,triglicerid mérés}{47}{subsubsection.3.30.5}%
-\contentsline {subsection}{\numberline {3.31}Gyógyszerszedés}{47}{subsection.3.31}%
-\contentsline {subsection}{\numberline {3.32}Evolúció}{48}{subsection.3.32}%
-\contentsline {subsection}{\numberline {3.33}Defibrillátorok és pacemaker-ek}{48}{subsection.3.33}%
-\contentsline {subsection}{\numberline {3.34}Az emberi légzés monitorozása}{48}{subsection.3.34}%
-\contentsline {subsubsection}{\numberline {3.34.1}Pulzoximetria}{49}{subsubsection.3.34.1}%
-\contentsline {subsubsection}{\numberline {3.34.2}Külső légzést monitorozó eszközök}{49}{subsubsection.3.34.2}%
-\contentsline {subsection}{\numberline {3.35}Mozgásmonitorozás vs. mozdulatmonitorozás}{50}{subsection.3.35}%
-\contentsline {subsection}{\numberline {3.36}Mozdulat és mozgásmonitorozó rendszerek}{50}{subsection.3.36}%
-\contentsline {subsection}{\numberline {3.37}Személyi mozgásmennyiség mérő}{51}{subsection.3.37}%
-\contentsline {subsection}{\numberline {3.38}Mozgásmennyiség figyelés (életviteli minták)}{51}{subsection.3.38}%
-\contentsline {subsection}{\numberline {3.39}Mozdulat monitorozás}{51}{subsection.3.39}%
-\contentsline {subsection}{\numberline {3.40}A monitorozás eredményeinek felhasználási területei}{52}{subsection.3.40}%
-\contentsline {subsection}{\numberline {3.41}Megoldási alternatívák}{52}{subsection.3.41}%
-\contentsline {subsection}{\numberline {3.42}Mozgásmonitorozás - célhardverek}{52}{subsection.3.42}%
-\contentsline {subsection}{\numberline {3.43}Eszközök}{52}{subsection.3.43}%
-\contentsline {subsection}{\numberline {3.44}Mozdulatkövetés a gyakorlatban (hardver és eszköz)}{53}{subsection.3.44}%
-\contentsline {subsection}{\numberline {3.45}Szoftver képességek}{53}{subsection.3.45}%
-\contentsline {section}{\numberline {4}Téma 4}{54}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Elektromos jelek gyűjtése a testből/ről}{54}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Elektrokardiográf (EKG)}{54}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}EKG}{55}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}EKG bemenet funkcionális felépítése}{55}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}EKG görbe}{56}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}EKG mérés régen és ma}{57}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}12 elvezetéses EKG – kórházi használat}{58}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Mobil EKG rendszerek a gyakorlatban}{59}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}EKG monitorok}{59}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}Mobil - viselhető EKG monitorok}{59}{subsection.4.10}%
-\contentsline {subsection}{\numberline {4.11}Szívritmusszabályzók, pacemakerek}{60}{subsection.4.11}%
-\contentsline {subsection}{\numberline {4.12}Kinek van szüksége pacemakerre?}{60}{subsection.4.12}%
-\contentsline {subsection}{\numberline {4.13}Hogyan működik a pacemaker?}{61}{subsection.4.13}%
-\contentsline {subsection}{\numberline {4.14}Pacemakertípusok}{61}{subsection.4.14}%
-\contentsline {subsection}{\numberline {4.15}Egyelektródás pacemaker}{61}{subsection.4.15}%
-\contentsline {subsection}{\numberline {4.16}Pitvar-kamrai pacemaker}{61}{subsection.4.16}%
-\contentsline {subsection}{\numberline {4.17}Biventricularis pacemaker}{61}{subsection.4.17}%
-\contentsline {subsection}{\numberline {4.18}A beültetésről}{62}{subsection.4.18}%
-\contentsline {subsection}{\numberline {4.19}A szív elektrofiziológiás vizsgálata diagnosztikai katéterrel}{62}{subsection.4.19}%
+\contentsline {section}{\numberline {1}Vizsga kérdések}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Szenzorok}{4}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Szenzor definíció}{4}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Szenzor kategóriák}{4}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Szenzorok használati területei}{5}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Szenzor problémák}{6}{subsubsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.5}Aktuátor definíció, példák}{6}{subsubsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.2}DAQ/Tradícionális vezérlés/DCS/SCADA/Monitoring/Vezérlőrendszerek}{7}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}DIKW piramis}{7}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Tradícionális vezérlési rendszerek vs. Elosztott vezérlési rendszerek (DCS)}{7}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}DAQ rendszer előnyök/hátrányok, alkalmazási területek}{8}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Elosztott vezérlési rendszerek (DCS)}{8}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}SCADA rendszer}{8}{subsubsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.3}DAQ}{9}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}DAQ rendszer komponensei}{9}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}DAQ alkalmazási területek}{9}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Jelkondícionálás}{9}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Betegmonitorozó DAQ infrastruktúra}{9}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.5}DAQ rendszerek kihívásai}{10}{subsubsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.4}Elosztott vezérlési rendszerek (DCS)}{10}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}DCS architektúra}{10}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}DCS komponensei}{10}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}DCS előnyök és hátrányok}{10}{subsubsection.1.4.3}%
+\contentsline {subsubsection}{\numberline {1.4.4}DCS alkalmazási területek}{10}{subsubsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.5}Supervisory control and data acquisition - SCADA}{11}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}SCADA architektúra, komponensei}{11}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}SCADA előnyök/hátrányok}{11}{subsubsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.5.3}SCADA alkalmazási területek}{11}{subsubsection.1.5.3}%
+\contentsline {subsubsection}{\numberline {1.5.4}SCADA funkciói}{12}{subsubsection.1.5.4}%
+\contentsline {subsubsection}{\numberline {1.5.5}Basic SCADA vs. Integrated SCADA vs. Networked SCADA}{12}{subsubsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.6}Biojel-gyűjtés (Biosignal acquisition)}{13}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}Szenzoradat kezelési folyamat}{13}{subsubsection.1.6.1}%
+\contentsline {subsubsection}{\numberline {1.6.2}Mérési hibák (típusok/források)}{14}{subsubsection.1.6.2}%
+\contentsline {subsubsection}{\numberline {1.6.3}Egyetlen vs. több szenzoros mérési problémák}{15}{subsubsection.1.6.3}%
+\contentsline {subsubsection}{\numberline {1.6.4}Mérnöki kihívások a nagymennyiségű adatgyűjtésnél}{16}{subsubsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.7}Biojel-gyűjtés a sportban és az idősgondozásban}{17}{subsection.1.7}%
+\contentsline {subsubsection}{\numberline {1.7.1}Sportmonitoring megoldások (aktivitás/teljesítmény) és problémák}{17}{subsubsection.1.7.1}%
+\contentsline {subsubsection}{\numberline {1.7.2}Környezet és lokáció monitoring (lokáció monitoring problémák)}{17}{subsubsection.1.7.2}%
+\contentsline {subsubsection}{\numberline {1.7.3}Idősek monitorozása (problémák és megoldások)}{17}{subsubsection.1.7.3}%
+\contentsline {subsubsection}{\numberline {1.7.4}Hipertónia/Magas vérnyomás monitoring}{18}{subsubsection.1.7.4}%
+\contentsline {subsubsection}{\numberline {1.7.5}Diabétesz/cukorbetegség monitorozása (módszerek, berendezések, CGM, mesterséges hasnyálmiriggyel kapcsolatos kérdések)}{19}{subsubsection.1.7.5}%
+\contentsline {subsection}{\numberline {1.8}I2C és SPI (rövid hatótávolságú vezetékes kommunikáció)}{20}{subsection.1.8}%
+\contentsline {subsubsection}{\numberline {1.8.1}I2C kommunikáció}{20}{subsubsection.1.8.1}%
+\contentsline {subsubsection}{\numberline {1.8.2}I2C előnyök/hátrányok, alkalmazási területek}{20}{subsubsection.1.8.2}%
+\contentsline {subsubsection}{\numberline {1.8.3}SPI komponensei}{21}{subsubsection.1.8.3}%
+\contentsline {subsubsection}{\numberline {1.8.4}SPI előnyök/hátrányok, alkalmazási területek}{21}{subsubsection.1.8.4}%
+\contentsline {subsubsection}{\numberline {1.8.5}I2C vs. SPI}{22}{subsubsection.1.8.5}%
+\contentsline {subsection}{\numberline {1.9}Vezeték nélküli kommunikációs technológiák}{23}{subsection.1.9}%
+\contentsline {subsubsection}{\numberline {1.9.1}BAN (Body Area Network) hálózatok}{23}{subsubsection.1.9.1}%
+\contentsline {subsubsection}{\numberline {1.9.2}PAN hálózatok}{23}{subsubsection.1.9.2}%
+\contentsline {subsubsection}{\numberline {1.9.3}LAN hálózatok}{24}{subsubsection.1.9.3}%
+\contentsline {subsubsection}{\numberline {1.9.4}MAN hálózatok}{25}{subsubsection.1.9.4}%
+\contentsline {subsubsection}{\numberline {1.9.5}WAN hálózatok}{26}{subsubsection.1.9.5}%
+\contentsline {subsection}{\numberline {1.10}USB}{26}{subsection.1.10}%
+\contentsline {subsubsection}{\numberline {1.10.1}USB architektúra/komponensei, eszköz kategóriák}{26}{subsubsection.1.10.1}%
+\contentsline {subsubsection}{\numberline {1.10.2}USB előnyök/hátrányok, alkalmazási területek}{27}{subsubsection.1.10.2}%
+\contentsline {subsubsection}{\numberline {1.10.3}USB csatlakozók, OTG (On the Go)}{27}{subsubsection.1.10.3}%
+\contentsline {subsubsection}{\numberline {1.10.4}USB Enumeration}{27}{subsubsection.1.10.4}%
+\contentsline {subsubsection}{\numberline {1.10.5}USB. RS-232 (serial)}{27}{subsubsection.1.10.5}%
+\contentsline {section}{\numberline {2}Fogalmak}{29}{section.2}%
