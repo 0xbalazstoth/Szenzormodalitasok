@@ -405,6 +405,8 @@ void loop() {
     Serial.print(temperature);
     Serial.println(F("°C"));
 
+    Serial.println(WiFi.localIP());
+
     // Update the status bar on the OLED
     updateStatusBar(humidity, temperature, isConnected);
   }
