@@ -21,6 +21,10 @@
 #include <ESP8266WebServer.h>
 #include <EEPROM.h>
 
+// Websockets
+#include <WebSocketsServer.h>
+#include <Hash.h>
+
 // DHT-22M
 #include <DHT.h>
 
@@ -51,6 +55,8 @@ String st;
 String content;
 int i = 0;
 int statusCode;
+
+WebSocketsServer webSocket = WebSocketsServer(81);
 
 void setup() {
   Serial.begin(115200);
@@ -114,7 +120,11 @@ void setupEEPROM() {
   if (testWifi())
   {
     Serial.println("Succesfully Connected!!!");
-    launchWeb();
+    // launchWeb();
+
+    webSocket.begin(); // Start the WebSocket server
+    webSocket.onEvent(webSocketEvent); // Assign the event handler
+    Serial.println("WebSocket server started.");
 
     return;
   }
@@ -449,8 +459,72 @@ void loop() {
 
     // Update the status bar on the OLED
     updateStatusBar(humidity, temperature, isConnected);
+
+    webSocket.loop();
+    sendSensorData();
   }
 
   // Call display.display() after all screen updates are done if necessary
   display.display();
+}
+
+void sendSensorData() {
+    static unsigned long lastSendTime = 0;
+    unsigned long currentTime = millis();
+    
+    // Update interval: 1000 milliseconds
+    if (currentTime - lastSendTime > 1000) {
+        lastSendTime = currentTime;
+        
+        float humidity = dht.readHumidity();
+        float temperature = dht.readTemperature();
+        
+        if (!isnan(humidity) && !isnan(temperature)) {
+            char msg[100];
+            snprintf(msg, sizeof(msg), "Temperature: %.2f C, Humidity: %.2f%%", temperature, humidity);
+            
+            // Send to all connected clients
+            for(int i = 0; i < WEBSOCKETS_SERVER_CLIENT_MAX; i++) {
+                if (webSocket.clientIsConnected(i)) {
+                    webSocket.sendTXT(i, msg);
+                }
+            }
+        }
+    }
+}
+
+void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t length) {
+    // When a WebSocket message is received
+    switch(type) {
+        case WStype_DISCONNECTED:
+            Serial.printf("[%u] Disconnected!\n", num);
+            break;
+        case WStype_CONNECTED: {
+            IPAddress ip = webSocket.remoteIP(num);
+            Serial.printf("[%u] Connection from %s\n", num, ip.toString().c_str());
+            break;
+        }
+        case WStype_TEXT:
+            Serial.printf("[%u] Received text: %s\n", num, payload);
+            // Check if the message is a request for sensor data
+            if (strcmp((char *)payload, "getSensorData") == 0) {
+                // Read sensor data
+                float humidity = dht.readHumidity();
+                float temperature = dht.readTemperature();
+                // Check if any reads failed
+                if (isnan(humidity) || isnan(temperature)) {
+                    Serial.println("Failed to read from DHT sensor!");
+                    webSocket.sendTXT(num, "Failed to read from sensor");
+                } else {
+                    // Prepare and send the sensor data
+                    char msg[100];
+                    snprintf(msg, sizeof(msg), "Temperature: %.2f C, Humidity: %.2f%%", temperature, humidity);
+                    webSocket.sendTXT(num, msg);
+                }
+            }
+            break;
+        case WStype_BIN:
+            Serial.printf("[%u] Binary data\n", num);
+            break;
+    }
 }
