@@ -456,6 +456,8 @@ void loop() {
     Serial.println(F("°C"));
 
     Serial.println(WiFi.localIP());
+    displayOledText(0, 45, 1, SH110X_WHITE, SH110X_BLACK, "IP address:");
+    displayOledText(0, 55, 1, SH110X_WHITE, SH110X_BLACK, IpAddress2String(WiFi.localIP()));
 
     // Update the status bar on the OLED
     updateStatusBar(humidity, temperature, isConnected);
@@ -466,6 +468,14 @@ void loop() {
 
   // Call display.display() after all screen updates are done if necessary
   display.display();
+}
+
+String IpAddress2String(const IPAddress& ipAddress)
+{
+  return String(ipAddress[0]) + String(".") +\
+  String(ipAddress[1]) + String(".") +\
+  String(ipAddress[2]) + String(".") +\
+  String(ipAddress[3])  ; 
 }
 
 void sendSensorData() {

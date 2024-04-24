@@ -2,3 +2,99 @@
 
 \subsection{Összeköttetés}
 \customwidthimage{schematic}{15cm}
+
+\subsection{Csomagok}
+\subsubsection*{Websockets}
+\begin{itemize}
+    \item \href{https://github.com/Links2004/arduinoWebSockets}{https://github.com/Links2004/arduinoWebSockets}
+\end{itemize}
+
+\subsubsection*{DHT sensor}
+\begin{itemize}
+    \item \href{https://github.com/adafruit/DHT-sensor-library}{https://github.com/adafruit/DHT-sensor-library}
+    \item \href{https://github.com/adafruit/Adafruit_Sensor}{https://github.com/adafruit/Adafruit$\_$Sensor}
+\end{itemize}
+
+\subsubsection*{GFX}
+\begin{itemize}
+    \item \href{https://github.com/adafruit/Adafruit-GFX-Library}{https://github.com/adafruit/Adafruit-GFX-Library}
+    \item \href{https://github.com/adafruit/Adafruit_BusIO}{https://github.com/adafruit/Adafruit$\_$BusIO}
+\end{itemize}
+
+\subsubsection*{Display}
+\begin{itemize}
+    \item \href{https://github.com/adafruit/Adafruit_SH110X}{https://github.com/adafruit/Adafruit$\_$SH110X}
+\end{itemize}
+
+\subsection{BAUD}
+A szenzorból származó adatok kiolvasása és megjelenítése a soros monitoron a 115200 baudos kommunikációs sebesség használatával történik. Ez a baud érték azt jelenti, hogy a rendszer másodpercenként 115200 bit adatot képes továbbítani.
+\customwidthimage{baud}{10cm}
+
+\subsection{setup()}
+\textbf{Cél:} A rendszer hardver komponenseinek és kommunikációs protokolljainak inicializálása.
+
+\textbf{Leírás:}
+\begin{itemize}
+  \item A soros port inicializálása 115200 baud sebességgel a debug üzenetekhez.
+  \item A DHT22 szenzor aktiválása, ami a hőmérséklet és páratartalom méréséért felelős.
+  \item Az OLED kijelző beállítása, ellenőrzése, hogy a kijelző helyesen van-e csatlakoztatva. Ha nem, a rendszer leáll.
+  \item A kijelzőn megjelenő kezdő szöveg megjelenítése, ami a rendszer állapotának elsődleges vizuális visszajelzése.
+\end{itemize}
+
+\subsection{setupEEPROM()}
+\textbf{Cél:} Az EEPROM-ból való Wi-Fi hitelesítő adatok olvasása és a hálózathoz való csatlakozás kísérlete.
+
+\textbf{Leírás:}
+\begin{itemize}
+  \item Az EEPROM inicializálása és a korábban mentett Wi-Fi hitelesítő adatok (SSID és jelszó) olvasása.
+  \item Wi-Fi hálózathoz való csatlakozás ezekkel az adatokkal.
+  \item Ha a hálózati kapcsolat sikerült, a WebSocket szerver elindítása.
+  \item Ha a kapcsolat nem jön létre, a rendszer hozzáférési pontként (AP módban) való indítása, hogy a felhasználók közvetlenül csatlakozhassanak és konfigurálhassák a hálózati beállításokat.
+\end{itemize}
+
+\subsection{connectToWiFi(const char* ssid, const char* password)}
+\textbf{Cél:} Külön Wi-Fi hálózathoz való csatlakozás.
+
+\textbf{Leírás:}
+\begin{itemize}
+  \item Megpróbál csatlakozni a megadott SSID-hez és jelszóval.
+  \item A csatlakozási kísérlet során a kapcsolat állapotát jelző üzenetek megjelenítése.
+  \item A kapcsolat létrejötte esetén az IP-cím kiírása.
+\end{itemize}
+
+\subsection{displayOledText(int x, int y, uint8\_t textSize, uint16\_t textColor, uint16\_t backgroundColor, String text)}
+\textbf{Cél:} Szöveg megjelenítése az OLED kijelzőn.
+
+\textbf{Leírás:}
+\begin{itemize}
+  \item A megadott paraméterek alapján szöveg kiírása a kijelzőre.
+  \item A szöveg méretének, színének és pozíciójának beállítása.
+\end{itemize}
+
+\subsection{displayOledTextWrapped(int x, int \&y, uint8\_t textSize, uint16\_t textColor, uint16\_t backgroundColor, String text)}
+\textbf{Cél:} Többsoros szöveg megjelenítése az OLED kijelzőn.
+
+\textbf{Leírás:}
+\begin{itemize}
+  \item A szöveg megjelenítése több sorban, ha a szöveg hossza meghaladja a kijelző szélességét.
+  \item Automatikus sortörés a szöveg megfelelő helyen történő tördelése érdekében.
+\end{itemize}
+
+\subsection{testWifi()}
+\textbf{Cél:} Wi-Fi kapcsolat tesztelése.
+
+\textbf{Leírás:}
+\begin{itemize}
+  \item Ellenőrzi, hogy a Wi-Fi kapcsolat aktív-e egy adott időintervallumon belül.
+  \item Visszaadja a teszt eredményét (sikerült vagy sem).
+\end{itemize}
+
+\subsection{Értékek a kijelzőn}
+\begin{itemize}
+    \item A kijelző két részre lett bontva:
+    \begin{enumerate}
+        \item Felső rész, avagy a \textbf{status bar}.
+        \item Kijelző maradék része, \textbf{egyéb információk} kijelzése.
+    \end{enumerate}
+\end{itemize}
+\customwidthimage{display}{6cm}
