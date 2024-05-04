@@ -485,7 +485,7 @@
 
 \subsubsection{I2C előnyök/hátrányok, alkalmazási területek}
 \begin{itemize}
-    \item \textbf{Előnyök} (Alacsony vezetékszám, több eszköz támogatása, beépített konfliktuskezelés, rugalmas sebesség, egyszerű implementáció)
+    \item \textbf{Előnyök} (Alacsony vezetékszám, több eszköz támogatása, beépített konfliktuskezelés, rugalmas sebesség, egyszerű lementáció)
     \item \textbf{Hátrányok} (Korlátozott távolság, relatív lassúság, buszkonfliktusok több eszköznél, Master központúság)
     \item \textbf{Alkalmazási területek} (Beágyazott rendszerek, mobileszközök, elektronika)
 \end{itemize}
@@ -670,7 +670,8 @@
     \item Kommunikáció a perifériával, feltérképezi, hogy milyen eszköz, driver betöltés, azonosító ID hozzárendelés, az áramfelvétel szabályozása.
 \end{itemize}
 
-\subsubsection{USB. RS-232 (serial)}
+\clearpage
+\subsubsection{USB vs. RS-232 (serial)}
 \begin{table}[ht]
     \centering
     \begin{tabularx}{\textwidth}{X X}
@@ -689,6 +690,94 @@
     \bottomrule
     \end{tabularx}
     \label{table:usb_vs_rs232}
+\end{table}
+
+\clearpage
+\subsection{LPWAN technológiák}
+\subsubsection{LoRa/LoRaWAN kommunikáció: architektúra, építő elemei}
+\begin{itemize}
+    \item \textbf{LoRa}: A fizikai réteg, amely lehetővé teszi az alacsony energiafogyasztású, hosszú távolságú kommunikációt.
+    \item \textbf{LoRaWAN}: A hálózati protokoll, amely szabályozza az eszközök kommunikációját a hálózaton belül. Az architektúra többféle üzemeltetési módot támogat, és biztosítja az eszközök hálózatba való integrálását és menedzsmentjét.
+\end{itemize}
+
+\subsubsection{LoRa/LoRaWAN kommunikáció: előnyök/hátrányok, alkalmazási területei}
+\begin{itemize}
+    \item \textbf{Előnyök:}
+    \begin{itemize}
+        \item Hosszú távolságú kommunikáció
+        \item Alacsony energiafogyasztás
+        \item Jó áthatolási képesség épületeken belül
+    \end{itemize}
+    \item \textbf{Hátrányok:}
+    \begin{itemize}
+        \item Korlátozott adatátviteli sebesség
+        \item Közepes késleltetés
+        \item Interferencia-érzékenység
+    \end{itemize}
+    \item \textbf{Alkalmazási területek:}
+    \begin{itemize}
+        \item Okos városok
+        \item Mezőgazdasági monitoring
+        \item Energia menedzsment
+        \item Egészségügyi monitorozás
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsubsection{SIGFOX kommunikáció: architektúra/építő elemei}
+\begin{itemize}
+    \item \textbf{Architektúra:}
+    \begin{itemize}
+        \item Alacsony energiafogyasztású, alacsony sávszélességű adatátviteli technológia.
+        \item Hálózati topológia, amely az eszközöket közvetlenül a globális SIGFOX hálózathoz kapcsolja, gateway-ek és routerek nélkül.
+    \end{itemize}
+    \item \textbf{Építőelemek:}
+    \begin{itemize}
+        \item \textbf{Eszközök:} Alacsony energiafogyasztású eszközök, amelyek képesek az adatok egyszerű és sporadikus továbbítására.
+        \item \textbf{Hálózat:} Szerteágazó bázisállomások, amelyek fogadják és továbbítják az eszközökről érkező jeleket.
+        \item \textbf{Cloud platform:} A fogadott adatokat feldolgozó és tároló szerverinfrastruktúra.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{SIGFOX kommunikáció: előnyök/hátrányok, alkalmazási területei}
+\begin{itemize}
+    \item \textbf{Előnyök:}
+    \begin{itemize}
+        \item Nagyon alacsony energiafogyasztás, ami hosszú élettartamot biztosít az elemeknek.
+        \item Költséghatékony megoldás sok eszköz globális összekapcsolására.
+        \item Egyszerű hálózati architektúra, nincs szükség bonyolult beállításokra.
+    \end{itemize}
+    \item \textbf{Hátrányok:}
+    \begin{itemize}
+        \item Korlátozott adatátviteli sebesség, csak kis adatmennyiségek továbbítására alkalmas.
+        \item Nincs lehetőség az adatátvitel valós idejű követésére, nagyobb késleltetések előfordulhatnak.
+        \item Korlátozott kommunikációs funkciók, például csak egyirányú adatátvitel lehetséges bizonyos konfigurációkban.
+    \end{itemize}
+    \item \textbf{Alkalmazási területek:}
+    \begin{itemize}
+        \item Okos mérőeszközök, például víz-, gáz- és elektromos mérők.
+        \item Telemetria, azaz távoli mérőeszközök adatainak továbbítása.
+        \item Asset tracking, vagyis nyomkövetés, ahol az eszközök helyzetét nyomon kell követni.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Összehasonlítás: LPWAN vs. Narrow Band/cell alapú technológiák (GSM/3G/4G/5G)}
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{\textwidth}{X X}
+    \toprule
+    \textbf{Jellemző} & \textbf{LPWAN vs. GSM/3G/4G/5G} \\
+    \midrule
+    Sebesség & LPWAN: Általában alacsony (kb. 0,3-50 kbps) vs. GSM/3G/4G/5G: Magas (kb. 2 Mbps - 1 Gbps) \\
+    \midrule
+    Lefedettség & LPWAN: Nagyon nagy lefedettség, akár több kilométer vs. GSM/3G/4G/5G: Kisebb terület, városi közegben fókuszál \\
+    \midrule
+    Energiafogyasztás & LPWAN: Nagyon alacsony, optimalizált eszközök hosszú élettartamra vs. GSM/3G/4G/5G: Magasabb, gyakori töltés szükséges \\
+    \midrule
+    Alkalmazási terület & LPWAN: IoT eszközök, szenzorok, alacsony adatigény vs. GSM/3G/4G/5G: Magas adatigény, multimédia, gyors internet \\
+    \bottomrule
+    \end{tabularx}
+    \label{table:lpwan_vs_cellular}
 \end{table}
 
 \clearpage
@@ -818,4 +907,33 @@
     \item \textbf{ACK}: "Acknowledgment" egy jelzés vagy válasz, amelyet egy fogadó eszköz küld egy küldő eszköznek, hogy megerősítse vagy visszaigazolja, hogy sikeresen fogadta és megértette az átvitt adatokat vagy üzenetet. Használat például: például az Ethernet, a TCP/IP, az USB, vagy a soros kommunikáció során.
     \item \textbf{OTG}: On the go, Kiegészítő szabvány, kétirányú kommunikáció, hordozhatóság, komptakt csatlakozó.
     \item \textbf{BAN}: Body Area Network, a testen viselt vezeték nélküli szenzorok hálózata.
+    \item \textbf{UWB}: Alacsony energiafelhasználású, nagy sávszélességű rádiótechnológia, ami pontos helymeghatározást és biztonságos adatátvitelt tesz lehetővé.
+    \item \textbf{Impulzus-rádió (Impulse Radio)}: Rövid, nagy sávszélességű jeleket használ adatátvitelre, ideális rövid távú kommunikációhoz.
+    \item \textbf{Emberi test kommunikáci (Human Body Communication (HBC))}: Egy technológia, ami az emberi testet használja adatátviteli csatornaként, lehetővé téve az eszközök közötti kommunikációt a test felületén keresztül.
+    \item \textbf{Intra-testi kommunikáció (Intra-body (In-body) communication)} Egy technológia, ami az emberi test belsejében lévő jelátvitelt használja eszközök közötti kommunikációra.
+    \item \textbf{Rádiófrekvencia (RF)}: Elektromágneses hullámokat jelöl, amik vezeték nélküli kommunikációra szolgálnak.
+    \item \textbf{Implantátum-felszín kommunikáció (Implant-to-surface communication)}: Olyan technológia, ami az emberi testbe ültetett eszközök és a testen kívüli vevők közötti adatátvitelt teszi lehetővé.
+    \item \textbf{Felszín-felszín kommunikáció (Surface-to-surface communication)}: Olyan technológia, ami két külső felület közötti adatátvitelt teszi lehetővé.
+    \item \textbf{Implantátum-implantátum kommunikáció (Implant-to-implant communication)}: Olyan technológia, ami emberi testbe ültetett eszközök közötti adatátvitelt teszi lehetővé.
+    \item \textbf{Elektrosztatikus csatolás (Electrostatic coupling)}: Olyan jelenség, ahol elektromos töltések kölcsönhatásba lépnek egymással anélkül, hogy közvetlen érintkezésbe kerülnének.
+    \item \textbf{Galvanikus csatolás (Galvanic coupling/Waveguide)}: Olyan technika, ahol az elektromos áram közvetlenül két pont között áramlik át a testen keresztül. A hullámvezető pedig egy szerkezet, ami elektromágneses hullámok irányított továbbítására szolgál.
+    \item \textbf{PAN}: Személyes hálózat, kis hatótávolságú, egyéni eszközök közötti kommunikációira.
+    \item \textbf{HAN}: Háztartási hálózat, otthoni eszközök, például számítógépek, okosotthon-technológiák összekötésére.
+    \item \textbf{LAN}: Helyi hálózat, egy épületen vagy kis területen belüli eszközök közötti hálózat.
+    \item \textbf{NAN}: Városi hálózat, kisebb területű, például egy városrész vagy negyed eszközeinek összekapcsolására.
+    \item \textbf{MAN}: Nagyvárosi hálózat, nagyobb városi vagy több várost összekötő hálózat.
+    \item \textbf{WAN}: Világhálózat, nagy földrajzi területeken, akár globálisan összekapcsolja az eszközöket.
+    \item \textbf{RAN}: Rádióhálózat, rádiófrekvenciákon működő kommunikációs hálózat, mobilhálózatokra is vonatkozhat.
+    \item \textbf{Chirp impulzus (Chirp pulse)}: Olyan jel, aminek frekvenciája az idő múlásával folyamatosan változik.
+    \item \textbf{LTE}: Mobiltelefon-hálózati technológia, gyors adatátvitel
+    \item \textbf{5G}: Ötödik generációs mobilhálózati technológia, ami nagy sebességű adatátvitelt és alacsony késleltetést biztosít.
+    \item \textbf{WBAN}: Testközeli vezeték nélküli hálózat, eszközök hálózata egyén testén, egészségügyi monitorozásra.
+    \item \textbf{WSN}: Vezeték nélküli érzékelőhálózat, érzékelők és vezérlők hálózata adatgyűjtésre.
+    \item \textbf{WPAN}: Vezeték nélküli személyes hálózat, kis hatótávolságú eszközök közötti hálózat.
+    \item \textbf{NB}: Szűk sávú kommunikáció, energiatakarékos, korlátozott sávszélességű
+    \item \textbf{UWB}: Ultra széles sávú kommunikáció, nagy sávszélességű, gyors adatátvitel és pontos helymeghatározás.
+    \item \textbf{Nem vezető szál (Non-conductive fiber)}: Elektromosságot nem vezető anyagból készült szálak.
+    \item \textbf{Filamentszál (Filament)}: Folyamatos, hosszú szintetikus vagy természetes anyagból készült szál.
+    \item \textbf{Fonál (Yarn)}: Több rövidebb szál összefonásával vagy sodrásával készült hosszabb szál.
+    \item \textbf{Textilszál (Textile fiber)}: Textilgyártásban használt alapanyag, lehet természetes vagy mesterséges.
 \end{itemize}

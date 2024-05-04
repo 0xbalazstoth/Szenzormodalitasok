@@ -1,60 +1,66 @@
-\contentsline {section}{\numberline {1}Vizsga kérdések}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Szenzorok}{4}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Szenzor definíció}{4}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Szenzor kategóriák}{4}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}Szenzorok használati területei}{5}{subsubsection.1.1.3}%
-\contentsline {subsubsection}{\numberline {1.1.4}Szenzor problémák}{6}{subsubsection.1.1.4}%
-\contentsline {subsubsection}{\numberline {1.1.5}Aktuátor definíció, példák}{6}{subsubsection.1.1.5}%
-\contentsline {subsection}{\numberline {1.2}DAQ/Tradícionális vezérlés/DCS/SCADA/Monitoring/Vezérlőrendszerek}{7}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}DIKW piramis}{7}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Tradícionális vezérlési rendszerek vs. Elosztott vezérlési rendszerek (DCS)}{7}{subsubsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}DAQ rendszer előnyök/hátrányok, alkalmazási területek}{8}{subsubsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.4}Elosztott vezérlési rendszerek (DCS)}{8}{subsubsection.1.2.4}%
-\contentsline {subsubsection}{\numberline {1.2.5}SCADA rendszer}{8}{subsubsection.1.2.5}%
-\contentsline {subsection}{\numberline {1.3}DAQ}{9}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}DAQ rendszer komponensei}{9}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}DAQ alkalmazási területek}{9}{subsubsection.1.3.2}%
-\contentsline {subsubsection}{\numberline {1.3.3}Jelkondícionálás}{9}{subsubsection.1.3.3}%
-\contentsline {subsubsection}{\numberline {1.3.4}Betegmonitorozó DAQ infrastruktúra}{9}{subsubsection.1.3.4}%
-\contentsline {subsubsection}{\numberline {1.3.5}DAQ rendszerek kihívásai}{10}{subsubsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.4}Elosztott vezérlési rendszerek (DCS)}{10}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}DCS architektúra}{10}{subsubsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2}DCS komponensei}{10}{subsubsection.1.4.2}%
-\contentsline {subsubsection}{\numberline {1.4.3}DCS előnyök és hátrányok}{10}{subsubsection.1.4.3}%
-\contentsline {subsubsection}{\numberline {1.4.4}DCS alkalmazási területek}{10}{subsubsection.1.4.4}%
-\contentsline {subsection}{\numberline {1.5}Supervisory control and data acquisition - SCADA}{11}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}SCADA architektúra, komponensei}{11}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}SCADA előnyök/hátrányok}{11}{subsubsection.1.5.2}%
-\contentsline {subsubsection}{\numberline {1.5.3}SCADA alkalmazási területek}{11}{subsubsection.1.5.3}%
-\contentsline {subsubsection}{\numberline {1.5.4}SCADA funkciói}{12}{subsubsection.1.5.4}%
-\contentsline {subsubsection}{\numberline {1.5.5}Basic SCADA vs. Integrated SCADA vs. Networked SCADA}{12}{subsubsection.1.5.5}%
-\contentsline {subsection}{\numberline {1.6}Biojel-gyűjtés (Biosignal acquisition)}{13}{subsection.1.6}%
-\contentsline {subsubsection}{\numberline {1.6.1}Szenzoradat kezelési folyamat}{13}{subsubsection.1.6.1}%
-\contentsline {subsubsection}{\numberline {1.6.2}Mérési hibák (típusok/források)}{14}{subsubsection.1.6.2}%
-\contentsline {subsubsection}{\numberline {1.6.3}Egyetlen vs. több szenzoros mérési problémák}{15}{subsubsection.1.6.3}%
-\contentsline {subsubsection}{\numberline {1.6.4}Mérnöki kihívások a nagymennyiségű adatgyűjtésnél}{16}{subsubsection.1.6.4}%
-\contentsline {subsection}{\numberline {1.7}Biojel-gyűjtés a sportban és az idősgondozásban}{17}{subsection.1.7}%
-\contentsline {subsubsection}{\numberline {1.7.1}Sportmonitoring megoldások (aktivitás/teljesítmény) és problémák}{17}{subsubsection.1.7.1}%
-\contentsline {subsubsection}{\numberline {1.7.2}Környezet és lokáció monitoring (lokáció monitoring problémák)}{17}{subsubsection.1.7.2}%
-\contentsline {subsubsection}{\numberline {1.7.3}Idősek monitorozása (problémák és megoldások)}{17}{subsubsection.1.7.3}%
-\contentsline {subsubsection}{\numberline {1.7.4}Hipertónia/Magas vérnyomás monitoring}{18}{subsubsection.1.7.4}%
-\contentsline {subsubsection}{\numberline {1.7.5}Diabétesz/cukorbetegség monitorozása (módszerek, berendezések, CGM, mesterséges hasnyálmiriggyel kapcsolatos kérdések)}{19}{subsubsection.1.7.5}%
-\contentsline {subsection}{\numberline {1.8}I2C és SPI (rövid hatótávolságú vezetékes kommunikáció)}{20}{subsection.1.8}%
-\contentsline {subsubsection}{\numberline {1.8.1}I2C kommunikáció}{20}{subsubsection.1.8.1}%
-\contentsline {subsubsection}{\numberline {1.8.2}I2C előnyök/hátrányok, alkalmazási területek}{20}{subsubsection.1.8.2}%
-\contentsline {subsubsection}{\numberline {1.8.3}SPI komponensei}{21}{subsubsection.1.8.3}%
-\contentsline {subsubsection}{\numberline {1.8.4}SPI előnyök/hátrányok, alkalmazási területek}{21}{subsubsection.1.8.4}%
-\contentsline {subsubsection}{\numberline {1.8.5}I2C vs. SPI}{22}{subsubsection.1.8.5}%
-\contentsline {subsection}{\numberline {1.9}Vezeték nélküli kommunikációs technológiák}{23}{subsection.1.9}%
-\contentsline {subsubsection}{\numberline {1.9.1}BAN (Body Area Network) hálózatok}{23}{subsubsection.1.9.1}%
-\contentsline {subsubsection}{\numberline {1.9.2}PAN hálózatok}{23}{subsubsection.1.9.2}%
-\contentsline {subsubsection}{\numberline {1.9.3}LAN hálózatok}{24}{subsubsection.1.9.3}%
-\contentsline {subsubsection}{\numberline {1.9.4}MAN hálózatok}{25}{subsubsection.1.9.4}%
-\contentsline {subsubsection}{\numberline {1.9.5}WAN hálózatok}{26}{subsubsection.1.9.5}%
-\contentsline {subsection}{\numberline {1.10}USB}{26}{subsection.1.10}%
-\contentsline {subsubsection}{\numberline {1.10.1}USB architektúra/komponensei, eszköz kategóriák}{26}{subsubsection.1.10.1}%
-\contentsline {subsubsection}{\numberline {1.10.2}USB előnyök/hátrányok, alkalmazási területek}{27}{subsubsection.1.10.2}%
-\contentsline {subsubsection}{\numberline {1.10.3}USB csatlakozók, OTG (On the Go)}{27}{subsubsection.1.10.3}%
-\contentsline {subsubsection}{\numberline {1.10.4}USB Enumeration}{27}{subsubsection.1.10.4}%
-\contentsline {subsubsection}{\numberline {1.10.5}USB. RS-232 (serial)}{27}{subsubsection.1.10.5}%
-\contentsline {section}{\numberline {2}Fogalmak}{29}{section.2}%
+\contentsline {section}{\numberline {1}Vizsga kérdések}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Szenzorok}{5}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Szenzor definíció}{5}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Szenzor kategóriák}{5}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Szenzorok használati területei}{6}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Szenzor problémák}{7}{subsubsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.5}Aktuátor definíció, példák}{7}{subsubsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.2}DAQ/Tradícionális vezérlés/DCS/SCADA/Monitoring/Vezérlőrendszerek}{8}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}DIKW piramis}{8}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Tradícionális vezérlési rendszerek vs. Elosztott vezérlési rendszerek (DCS)}{8}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}DAQ rendszer előnyök/hátrányok, alkalmazási területek}{9}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Elosztott vezérlési rendszerek (DCS)}{9}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}SCADA rendszer}{9}{subsubsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.3}DAQ}{10}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}DAQ rendszer komponensei}{10}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}DAQ alkalmazási területek}{10}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Jelkondícionálás}{10}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Betegmonitorozó DAQ infrastruktúra}{10}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.5}DAQ rendszerek kihívásai}{11}{subsubsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.4}Elosztott vezérlési rendszerek (DCS)}{11}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}DCS architektúra}{11}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}DCS komponensei}{11}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}DCS előnyök és hátrányok}{11}{subsubsection.1.4.3}%
+\contentsline {subsubsection}{\numberline {1.4.4}DCS alkalmazási területek}{11}{subsubsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.5}Supervisory control and data acquisition - SCADA}{12}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}SCADA architektúra, komponensei}{12}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}SCADA előnyök/hátrányok}{12}{subsubsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.5.3}SCADA alkalmazási területek}{12}{subsubsection.1.5.3}%
+\contentsline {subsubsection}{\numberline {1.5.4}SCADA funkciói}{13}{subsubsection.1.5.4}%
+\contentsline {subsubsection}{\numberline {1.5.5}Basic SCADA vs. Integrated SCADA vs. Networked SCADA}{13}{subsubsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.6}Biojel-gyűjtés (Biosignal acquisition)}{14}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}Szenzoradat kezelési folyamat}{14}{subsubsection.1.6.1}%
+\contentsline {subsubsection}{\numberline {1.6.2}Mérési hibák (típusok/források)}{15}{subsubsection.1.6.2}%
+\contentsline {subsubsection}{\numberline {1.6.3}Egyetlen vs. több szenzoros mérési problémák}{16}{subsubsection.1.6.3}%
+\contentsline {subsubsection}{\numberline {1.6.4}Mérnöki kihívások a nagymennyiségű adatgyűjtésnél}{17}{subsubsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.7}Biojel-gyűjtés a sportban és az idősgondozásban}{18}{subsection.1.7}%
+\contentsline {subsubsection}{\numberline {1.7.1}Sportmonitoring megoldások (aktivitás/teljesítmény) és problémák}{18}{subsubsection.1.7.1}%
+\contentsline {subsubsection}{\numberline {1.7.2}Környezet és lokáció monitoring (lokáció monitoring problémák)}{18}{subsubsection.1.7.2}%
+\contentsline {subsubsection}{\numberline {1.7.3}Idősek monitorozása (problémák és megoldások)}{18}{subsubsection.1.7.3}%
+\contentsline {subsubsection}{\numberline {1.7.4}Hipertónia/Magas vérnyomás monitoring}{19}{subsubsection.1.7.4}%
+\contentsline {subsubsection}{\numberline {1.7.5}Diabétesz/cukorbetegség monitorozása (módszerek, berendezések, CGM, mesterséges hasnyálmiriggyel kapcsolatos kérdések)}{20}{subsubsection.1.7.5}%
+\contentsline {subsection}{\numberline {1.8}I2C és SPI (rövid hatótávolságú vezetékes kommunikáció)}{21}{subsection.1.8}%
+\contentsline {subsubsection}{\numberline {1.8.1}I2C kommunikáció}{21}{subsubsection.1.8.1}%
+\contentsline {subsubsection}{\numberline {1.8.2}I2C előnyök/hátrányok, alkalmazási területek}{21}{subsubsection.1.8.2}%
+\contentsline {subsubsection}{\numberline {1.8.3}SPI komponensei}{22}{subsubsection.1.8.3}%
+\contentsline {subsubsection}{\numberline {1.8.4}SPI előnyök/hátrányok, alkalmazási területek}{22}{subsubsection.1.8.4}%
+\contentsline {subsubsection}{\numberline {1.8.5}I2C vs. SPI}{23}{subsubsection.1.8.5}%
+\contentsline {subsection}{\numberline {1.9}Vezeték nélküli kommunikációs technológiák}{24}{subsection.1.9}%
+\contentsline {subsubsection}{\numberline {1.9.1}BAN (Body Area Network) hálózatok}{24}{subsubsection.1.9.1}%
+\contentsline {subsubsection}{\numberline {1.9.2}PAN hálózatok}{24}{subsubsection.1.9.2}%
+\contentsline {subsubsection}{\numberline {1.9.3}LAN hálózatok}{25}{subsubsection.1.9.3}%
+\contentsline {subsubsection}{\numberline {1.9.4}MAN hálózatok}{26}{subsubsection.1.9.4}%
+\contentsline {subsubsection}{\numberline {1.9.5}WAN hálózatok}{27}{subsubsection.1.9.5}%
+\contentsline {subsection}{\numberline {1.10}USB}{27}{subsection.1.10}%
+\contentsline {subsubsection}{\numberline {1.10.1}USB architektúra/komponensei, eszköz kategóriák}{27}{subsubsection.1.10.1}%
+\contentsline {subsubsection}{\numberline {1.10.2}USB előnyök/hátrányok, alkalmazási területek}{28}{subsubsection.1.10.2}%
+\contentsline {subsubsection}{\numberline {1.10.3}USB csatlakozók, OTG (On the Go)}{28}{subsubsection.1.10.3}%
+\contentsline {subsubsection}{\numberline {1.10.4}USB Enumeration}{28}{subsubsection.1.10.4}%
+\contentsline {subsubsection}{\numberline {1.10.5}USB vs. RS-232 (serial)}{29}{subsubsection.1.10.5}%
+\contentsline {subsection}{\numberline {1.11}LPWAN technológiák}{30}{subsection.1.11}%
+\contentsline {subsubsection}{\numberline {1.11.1}LoRa/LoRaWAN kommunikáció: architektúra, építő elemei}{30}{subsubsection.1.11.1}%
+\contentsline {subsubsection}{\numberline {1.11.2}LoRa/LoRaWAN kommunikáció: előnyök/hátrányok, alkalmazási területei}{30}{subsubsection.1.11.2}%
+\contentsline {subsubsection}{\numberline {1.11.3}SIGFOX kommunikáció: architektúra/építő elemei}{31}{subsubsection.1.11.3}%
+\contentsline {subsubsection}{\numberline {1.11.4}SIGFOX kommunikáció: előnyök/hátrányok, alkalmazási területei}{31}{subsubsection.1.11.4}%
+\contentsline {subsubsection}{\numberline {1.11.5}Összehasonlítás: LPWAN vs. Narrow Band/cell alapú technológiák (GSM/3G/4G/5G)}{32}{subsubsection.1.11.5}%
+\contentsline {section}{\numberline {2}Fogalmak}{33}{section.2}%
